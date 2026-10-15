@@ -1,0 +1,73 @@
+plugins {
+    application
+    id("org.openjfx.javafxplugin") version "0.1.0"
+}
+
+group = "audiogear"
+version = "1.0.0"
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "27"
+    modules = listOf("javafx.controls", "javafx.swing")
+}
+
+dependencies {
+    implementation("io.github.mkpaz:atlantafx-base:3.0.0")
+    implementation("org.xerial:sqlite-jdbc:3.53.4.0")
+    implementation("org.jdbi:jdbi3-core:3.55.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.22.3")
+    runtimeOnly("org.slf4j:slf4j-jdk14:2.0.17")
+
+    testImplementation(platform("org.junit:junit-bom:6.1.3"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.release = 25
+    options.encoding = "UTF-8"
+    options.compilerArgs.addAll(listOf("-parameters", "-Xlint:unchecked"))
+}
+
+application {
+    mainClass = "audiogear.app.Launcher"
+    applicationDefaultJvmArgs = listOf("--enable-native-access=ALL-UNNAMED", "--enable-native-access=javafx.graphics")
+}
+
+tasks.test {
+    useJUnitPlatform()
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
+}
+
+// Lets `gradlew run -Daudiogear.home=<dir>` use a separate data folder (handy for trying things out).
+tasks.named<JavaExec>("run") {
+    System.getProperty("audiogear.home")?.let { systemProperty("audiogear.home", it) }
+}
+
+// Dev tool: renders every screen to PNG from a throwaway data folder. gradlew screenshots -Pout=<dir> -Pdata=<dir>
+tasks.register<JavaExec>("screenshots") {
+    group = "verification"
+    dependsOn("testClasses")
+    classpath = sourceSets["test"].runtimeClasspath
+    mainClass = "audiogear.tour.ScreenshotTour"
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
+    args(project.findProperty("data") ?: layout.buildDirectory.dir("tour-data").get().asFile.path,
+         project.findProperty("out") ?: layout.buildDirectory.dir("screenshots").get().asFile.path)
+}
+
+// Windows app folder with a launcher .exe and its own Java runtime: build/jpackage/Audio Gear Aggregator/
+// (an .msi installer would additionally need the WiX toolset).
+tasks.register<Exec>("packageApp") {
+    group = "distribution"
+    dependsOn("installDist")
+    val lib = layout.buildDirectory.dir("install/${project.name}/lib").get().asFile
+    val dest = layout.buildDirectory.dir("jpackage").get().asFile
+    doFirst { delete(dest) }
+    commandLine("jpackage", "--type", "app-image", "--name", "Audio Gear Aggregator", "--app-version", "${project.version}",
+        "--input", lib.path, "--main-jar", "${project.name}-${project.version}.jar", "--main-class", "audiogear.app.Launcher",
+        "--java-options", "--enable-native-access=ALL-UNNAMED", "--dest", dest.path)
+}

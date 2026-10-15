@@ -1,0 +1,169 @@
+/* App styling on top of AtlantaFX Primer Dark. Colours come from the theme's looked-up variables. */
+
+.root {
+    -fx-font-size: 13px;
+}
+
+.nav-rail {
+    -fx-background-color: -color-bg-inset;
+    -fx-border-color: transparent -color-border-default transparent transparent;
+    -fx-pref-width: 190px;
+    -fx-min-width: 190px;
+}
+
+.app-name {
+    -fx-text-fill: -color-accent-fg;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 6px;
+    -fx-text-fill: -color-fg-muted;
+    -fx-padding: 8px 12px;
+    -fx-border-width: 0;
+}
+
+.nav-button:hover {
+    -fx-background-color: -color-bg-subtle;
+    -fx-text-fill: -color-fg-default;
+}
+
+.nav-button:selected {
+    -fx-background-color: -color-accent-subtle;
+    -fx-text-fill: -color-accent-fg;
+    -fx-font-weight: bold;
+}
+
+.status-bar {
+    -fx-background-color: -color-bg-inset;
+    -fx-border-color: -color-border-default transparent transparent transparent;
+}
+
+.status-bar .label:danger {
+    -fx-text-fill: -color-danger-fg;
+}
+
+.view {
+    -fx-padding: 14px 16px 10px 16px;
+    -fx-spacing: 10px;
+}
+
+.toolbar-row {
+    -fx-spacing: 8px;
+    -fx-alignment: center-left;
+}
+
+.section {
+    -fx-background-color: -color-bg-subtle;
+    -fx-background-radius: 8px;
+    -fx-border-color: -color-border-muted;
+    -fx-border-radius: 8px;
+}
+
+.detail-pane {
+    -fx-background-color: -color-bg-default;
+}
+
+.spec-key {
+    -fx-text-fill: -color-fg-muted;
+}
+
+.spec-value {
+    -fx-text-fill: -color-fg-default;
+}
+
+/* Compare grid */
+.compare-grid .cell-box {
+    -fx-padding: 6px 10px;
+    -fx-border-color: transparent transparent -color-border-muted transparent;
+}
+
+.compare-grid .section-label {
+    -fx-text-fill: -color-accent-fg;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 10px 4px 10px;
+}
+
+.compare-grid .best {
+    -fx-background-color: -color-success-subtle;
+    -fx-background-radius: 4px;
+}
+
+.compare-grid .best .label {
+    -fx-text-fill: -color-success-fg;
+    -fx-font-weight: bold;
+}
+
+.compare-header {
+    -fx-font-weight: bold;
+}
+
+.swatch {
+    -fx-min-width: 12px;
+    -fx-min-height: 12px;
+    -fx-max-width: 12px;
+    -fx-max-height: 12px;
+    -fx-background-radius: 3px;
+}
+
+/* Badges */
+.badge {
+    -fx-padding: 1px 7px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 11px;
+    -fx-background-color: -color-bg-subtle;
+    -fx-text-fill: -color-fg-muted;
+    -fx-border-color: -color-border-default;
+    -fx-border-radius: 10px;
+}
+
+.badge-reddit { -fx-text-fill: #ff7b54; -fx-border-color: #ff7b54; }
+.badge-head_fi { -fx-text-fill: #58a6ff; -fx-border-color: #58a6ff; }
+.badge-asr { -fx-text-fill: #3fb950; -fx-border-color: #3fb950; }
+.badge-sbaf { -fx-text-fill: #d2a8ff; -fx-border-color: #d2a8ff; }
+
+.verdict {
+    -fx-padding: 4px 12px;
+    -fx-background-radius: 12px;
+    -fx-font-weight: bold;
+}
+
+.verdict-comfortable { -fx-background-color: -color-success-subtle; -fx-text-fill: -color-success-fg; }
+.verdict-marginal { -fx-background-color: -color-warning-subtle; -fx-text-fill: -color-warning-fg; }
+.verdict-not_enough { -fx-background-color: -color-danger-subtle; -fx-text-fill: -color-danger-fg; }
+.verdict-unknown { -fx-background-color: -color-bg-subtle; -fx-text-fill: -color-fg-muted; }
+
+.banner {
+    -fx-padding: 8px 12px;
+    -fx-background-radius: 6px;
+    -fx-background-color: -color-danger-subtle;
+    -fx-text-fill: -color-danger-fg;
+}
+
+.banner-info {
+    -fx-background-color: -color-accent-subtle;
+    -fx-text-fill: -color-accent-fg;
+}
+
+/* Wishlist rows below target */
+.table-row-cell.below-target {
+    -fx-background-color: -color-success-subtle;
+}
+
+.thread-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: -color-fg-default;
+}
+
+.thread-meta {
+    -fx-text-fill: -color-fg-muted;
+    -fx-font-size: 11px;
+}
+
+.thread-snippet {
+    -fx-text-fill: -color-fg-default;
+}
+
+.score-good { -fx-text-fill: -color-success-fg; }
+.score-mid { -fx-text-fill: -color-warning-fg; }
+.score-low { -fx-text-fill: -color-danger-fg; }

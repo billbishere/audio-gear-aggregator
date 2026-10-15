@@ -1,0 +1,32 @@
+# Brands whose names contain spaces. Anything not listed here is split at the first word.
+# Matching ignores case; longer names are tried first, so "Final Audio Design" wins over "Final Audio".
+64 Audio
+Advanced Sound
+Astell & Kern
+Bang & Olufsen
+Bowers & Wilkins
+Campfire Audio
+Craft Ears
+Dan Clark Audio
+Effect Audio
+Elysian Acoustic Labs
+Empire Ears
+Etymotic Research
+Fearless Audio
+Final Audio
+Final Audio Design
+FiR Audio
+JH Audio
+Jomo Audio
+Kiwi Ears
+Lime Ears
+Master & Dynamic
+Meze Audio
+Noble Audio
+Rose Technics
+Tin Audio
+Tin HiFi
+Ultimate Ears
+Unique Melody
+Vision Ears
+Westone Audio
