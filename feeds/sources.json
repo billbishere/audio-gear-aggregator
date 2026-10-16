@@ -1,0 +1,26 @@
+{
+  "_comment": "Feeds the daily GitHub Actions job reads (no API keys). Each was checked to return RSS/Atom on 2026-10-16. source is one of ASR, HEAD_FI, SBAF, REDDIT, YOUTUBE.",
+  "sources": [
+    { "name": "ASR headphone & IEM reviews", "source": "ASR",
+      "url": "https://www.audiosciencereview.com/forum/index.php?forums/headphone-iem-reviews-discussions.58/index.rss" },
+    { "name": "ASR headphone amplifier reviews", "source": "ASR",
+      "url": "https://www.audiosciencereview.com/forum/index.php?forums/headphone-amplifier-reviews-discussion.50/index.rss" },
+    { "name": "ASR DAC/amp combos", "source": "ASR",
+      "url": "https://www.audiosciencereview.com/forum/index.php?forums/combination-audio-dac-and-headphone-amplifiers.53/index.rss" },
+    { "name": "Head-Fi full-size headphones", "source": "HEAD_FI",
+      "url": "https://www.head-fi.org/forums/headphones-full-size.4/index.rss" },
+    { "name": "Head-Fi portable headphones and IEMs", "source": "HEAD_FI",
+      "url": "https://www.head-fi.org/forums/portable-headphones-earphones-and-in-ear-monitors.103/index.rss" },
+    { "name": "Head-Fi source components", "source": "HEAD_FI",
+      "url": "https://www.head-fi.org/forums/dedicated-source-components.7/index.rss" },
+    { "name": "SBAF", "source": "SBAF",
+      "url": "https://www.superbestaudiofriends.org/index.php?forums/-/index.rss" },
+    { "name": "Reddit r/headphones, r/HeadphoneAdvice, r/iems", "source": "REDDIT",
+      "url": "https://www.reddit.com/r/headphones+HeadphoneAdvice+iems/.rss" },
+    { "name": "Z Reviews", "source": "YOUTUBE", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3XdYJjWliOdKuZMNaTiP8Q" },
+    { "name": "DMS", "source": "YOUTUBE", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyzu6Rh_es-VqebH2Pz-I8Q" },
+    { "name": "The Headphone Show (Resolve)", "source": "YOUTUBE", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCt44wdefZzrhNDYYAyEy3Xg" },
+    { "name": "Joshua Valour", "source": "YOUTUBE", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCx9bOYEjkevIDYONBAstK-A" },
+    { "name": "Passion for Sound", "source": "YOUTUBE", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC93TsVvp47ZNKKywT0l2BlA" }
+  ]
+}

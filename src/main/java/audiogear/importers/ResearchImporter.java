@@ -75,6 +75,7 @@ public final class ResearchImporter {
     private final CurveRepository curves;
     private final AutoEqClient autoEq;
     private final AutoEqImporter autoEqImporter;
+    private final boolean addOnly;
     private final ObjectMapper json = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
     /** autoEq and autoEqImporter may be null to skip curve import. */
@@ -85,9 +86,32 @@ public final class ResearchImporter {
         this.curves = curves;
         this.autoEq = autoEq;
         this.autoEqImporter = autoEqImporter;
+        this.addOnly = false;
+    }
+
+    private ResearchImporter(ResearchImporter base, boolean addOnly) {
+        this.gear = base.gear;
+        this.threads = base.threads;
+        this.curves = base.curves;
+        this.autoEq = base.autoEq;
+        this.autoEqImporter = base.autoEqImporter;
+        this.addOnly = addOnly;
+    }
+
+    /**
+     * The mode the daily update uses: threads already stored keep their title, existing links (including ones the
+     * user rejected) are never changed, and no extra links are guessed from titles. Only new threads and links are added.
+     */
+    public ResearchImporter addOnly() {
+        return new ResearchImporter(this, true);
     }
 
     public Result importJson(Reader reader, Progress progress) throws IOException {
+        return importJson(reader, progress, LinkKind.MANUAL);
+    }
+
+    /** linkKind marks how the file's threads attach to their gear: MANUAL for curated research, AUTO for matched feeds. */
+    public Result importJson(Reader reader, Progress progress, LinkKind linkKind) throws IOException {
         ResearchFile file = json.readValue(reader, ResearchFile.class);
         List<ResearchItem> items = file.items() == null ? List.of() : file.items();
         List<String> problems = new ArrayList<>(), notes = new ArrayList<>();
@@ -118,8 +142,9 @@ public final class ResearchImporter {
 
             for (ResearchThread t : item.threads() == null ? List.<ResearchThread>of() : item.threads()) {
                 try {
-                    long id = threads.upsert(toThread(t));
-                    threads.link(id, gearId, LinkKind.MANUAL);
+                    long id = addOnly ? threads.insertIfAbsent(toThread(t)) : threads.upsert(toThread(t));
+                    if (addOnly) threads.linkIfAbsent(id, gearId, linkKind);
+                    else threads.link(id, gearId, linkKind);
                     newThreadIds.add(id);
                     threadCount++;
                 } catch (RuntimeException e) {
@@ -141,10 +166,13 @@ public final class ResearchImporter {
             }
         }
 
-        // A thread comparing two catalog items should show up under both
-        GearNameMatcher matcher = new GearNameMatcher(gear.listRefs());
-        for (ForumThread t : threads.byIds(new HashSet<>(newThreadIds))) {
-            for (long g : matcher.match(t.title() + " " + (t.snippet() == null ? "" : t.snippet()))) threads.link(t.id(), g, LinkKind.AUTO);
+        // A thread comparing two catalog items should show up under both (not in add-only mode: the loose name match
+        // would undo the feed's careful matching and add links nobody asked for)
+        if (!addOnly) {
+            GearNameMatcher matcher = new GearNameMatcher(gear.listRefs());
+            for (ForumThread t : threads.byIds(new HashSet<>(newThreadIds))) {
+                for (long g : matcher.match(t.title() + " " + (t.snippet() == null ? "" : t.snippet()))) threads.link(t.id(), g, LinkKind.AUTO);
+            }
         }
 
         if (autoEqImporter != null && curves.byKind(CurveKind.TARGET).isEmpty() && !index.isEmpty()) {

@@ -94,6 +94,18 @@ class ResearchImporterTest {
     }
 
     @Test
+    void feedImportLinksThreadsAsAuto() throws Exception {
+        Database db = Database.open(dir.resolve("f.db"), dir.resolve("b"));
+        ResearchImporter importer = new ResearchImporter(new GearRepository(db), new ThreadRepository(db), new CurveRepository(db), null, null);
+        importer.importJson(new StringReader("""
+                { "items": [ { "gear": { "type": "IEM", "brand": "Truthear", "model": "Pure" },
+                               "threads": [ { "url": "https://www.reddit.com/r/iems/comments/abc123/truthear_pure/",
+                                              "title": "Truthear Pure impressions" } ] } ] }"""), Progress.NONE, LinkKind.AUTO);
+        List<String> kinds = db.jdbi().withHandle(h -> h.createQuery("SELECT link_kind FROM thread_gear").mapTo(String.class).list());
+        assertEquals(List.of("AUTO"), kinds);
+    }
+
+    @Test
     void reimportOnlyFillsBlanksAndMergesTags() throws Exception {
         Database db = Database.open(dir.resolve("m.db"), dir.resolve("b"));
         GearRepository gear = new GearRepository(db);

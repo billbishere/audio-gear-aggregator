@@ -10,6 +10,24 @@ user only (no admin rights) with Start menu and desktop shortcuts, and bundles i
 `.msi` replaces the old version; your catalog in `%APPDATA%\AudioGearAggregator\` is kept. The installer isn't
 code-signed, so SmartScreen may warn: choose *More info → Run anyway*. Each release also has a portable `.zip`.
 
+The first launch starts with the **full catalog**: thousands of headphones and IEMs with their AutoEq measurements,
+the research items and the community threads collected so far. An existing catalog is never replaced.
+
+## Daily updates
+
+Once a day (and on **Update now** in *Data & Settings*) the app adds what's new, with no API keys needed:
+
+- **New measurements** from [AutoEq](https://github.com/jaakkopasanen/AutoEq), skipping files already imported.
+- **New threads and videos** from ASR, Head-Fi, SBAF, Reddit and reviewers' YouTube channels. A GitHub Actions job
+  ([.github/workflows/daily-feed.yml](.github/workflows/daily-feed.yml)) reads their RSS feeds every day at 06:00
+  UTC, keeps titles that name known gear, and publishes them to this repository's `data` branch
+  ([feeds/sources.json](feeds/sources.json) lists the feeds).
+- **New research files** (the monthly most-discussed lists) from the same branch.
+- **A notice when a new version** is released, with a Download button.
+
+Updates only add data or fill empty fields; they never overwrite or delete. A backup is taken first
+(`backups\catalog-update-*.db`, the newest 3 are kept). Untick *Check for updates daily* to turn them off.
+
 ## Run it from source
 
 ```bash
@@ -88,3 +106,12 @@ Design spec: [docs/superpowers/specs/2026-10-15-audio-gear-aggregator-design.md]
 Package layout: `domain` (records), `analysis` (pure maths), `db` (SQLite + JDBI, migrations), `importers`
 (AutoEq, curve files, CSV), `search` (Brave, Reddit, caching, linking), `settings`, `net`, `ui` (JavaFX screens,
 custom curve chart), `app` (startup and wiring).
+
+## Credits
+
+Frequency-response measurements come from the [AutoEq](https://github.com/jaakkopasanen/AutoEq) project and belong
+to their reviewers (oratory1990, crinacle, Rtings, Super Review and others); each curve in the app shows its
+reviewer. The installer includes them so the catalog works out of the box. A reviewer who doesn't want their data
+redistributed can be removed by adding their AutoEq folder name to
+[config/snapshot-exclude-sources.txt](config/snapshot-exclude-sources.txt): the next release leaves them out and
+daily updates stop importing them.
