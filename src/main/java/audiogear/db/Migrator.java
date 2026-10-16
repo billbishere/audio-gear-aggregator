@@ -14,12 +14,13 @@ import java.util.List;
 
 /**
  * Applies versioned SQL scripts from {@code /audiogear/db/migration/} in order, recording each in
- * {@code schema_version}. Each script runs in one transaction.
+ * {@code schema_version}. Each script runs in one transaction with foreign keys switched off (SQLite's
+ * documented procedure for rebuilding tables) and must leave no foreign-key violations behind.
  */
 public final class Migrator {
 
     /** Every migration, oldest first. Add new files here. */
-    static final List<String> MIGRATIONS = List.of("V1__init.sql");
+    static final List<String> MIGRATIONS = List.of("V1__init.sql", "V2__youtube_source.sql");
 
     private Migrator() {}
 
@@ -37,14 +38,25 @@ public final class Migrator {
     }
 
     static void migrate(Connection c) throws SQLException {
+        migrate(c, MIGRATIONS.size());
+    }
+
+    /** Applies migrations up to and including targetVersion (used by upgrade tests). */
+    static void migrate(Connection c, int targetVersion) throws SQLException {
         int current = currentVersion(c);
-        for (int i = current; i < MIGRATIONS.size(); i++) {
+        for (int i = current; i < Math.min(targetVersion, MIGRATIONS.size()); i++) {
             String name = MIGRATIONS.get(i);
             int version = i + 1;
             boolean auto = c.getAutoCommit();
+            try (Statement fk = c.createStatement()) {
+                fk.execute("PRAGMA foreign_keys = OFF"); // only takes effect outside a transaction
+            }
             c.setAutoCommit(false);
             try (Statement st = c.createStatement()) {
                 for (String sql : split(load(name))) st.execute(sql);
+                try (ResultSet bad = st.executeQuery("PRAGMA foreign_key_check")) {
+                    if (bad.next()) throw new SQLException("foreign key violation in table " + bad.getString(1));
+                }
                 try (PreparedStatement ps = c.prepareStatement("INSERT INTO schema_version (version, name, applied_at) VALUES (?, ?, ?)")) {
                     ps.setInt(1, version);
                     ps.setString(2, name);
@@ -57,6 +69,9 @@ public final class Migrator {
                 throw new SQLException("Migration " + name + " failed: " + e.getMessage(), e);
             } finally {
                 c.setAutoCommit(auto);
+                try (Statement fk = c.createStatement()) {
+                    fk.execute("PRAGMA foreign_keys = ON");
+                }
             }
         }
     }

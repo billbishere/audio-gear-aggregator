@@ -1,0 +1,296 @@
+{
+  "title": "Most-discussed gear, October 2025 – October 2026",
+  "gathered": "2026-10-15",
+  "method": "Picked by discussion volume on ASR (review views/replies), SBAF (thread size), Reddit (r/headphones, r/HeadphoneAdvice, r/iems), Head-Fi and YouTube. Specs from manufacturer pages unless the note says otherwise. Snippets are summaries, not quotes.",
+  "items": [
+    {
+      "gear": {
+        "type": "AMP_DAC", "brand": "Topping", "model": "DX1 II", "release_year": "2026", "msrp": "119", "msrp_currency": "USD",
+        "amp_power": "BALANCED:32=1000; BALANCED:64=1000; BALANCED:300=230", "gain_settings": "2 gain settings",
+        "amp_outputs": "3.5 mm SE (with mic input), 4.4 mm balanced",
+        "chip": "ES9039Q2M", "sinad_db": "121", "max_sample_rate_khz": "384", "dsd": "yes",
+        "dac_inputs": "USB-C, optical", "dac_outputs": "RCA, 4.4 mm balanced line, optical out",
+        "tags": "most-discussed-2026, desk",
+        "notes": "Most-replied ASR review of the year (108k views, 668 replies; 77% of poll voters rated it Great). ASR measured SINAD above 121 dB. 10-band PEQ. Power figures are Topping's; the spec doesn't say which jack, so they are entered as balanced. Specs: https://www.stereonet.com/news/topping-dx1-ii-dac-headphone-amp-targets-entry-level-dominance"
+      },
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.72034/", "title": "Topping DX1 II DAC & HP Amp Review", "posted": "2026-06-24", "snippet": "Amir's review: SINAD over 121 dB for about $113, the biggest ASR thread of the year." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.71973/", "title": "Topping DX1 II DAC & HP Amp Review (NTTY)", "snippet": "Second, independent ASR measurement set that the main review confirmed." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/question-about-topping-dx1-ii.71556/", "title": "Question about Topping DX1 II", "posted": "2026-05-27", "snippet": "Whether its power is enough for an HD 600 with EQ headroom, and USB power draw." },
+        { "url": "https://www.head-fi.org/threads/gaming-ready-dac-headphone-amp-topping-dx1-ii.980365/", "title": "Gaming-Ready DAC & Headphone Amp, TOPPING DX1 II", "snippet": "Head-Fi announcement and owner discussion." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "AMP_DAC", "brand": "FiiO", "model": "KA11", "release_year": "2024", "msrp": "33", "msrp_currency": "USD",
+        "amp_power": "SE:16=245; SE:32=200", "amp_outputs": "3.5 mm SE",
+        "chip": "CS43131", "max_sample_rate_khz": "384", "dsd": "yes", "dac_inputs": "USB-C",
+        "tags": "most-discussed-2026, portable, dongle",
+        "notes": "ASR review in Jan 2026 drew 105k views and 223 replies; one of the most powerful single-ended dongles for the money. Specs: FiiO, as quoted in the ASR review https://www.audiosciencereview.com/forum/index.php?threads/fiio-ka11-portable-dac-amp-review.68800/"
+      },
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/fiio-ka11-portable-dac-amp-review.68800/", "title": "FiiO KA11 Portable DAC/Amp Review", "posted": "2026-01-12", "snippet": "Strong measurements and power for a $33 dongle." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/fiio-ka11-dac-dongle.56189/", "title": "FIIO KA11 DAC dongle", "posted": "2024-08-06", "snippet": "Owner measurements and a few reliability reports." },
+        { "url": "https://www.head-fi.org/showcase/fiio-ka11.27035/", "title": "FiiO KA11 (Head-Fi reviews)", "snippet": "Twelve user reviews of the dongle." },
+        { "url": "https://www.youtube.com/watch?v=g78cot9VdQ8", "title": "FIIO KA11 Review - $30 POWERHOUSE DONGLE", "snippet": "Video review focused on its 200 mW output." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "DAC", "brand": "Topping", "model": "D900", "release_year": "2025", "msrp": "1799", "msrp_currency": "USD",
+        "chip": "Discrete 1-bit PSRM", "dsd": "yes",
+        "dac_inputs": "USB-C, USB-B, optical, coaxial, AES, I2S-LVDS, Bluetooth 5.1 (LDAC, aptX HD)", "dac_outputs": "XLR balanced (line or preamp)",
+        "tags": "most-discussed-2026, desk",
+        "notes": "ASR review in Mar 2026: 88.6k views, 387 replies; among the best noise and distortion Amir has measured. 10-band PEQ. Specs: https://apos.audio/blogs/news/new-flagship-dac-launch-from-topping-the-d900-dac"
+      },
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/topping-d900-dac-review.70067/", "title": "Topping D900 DAC Review", "posted": "2026-03-15", "snippet": "State-of-the-art measurements and up to 12 V of output." },
+        { "url": "https://www.head-fi.org/threads/topping-d900-thoughts-and-reviews.974176/", "title": "Topping D900 Thoughts and Reviews", "snippet": "Owner impressions, including faint DSD track-change ticks Topping says can't be removed." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/1-bit-dac-launched-by-topping.52865/", "title": "1 bit DAC launched by TOPPING", "posted": "2024-03-09", "snippet": "The original announcement thread (24 pages)." },
+        { "url": "https://www.whathifi.com/hi-fi/dacs/topping-audio-d900", "title": "Topping Audio D900 review (What Hi-Fi?)", "posted": "2026-08-14", "snippet": "Magazine review praising its fluid presentation." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "AMP_DAC", "brand": "Schiit", "model": "Magni Unity", "release_year": "2023", "msrp": "189", "msrp_currency": "USD",
+        "output_impedance_ohm": "0.1", "amp_power": "SE:16=3000; SE:32=2500; SE:50=1500; SE:300=415; SE:600=220",
+        "gain_settings": "-10 dB / 0 dB / +15 dB", "topology": "Fully discrete current-feedback, linear power supply",
+        "amp_outputs": "6.35 mm SE; preamp out (75 ohm)", "chip": "Optional internal DAC card", "dac_inputs": "USB-C (with DAC card), RCA",
+        "tags": "most-discussed-2026, desk",
+        "notes": "$119 as an amp only, $189 with the DAC card. Output impedance is specified as under 0.1 ohm. ASR's Jan 2026 review (47.5k views, 162 replies) found the DAC card middling while SBAF liked the sound. Specs: https://www.schiit.com/products/magni-unity"
+      },
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/schiit-magni-unity-dac-hp-amp-review.68919/", "title": "Schiit Magni Unity DAC/HP Amp Review", "posted": "2026-01-17", "snippet": "Plenty of power and good noise for IEMs; DAC measurements not competitive." },
+        { "url": "https://superbestaudiofriends.org/index.php?threads/schiit-magni-unity-review-and-measurements.13965/", "title": "Schiit Magni Unity Review and Measurements", "posted": "2023-11-23", "snippet": "SBAF review: an incremental sound upgrade over the Magni+." },
+        { "url": "https://www.head-fi.org/threads/schiit-magni-unity-impressions-thread.970645/", "title": "Schiit Magni Unity Impressions Thread", "snippet": "Head-Fi owner impressions." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "AMP_DAC", "brand": "SMSL", "model": "DO400", "release_year": "2023", "msrp": "499", "msrp_currency": "USD",
+        "amp_power": "BALANCED:16=6000; BALANCED:32=3000; BALANCED:300=700", "amp_outputs": "4-pin XLR, 4.4 mm, 6.35 mm",
+        "chip": "ES9039MSPRO", "max_sample_rate_khz": "768", "dsd": "yes",
+        "dac_inputs": "USB, optical, coaxial, AES/EBU, I2S (HDMI), Bluetooth 5.1 (LDAC)", "dac_outputs": "XLR, RCA",
+        "tags": "most-discussed-2026, desk",
+        "notes": "Reviewed twice on ASR in 2026 (May: 43.9k views, 171 replies, placed in the top 20 DACs; NTTY in July). SMSL quotes near 0 ohm output impedance. Specs: https://www.smsl-audio.com/portal/product/detail/id/843.html"
+      },
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/smsl-do400-dac-hp-amp-review.71269/", "title": "SMSL DO400 DAC & HP Amp Review", "posted": "2026-05-09", "snippet": "Distortion around -140 dB; very high power from the balanced output." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/smsl-do400-dac-hp-amp-review-ntty.72153/", "title": "SMSL DO400 DAC & HP Amp Review (NTTY)", "posted": "2026-07-01", "snippet": "A second measurement set comparing analyzers." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/smsl-do400-fully-balanced-audio-decoder-headphone-amplifier.47766/", "title": "SMSL DO400 Fully Balanced Audio Decoder & Headphone Amplifier", "posted": "2023-09-09", "snippet": "Long-running owner thread (24 pages)." },
+        { "url": "https://www.head-fi.org/showcase/smsl-do400.28270/", "title": "SMSL DO400 (Head-Fi reviews)", "snippet": "Head-Fi user reviews." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "AMP", "brand": "xDuoo", "model": "TA-66", "release_year": "2024", "msrp": "219", "msrp_currency": "USD",
+        "output_impedance_ohm": "5.3", "amp_power": "SE:300=200", "gain_settings": "+18 dB",
+        "topology": "OTL tube (6N2 preamp, 6N5P buffer), point-to-point wiring", "amp_outputs": "6.35 mm SE; RCA preamp out",
+        "tags": "most-discussed-2026, tube",
+        "notes": "SBAF's 'A Kind of Magic' thread runs 18 pages and was active through mid-2026. Rated for 60-600 ohm headphones. The 5.3 ohm output impedance is the figure quoted in the Head-Fi thread; OTL amps often measure higher, so treat pairing results with low-impedance headphones as optimistic. xDuoo now lists it at $289. Specs: https://bloomaudio.com/products/xduoo-ta-66"
+      },
+      "threads": [
+        { "url": "https://superbestaudiofriends.org/index.php?threads/xduoo-ta-66-otl-tube-headphone-amplifier-a-kind-of-magic.14884/", "title": "xDuoo TA-66 OTL Tube Headphone Amplifier: A Kind of Magic", "posted": "2025-01-15", "snippet": "SBAF's big tube-amp thread: tube rolling and headphone matching." },
+        { "url": "https://www.head-fi.org/threads/introducing-the-xduoo-ta-66-otl-tube-amplifier-now-available-on-apos-audio.971966/", "title": "Introducing the xDuoo TA-66 OTL Tube Amplifier", "snippet": "Head-Fi thread on tube swaps and suitable headphones." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "AMP_DAC", "brand": "Fosi Audio", "model": "DS3", "release_year": "2025", "msrp": "99.99", "msrp_currency": "USD",
+        "amp_power": "BALANCED:32=220", "amp_outputs": "3.5 mm SE, 4.4 mm balanced",
+        "chip": "ES9039Q2M (XMOS)", "max_sample_rate_khz": "768", "dsd": "yes", "dac_inputs": "USB-C",
+        "tags": "most-discussed-2026, portable, dongle, gaming",
+        "notes": "ASR recommended it in Sep 2026 (22k views) despite a glitch on the balanced output into high impedance. Hardware 7.1 virtual surround for games. Specs: https://fosiaudio.com/products/fosi-audio-ds3"
+      },
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/fosi-ds3-portable-dac-hp-amp.73260/", "title": "Fosi DS3 Portable DAC & HP Amp", "posted": "2026-09-09", "snippet": "Near-perfect measurements with a balanced-output glitch at high impedance; recommended." },
+        { "url": "https://superbestaudiofriends.org/index.php?threads/fosi-audio-ds3-headphone-amplifier-personal-handson-review.15556/", "title": "Fosi Audio DS3 Headphone Amplifier - Personal HandsOn Review", "posted": "2026-03-14", "snippet": "Travel use as a replacement for larger portable amps." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "HEADPHONE", "brand": "Dan Clark Audio", "model": "AEON Core", "release_year": "2026", "msrp": "899.99", "msrp_currency": "USD",
+        "form": "OVER_EAR", "back": "CLOSED", "driver_type": "PLANAR", "impedance_ohm": "17", "sensitivity": "94", "sensitivity_unit": "DB_PER_MW", "weight_g": "440",
+        "tags": "most-discussed-2026, closed",
+        "notes": "ASR review Jun 2026 (54k views, 205 replies), recommended. First DCA headphone tuned to a revised Harman target developed with Sean Olive. Dan Clark corrected launch material from 97 to about 94 dB/mW. Some early units were reported with reversed polarity. Specs: https://danclarkaudio.com/aeon-core.html"
+      },
+      "autoeq": ["Dan Clark Audio Aeon Core", "Dan Clark Audio AEON CORE"],
+      "threads": [
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/dan-clark-%C3%86on-core-headphone-review.71702/", "title": "Dan Clark ÆON CORE Headphone Review", "posted": "2026-06-05", "snippet": "Close to target until the lower treble; flat impedance; recommended." },
+        { "url": "https://www.head-fi.org/threads/dan-clark-audio-aeon-core-the-engineering-the-measurements-the-interview.980511/", "title": "Dan Clark Audio AEON CORE: The Engineering, The Measurements, The Interview", "posted": "2026-06-04", "snippet": "Launch interview and discussion, including the sensitivity correction." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "HEADPHONE", "brand": "ETA", "model": "ULI", "release_year": "2026", "msrp": "3499", "msrp_currency": "USD",
+        "form": "OVER_EAR", "back": "OPEN", "driver_type": "DYNAMIC", "driver_config": "AlNiCo motor, biocellulose diaphragm", "driver_size_mm": "50",
+        "impedance_ohm": "16", "sensitivity": "81", "sensitivity_unit": "DB_PER_MW", "connector": "Dual 3.5 mm (Focal-style)",
+        "tags": "most-discussed-2026, flagship",
+        "notes": "SBAF's biggest headphone thread of the year (265 replies, 52.9k views), called a new reference there. Very low sensitivity: needs a strong, current-capable amp. SBAF measured nominal impedance around 18.5 ohm. Preorders began shipping Oct 2026. Specs: https://www.ecoustics.com/products/eta-uli-alnico-headphones"
+      },
+      "threads": [
+        { "url": "https://superbestaudiofriends.org/index.php?threads/eta-uli-anime-mecha-pilot-open-backed-dynamic-headphone-a-new-reference-new-standard.15347/", "title": "ETA ULI \"Anime Mecha Pilot\" Open-Backed Dynamic Headphone - A NEW REFERENCE, NEW STANDARD!", "posted": "2025-11-12", "snippet": "SBAF's headline thread: impressions, impedance measurements and source sensitivity." },
+        { "url": "https://www.ecoustics.com/products/eta-uli-alnico-headphones", "title": "ETA ULI AlNiCo Headphones Bring a Rare Magnetic Motor to CanJam SoCal 2026", "posted": "2026-08-25", "snippet": "News piece with specs and demo systems." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "HEADPHONE", "brand": "ZMF", "model": "Atrium", "release_year": "2022", "msrp": "2499", "msrp_currency": "USD",
+        "form": "OVER_EAR", "back": "OPEN", "driver_type": "DYNAMIC", "driver_config": "Biocellulose, N52 magnet",
+        "impedance_ohm": "300", "sensitivity": "96", "sensitivity_unit": "DB_PER_MW", "weight_g": "490",
+        "tags": "most-discussed-2026, flagship",
+        "notes": "The headphones.com community thread has about 200 replies and 25.9k views and was active through Aug 2026. Launch price was $2,499. Specs: https://shop.zmfheadphones.com/products/atrium"
+      },
+      "autoeq": ["ZMF Atrium", "ZMF Atrium Open"],
+      "threads": [
+        { "url": "https://forum.headphones.com/t/zmf-atrium/17438", "title": "ZMF Atrium (headphones.com community)", "posted": "2022-04-06", "snippet": "Official model thread with loaner-tour reviews and owner impressions." },
+        { "url": "https://www.head-fi.org/threads/zmf-atrium-new-open-back-co-flagship.962609/", "title": "ZMF Atrium - new open-back co-flagship", "snippet": "Head-Fi launch and owner thread." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "HEADPHONE", "brand": "Sennheiser", "model": "HD 600", "release_year": "1997",
+        "form": "OVER_EAR", "back": "OPEN", "driver_type": "DYNAMIC", "impedance_ohm": "300", "sensitivity": "97", "sensitivity_unit": "DB_PER_V", "weight_g": "260",
+        "connector": "Sennheiser 2-pin",
+        "tags": "most-discussed-2026, reference",
+        "notes": "Still Reddit's baseline open-back in 2026 buying threads. Official sensitivity is 97 dB SPL at 1 Vrms. Specs: https://support.sennheiser-hearing.com/hc/en-us/articles/38292415494173-HD-600-Specifications"
+      },
+      "autoeq": ["Sennheiser HD 600", "Sennheiser HD600"],
+      "threads": [
+        { "url": "https://www.reddit.com/r/HeadphoneAdvice/comments/1pkhfp1/edition_xs_vs_sennheiser_hd_600/", "title": "Edition XS vs Sennheiser HD 600", "snippet": "Which open-back to buy for everything: the classic comparison." },
+        { "url": "https://www.reddit.com/r/HeadphoneAdvice/comments/1pwh21a/should_i_get_the_hd600/", "title": "Should I get the HD600?", "snippet": "First-upgrade advice thread." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "HEADPHONE", "brand": "HIFIMAN", "model": "Edition XS", "release_year": "2021", "msrp": "269", "msrp_currency": "USD",
+        "form": "OVER_EAR", "back": "OPEN", "driver_type": "PLANAR", "impedance_ohm": "18", "sensitivity": "92", "sensitivity_unit": "DB_PER_MW", "weight_g": "405",
+        "connector": "Dual 3.5 mm",
+        "tags": "most-discussed-2026, planar, value",
+        "notes": "A recurring 2026 value pick on Reddit; owners also raise fit and QC concerns. $269 is HIFIMAN's current store price. Specs: https://www.hifiman.com/products/detail/315"
+      },
+      "autoeq": ["HIFIMAN Edition XS", "Hifiman Edition XS", "HiFiMAN Edition XS"],
+      "threads": [
+        { "url": "https://www.reddit.com/r/HeadphoneAdvice/comments/1pkhfp1/edition_xs_vs_sennheiser_hd_600/", "title": "Edition XS vs Sennheiser HD 600", "snippet": "Which open-back to buy for everything: the classic comparison." },
+        { "url": "https://www.reddit.com/r/headphones/comments/1p50j1i/edition_xs_review/", "title": "Edition XS Review", "snippet": "Owner review on r/headphones." },
+        { "url": "https://www.head-fi.org/showcase/hifiman-edition-xs.25623/", "title": "HIFIMAN Edition XS (Head-Fi reviews)", "snippet": "Twenty user reviews; soundstage and bass reach stand out." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "HEADPHONE", "brand": "Koss", "model": "Porta Pro", "release_year": "1984",
+        "form": "ON_EAR", "back": "OPEN", "driver_type": "DYNAMIC", "impedance_ohm": "60", "sensitivity": "101", "sensitivity_unit": "DB_PER_MW",
+        "connector": "Fixed cable, 3.5 mm",
+        "tags": "most-discussed-2026, portable, value",
+        "notes": "A Reddit favourite that keeps coming back; 2026 posts celebrate it as a fun, cheap daily driver. Specs: https://koss.com/products/porta-pro"
+      },
+      "autoeq": ["Koss Porta Pro"],
+      "threads": [
+        { "url": "https://www.reddit.com/r/headphones/comments/1q3xy6w/koss_porta_pro_this_one_sparks_joy/", "title": "Koss Porta Pro: This one sparks joy", "snippet": "An owner on why it's still fun after many pricier headphones." },
+        { "url": "https://www.reddit.com/r/headphones/comments/1rcpwjg/a_sleeping_beauty_koss_porta_pro_with_eq/", "title": "A sleeping beauty - Koss Porta Pro with EQ", "snippet": "EQ tips: less mid-bass, a little more sub-bass." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "CrinEar", "model": "Reference", "release_year": "2026", "msrp": "349.99", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "HYBRID", "driver_config": "2DD + 3BA", "impedance_ohm": "16", "sensitivity": "104", "sensitivity_unit": "DB_PER_MW",
+        "connector": "2-pin 0.78 mm (3.5/4.4 mm modular)",
+        "tags": "most-discussed-2026, neutral",
+        "notes": "The Headphone Show's review passed 99k views; Head-Fi impressions thread since Apr 2026. Marketed as the world's flattest-measuring IEM. Specs: https://crinear.com/reference"
+      },
+      "autoeq": ["CrinEar Reference", "Crinacle Reference"],
+      "threads": [
+        { "url": "https://www.youtube.com/watch?v=DCXHVlcFe58", "title": "CrinEar Reference Review - My new favorite IEM.", "posted": "2026-04-25", "snippet": "The Headphone Show (Resolve) on whether a truly neutral IEM works for daily use." },
+        { "url": "https://www.head-fi.org/threads/crinear-reference-impressions-thread.980173/", "title": "CrinEar Reference Impressions Thread", "posted": "2026-04-27", "snippet": "Head-Fi owner impressions." },
+        { "url": "https://headphones.com/blogs/reviews/crinear-reference-nothing-to-prove", "title": "CrinEar Reference: Nothing to Prove (headphones.com)", "posted": "2026-04-25", "snippet": "Written review with comparisons to pricier neutral IEMs." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "ZiiGaat", "model": "Horizon", "release_year": "2025", "msrp": "329", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "TRIBRID", "driver_config": "1DD + 2BA + 2 planar", "impedance_ohm": "24", "sensitivity": "102", "sensitivity_unit": "DB_PER_MW",
+        "connector": "2-pin 0.78 mm (3.5/4.4 mm modular)",
+        "tags": "most-discussed-2026",
+        "notes": "ZiiGaat's first tribrid (Nov 2025), constantly compared with the Kiwi Ears Astral and Hype 4 MKII. ZiiGaat lists sensitivity as 102 dB without a unit; entered as dB/mW. Specs: https://www.ziigaat.com/products/ziigaat-horizon"
+      },
+      "autoeq": ["ZiiGaat Horizon", "Ziigaat Horizon"],
+      "threads": [
+        { "url": "https://www.reddit.com/r/iems/comments/1u8ik9q/kiwi_ears_astral_or_ziigaat_horizon/", "title": "Kiwi Ears Astral or ZiiGaat Horizon?", "posted": "2026-06-17", "snippet": "Beginner choosing between the two most-recommended sets around $300." },
+        { "url": "https://www.head-fi.org/showcase/ziigaat-horizon.28623/", "title": "ZiiGaat Horizon (Head-Fi reviews)", "snippet": "Reviews split between praise for treble extension and complaints of coherency." },
+        { "url": "https://www.youtube.com/watch?v=qy8T2s-_scs", "title": "These small differences matter. ThieAudio Hype 4 mkII review", "posted": "2026-01-25", "snippet": "Super* Review compares the Hype 4 MKII with the Horizon." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "Kiwi Ears", "model": "Astral", "release_year": "2025", "msrp": "299", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "HYBRID", "driver_config": "1DD + 6BA", "impedance_ohm": "23", "sensitivity": "105", "sensitivity_unit": "DB_PER_MW",
+        "connector": "2-pin 0.78 mm (3.5/4.4 mm modular)",
+        "tags": "most-discussed-2026, gaming",
+        "notes": "Top-ranked IEM in RedditRecs' Jun 2025 - Jun 2026 r/iems data; a favourite for FPS games. Specs: https://primeaudio.org/kiwi-ears-astral-review"
+      },
+      "autoeq": ["Kiwi Ears Astral"],
+      "threads": [
+        { "url": "https://www.reddit.com/r/iems/comments/1u8ik9q/kiwi_ears_astral_or_ziigaat_horizon/", "title": "Kiwi Ears Astral or ZiiGaat Horizon?", "posted": "2026-06-17", "snippet": "Beginner choosing between the two most-recommended sets around $300." },
+        { "url": "https://www.head-fi.org/threads/new-1dd-6ba-hybrid-kiwi-ears-astral-299-00.976619/", "title": "New 1DD+6BA Hybrid Kiwi ears Astral $299.00", "posted": "2025-04-21", "snippet": "Head-Fi launch thread." },
+        { "url": "https://www.head-fi.org/showcase/kiwi-ears-astral.28168/", "title": "Kiwi Ears Astral (Head-Fi reviews)", "snippet": "33 ratings, averaging 4.4 stars." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "Truthear", "model": "Pure", "release_year": "2025", "msrp": "89", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "HYBRID", "driver_config": "1DD + 3BA", "impedance_ohm": "13.8", "sensitivity": "124", "sensitivity_unit": "DB_PER_V",
+        "connector": "2-pin 0.78 mm, 3.5 mm",
+        "tags": "most-discussed-2026, value",
+        "notes": "One of the most-discussed IEMs on r/iems in 2025-26 (211 users in RedditRecs' data); successor to the Hexa. Specs: https://www.head-fi.org/showcase/truthear-pure.28332/"
+      },
+      "autoeq": ["Truthear Pure", "TRUTHEAR PURE"],
+      "threads": [
+        { "url": "https://www.head-fi.org/showcase/truthear-pure.28332/", "title": "Truthear PURE (Head-Fi reviews)", "snippet": "User reviews: warm, natural, easy to drive." },
+        { "url": "https://www.audiosciencereview.com/forum/index.php?threads/truthear-iems.61295/", "title": "Truthear IEMs", "posted": "2025-03-07", "snippet": "ASR discussion of Truthear models, with Pure owners' setups." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "Moondrop", "model": "Chu 3", "release_year": "2026", "msrp": "24.99", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "DYNAMIC", "driver_config": "1DD (10 mm Al-Mg dome)", "impedance_ohm": "16", "sensitivity": "118", "sensitivity_unit": "DB_PER_V",
+        "connector": "2-pin 0.78 mm, 3.5 mm",
+        "tags": "most-discussed-2026, value",
+        "notes": "Released Aug 2026; headphones.com called it one of the best budget IEMs of 2026. Moondrop lists 118 dB without a unit; entered as dB/V, Moondrop's usual convention. Specs: https://hifigo.com/products/moondrop-chu-3"
+      },
+      "autoeq": ["Moondrop Chu 3", "Moondrop Chu III", "Moondrop CHU 3"],
+      "threads": [
+        { "url": "https://headphones.com/blogs/reviews/the-moondrop-chu-3-is-one-of-the-best-budget-iems-of-2026", "title": "The MoonDrop Chu 3 is one of the best budget IEMs of 2026", "posted": "2026-10-04", "snippet": "Headphones.com's verdict: skip the comparison rabbit hole and buy this." },
+        { "url": "https://www.reddit.com/r/iems/comments/1vqsald/moondrop_chu_3_casual_first_impressions/", "title": "Moondrop Chu 3 - Casual first impressions", "snippet": "Sounds well above its price, per an early buyer." },
+        { "url": "https://www.youtube.com/watch?v=Eaf8Q7SCk-M", "title": "Moondrop Chu 3 Review 2026: Is This $25 IEM Really ...", "snippet": "Video review of the third-generation Chu." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "Thieaudio", "model": "Hype 4 MKII", "release_year": "2025", "msrp": "399", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "HYBRID", "driver_config": "2DD + 4BA", "impedance_ohm": "18", "sensitivity": "101", "sensitivity_unit": "DB_PER_MW",
+        "connector": "2-pin 0.78 mm (3.5/4.4 mm modular)",
+        "tags": "most-discussed-2026",
+        "notes": "Nov 2025 ground-up redesign with Knowles drivers; 15 Head-Fi reviews. Thieaudio lists 101 dB without a unit; entered as dB/mW. Specs: https://www.thieaudio.com/products/thieaudio-hype-4-mkii"
+      },
+      "autoeq": ["Thieaudio Hype 4 MKII", "ThieAudio Hype 4 MK2", "Thieaudio Hype 4 Mk II"],
+      "threads": [
+        { "url": "https://www.youtube.com/watch?v=qy8T2s-_scs", "title": "These small differences matter. ThieAudio Hype 4 mkII review", "posted": "2026-01-25", "snippet": "Super* Review (23k views), with comparisons to the OG Hype 4 and ZiiGaat Horizon." },
+        { "url": "https://www.head-fi.org/showcase/thieaudio-hype-4-mkii-universal-iem.28736/", "title": "THIEAUDIO HYPE 4 MKII (Head-Fi reviews)", "snippet": "Fifteen reviews; praised for technicalities at $399." }
+      ]
+    },
+    {
+      "gear": {
+        "type": "IEM", "brand": "Kiwi Ears", "model": "KE4", "release_year": "2024", "msrp": "199", "msrp_currency": "USD",
+        "form": "IN_EAR", "driver_type": "HYBRID", "driver_config": "2DD + 2BA", "impedance_ohm": "28", "sensitivity": "102", "sensitivity_unit": "DB_PER_MW",
+        "connector": "2-pin 0.78 mm, 3.5 mm",
+        "tags": "most-discussed-2026",
+        "notes": "Treated as the 'New Meta' benchmark in early-2026 reviews and a frequent comparison point for the Horizon. Specs: https://www.headphoneer.com/kiwi-ears-ke4-review"
+      },
+      "autoeq": ["Kiwi Ears KE4"],
+      "threads": [
+        { "url": "https://www.head-fi.org/showcase/kiwi-ears-ke4.27504/", "title": "Kiwi Ears KE4 (Head-Fi reviews)", "snippet": "Fifty ratings; lush and smooth, bass-forward." },
+        { "url": "https://www.youtube.com/watch?v=4RrtGEeT-mM", "title": "Kiwi Ears KE4 Review", "snippet": "Video review of the 2DD+2BA hybrid." }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import audiogear.importers.AutoEqClient;
 import audiogear.importers.AutoEqImporter;
 import audiogear.importers.BrandParser;
 import audiogear.importers.Progress;
+import audiogear.importers.ResearchImporter;
 import audiogear.net.Http;
 import audiogear.search.BraveSearchProvider;
 import audiogear.search.RedditProvider;
@@ -50,6 +51,7 @@ public final class AppContext {
     public final SearchService search;
     public final AutoEqClient autoEq;
     public final AutoEqImporter autoEqImporter;
+    public final ResearchImporter research;
     public final StatusModel status = new StatusModel();
 
     /** The whole catalog as summary rows, shared by the catalog table and every gear picker. */
@@ -80,6 +82,7 @@ public final class AppContext {
                 threads, gear, settings::cacheTtlDays, Clock.systemUTC());
         this.autoEq = AutoEqClient.github(http, settings::githubToken, paths.cache());
         this.autoEqImporter = new AutoEqImporter(autoEq, gear, curves, BrandParser.standard());
+        this.research = new ResearchImporter(gear, threads, curves, autoEq, autoEqImporter);
     }
 
     /** Runs work in the background; done runs on the FX thread. Failures go to the status bar and the log. */

@@ -141,6 +141,14 @@ class ImportersIntegrationTest {
     }
 
     @Test
+    void dacRowWithoutDsdImports() throws Exception {
+        String csv = "type,brand,model,chip\nAMP_DAC,Schiit,Magni Unity,Optional DAC card\n";
+        ImportSummary s = CatalogCsv.read(new StringReader(csv), gear);
+        assertEquals(1, s.imported(), s.problems().toString());
+        assertNull(gear.get(gear.findId("Schiit", "Magni Unity", "").orElseThrow()).orElseThrow().dac().dsd());
+    }
+
+    @Test
     void reportsHttpErrorsWithStatus() {
         stub.on("/repos/jaakkopasanen/AutoEq/git/trees/master",
                 new StubServer.Response(403, "rate limited", Map.of("Retry-After", "60")));

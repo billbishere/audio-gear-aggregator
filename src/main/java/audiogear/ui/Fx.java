@@ -149,9 +149,13 @@ public final class Fx {
 
     /** Shows an import's headline, with the skipped items in an expandable list. */
     public static void showSummary(String title, ImportSummary s) {
+        showSummary(title, s.headline(), s);
+    }
+
+    public static void showSummary(String title, String headline, ImportSummary s) {
         Alert a = new Alert(s.skipped() == 0 ? Alert.AlertType.INFORMATION : Alert.AlertType.WARNING);
         a.setTitle(title);
-        a.setHeaderText(s.headline());
+        a.setHeaderText(headline);
         if (!s.problems().isEmpty()) {
             TextArea area = new TextArea(String.join("\n", s.problems()));
             area.setEditable(false);
@@ -159,7 +163,7 @@ public final class Fx {
             area.setPrefRowCount(12);
             a.getDialogPane().setExpandableContent(area);
             a.getDialogPane().setExpanded(s.problems().size() <= 20);
-            a.setContentText(s.problems().size() + " item(s) were skipped. Details below.");
+            a.setContentText(s.skipped() > 0 ? s.skipped() + " item(s) were skipped. Details below." : "Notes below.");
         }
         a.showAndWait();
     }

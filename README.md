@@ -27,7 +27,11 @@ you like. (An `.msi` installer would also need the WiX toolset.)
 3. In the **Catalog**, edit items to add impedance, sensitivity and the other specs (AutoEq only provides FR).
    Add amps with their output impedance and rated power to use **Pairing**.
 4. For community search, add a **Brave Search API key** in *Data & Settings*. Brave covers Head-Fi, ASR,
-   SBAF and Reddit. A direct Reddit connection is optional (Reddit approves new API apps individually).
+   SBAF, Reddit and YouTube. A direct Reddit connection is optional (Reddit approves new API apps individually).
+5. **No API keys?** Load a research file instead: *Data & Settings → Import research file (JSON)*. A research file
+   bundles gear with specs, the threads and videos that discuss each item, and AutoEq names for curves.
+   `research/2026-10-most-discussed.json` holds the 20 most-discussed items of Oct 2025 – Oct 2026. From a
+   terminal: `./gradlew importResearch -Pfile=research/<file>.json` (backs up the database first).
 
 ## Screens
 

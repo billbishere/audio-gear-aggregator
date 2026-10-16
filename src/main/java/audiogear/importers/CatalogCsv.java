@@ -156,7 +156,8 @@ public final class CatalogCsv {
             String dsd = row.getOrDefault("dsd", "");
             dac = new DacSpec(g.id(), textOr(row, "chip", o.chip()), dblOr(row, "sinad_db", o.sinadDb()),
                     dblOr(row, "output_voltage_vrms", o.outputVoltageVrms()), dblOr(row, "max_sample_rate_khz", o.maxSampleRateKhz()),
-                    dsd.isBlank() ? o.dsd() : parseBool(dsd), textOr(row, "dac_inputs", o.inputs()), textOr(row, "dac_outputs", o.outputs()));
+                    dsd.isBlank() ? o.dsd() : Boolean.valueOf(parseBool(dsd)), // boxed: a bare boolean would unbox a null o.dsd()
+                    textOr(row, "dac_inputs", o.inputs()), textOr(row, "dac_outputs", o.outputs()));
         }
         String tags = row.getOrDefault("tags", "");
         List<String> tagList = tags.isBlank() ? old.tags() : List.of(tags.split("\\s*,\\s*"));

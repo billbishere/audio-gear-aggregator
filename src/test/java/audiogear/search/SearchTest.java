@@ -40,6 +40,10 @@ class SearchTest {
         assertEquals(ThreadSource.ASR, UrlNormalizer.classify("https://www.audiosciencereview.com/forum/"));
         assertEquals(ThreadSource.REDDIT, UrlNormalizer.classify("https://redd.it/xyz"));
         assertEquals(ThreadSource.OTHER, UrlNormalizer.classify("https://notreddit.example/"));
+        assertEquals(ThreadSource.YOUTUBE, UrlNormalizer.classify("https://youtu.be/DCXHVlcFe58"));
+        assertEquals("https://www.youtube.com/watch?v=DCXHVlcFe58", UrlNormalizer.normalize("https://youtu.be/DCXHVlcFe58?si=abc&t=30"));
+        assertEquals("https://www.youtube.com/watch?v=DCXHVlcFe58", UrlNormalizer.normalize("https://m.youtube.com/watch?feature=share&v=DCXHVlcFe58&t=5s"));
+        assertEquals("https://www.youtube.com/watch?v=abcdefgh", UrlNormalizer.normalize("https://www.youtube.com/shorts/abcdefgh"));
     }
 
     @Test
@@ -59,7 +63,7 @@ class SearchTest {
     @Test
     void buildsBraveQueries() {
         assertEquals("\"HD 650\" site:head-fi.org", BraveSearchProvider.buildQuery("\"HD 650\"", EnumSet.of(ThreadSource.HEAD_FI)));
-        assertEquals("x (site:reddit.com OR site:head-fi.org OR site:audiosciencereview.com OR site:superbestaudiofriends.org)",
+        assertEquals("x (site:reddit.com OR site:head-fi.org OR site:audiosciencereview.com OR site:superbestaudiofriends.org OR site:youtube.com)",
                 BraveSearchProvider.buildQuery("x", EnumSet.allOf(ThreadSource.class)));
         assertEquals("\"Sennheiser HD 650\" warmth", SearchService.queryText(
                 new SearchService.Query(" warmth ", 1L, "Sennheiser \"HD 650\"", Set.of(), false)));
@@ -175,7 +179,7 @@ class SearchTest {
 
         var r1 = service.search(q);
         assertEquals(3, r1.threads().size());
-        assertEquals(EnumSet.of(ThreadSource.HEAD_FI, ThreadSource.ASR, ThreadSource.SBAF), web.lastSources);
+        assertEquals(EnumSet.of(ThreadSource.HEAD_FI, ThreadSource.ASR, ThreadSource.SBAF, ThreadSource.YOUTUBE), web.lastSources);
         assertEquals(EnumSet.of(ThreadSource.REDDIT), reddit.lastSources);
         assertEquals(3, threads.forGear(hd650).size());          // every hit of a gear query links to it
         assertEquals(1, threads.forGear(dt770).size());          // name matcher found DT770 in a title

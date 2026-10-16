@@ -173,6 +173,22 @@ public final class DataView implements View {
                 return all.size();
             }, n -> ctx.status.info("Exported " + n + " items to " + f.getName()));
         });
+        Button research = new Button("Import research file (JSON)…");
+        research.setTooltip(new Tooltip("Gear with specs, discussion threads and AutoEq curve names in one file"));
+        research.setOnAction(e -> {
+            File f = chooser("Import research file", "Research JSON", "*.json").showOpenDialog(window());
+            if (f == null) return;
+            ctx.runWithProgress("Importing " + f.getName(), p -> {
+                try (var r = Files.newBufferedReader(f.toPath(), StandardCharsets.UTF_8)) {
+                    return ctx.research.importJson(r, p);
+                } catch (java.io.IOException ex) {
+                    throw new java.io.UncheckedIOException(ex);
+                }
+            }, res -> {
+                ctx.reloadCatalog();
+                Fx.showSummary("Research import", res.headline(), res.forDialog());
+            });
+        });
         Button backup = new Button("Back up database now");
         backup.setOnAction(e -> ctx.run("Backing up", () -> ctx.db.backupNow(ctx.paths.backups()),
                 p -> ctx.status.info("Backup saved: " + p)));
@@ -180,9 +196,10 @@ public final class DataView implements View {
         folder.getStyleClass().add(Styles.FLAT);
         folder.setOnAction(e -> ctx.openUrl(ctx.paths.home().toUri().toString()));
         return Fx.section("Files and backups",
-                Fx.muted("Curve files: CSV/TSV, REW text exports, squig.link .txt (frequency, value, optional phase). "
+                Fx.muted("Research file: a JSON bundle of gear, specs, threads and AutoEq names (see research/ in the project). "
+                        + "Curve files: CSV/TSV, REW text exports, squig.link .txt (frequency, value, optional phase). "
                         + "Catalog CSV: one row per item; empty cells keep existing values. Data folder: " + ctx.paths.home()),
-                Fx.row(8, curve, csvIn, csvOut, backup, folder));
+                Fx.row(8, research, curve, csvIn, csvOut, backup, folder));
     }
 
     private Node settingsSection() {
@@ -234,7 +251,7 @@ public final class DataView implements View {
             ctx.run("Saving settings", () -> { s.save(); return null; }, x -> ctx.status.info("Settings saved"));
         });
         return Fx.section("Settings",
-                Fx.muted("Keys are stored only in " + ctx.paths.settings() + ". Brave covers Head-Fi, ASR, SBAF and Reddit. "
+                Fx.muted("Keys are stored only in " + ctx.paths.settings() + ". Brave covers Head-Fi, ASR, SBAF, Reddit and YouTube. "
                         + "A direct Reddit connection is optional: Reddit approves new API apps individually, and until then Reddit is searched through Brave. "
                         + "A GitHub token raises the AutoEq listing limit from 60 to 5,000 requests an hour."),
                 g, Fx.row(8, save));

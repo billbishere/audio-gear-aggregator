@@ -12,6 +12,7 @@ import audiogear.domain.GearNames;
 import audiogear.domain.GearType;
 import audiogear.domain.TransducerSpec;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -87,6 +88,13 @@ public final class AutoEqImporter {
             pool.shutdownNow();
         }
         return new ImportSummary(imported, skipped, problems, cancelled);
+    }
+
+    /** Imports one measurement as an FR curve of the given gear item, without name matching. */
+    public void importCurve(AutoEqClient.Entry e, long gearId) throws IOException, CurveFileParser.ParseException {
+        CurveFileParser.Parsed parsed = CurveFileParser.parse(client.download(e.path()));
+        curves.save(new Curve(null, gearId, CurveKind.FR, e.sourceLabel(), brands.parse(e.name()).label(), Channel.AVG,
+                parsed.freqHz(), parsed.value(), null, client.rawUrl(e.path()), null));
     }
 
     /** Imports the Harman over-ear 2018 and in-ear 2019 targets as TARGET curves. */

@@ -58,7 +58,7 @@ public final class DiscoverView implements View {
         saved.setTooltip(new Tooltip("Full-text search over every thread already stored. Free, works offline."));
         saved.setOnAction(e -> searchSaved());
         HBox sourceRow = Fx.row(12, new Label("Sources:"));
-        for (ThreadSource s : List.of(ThreadSource.REDDIT, ThreadSource.HEAD_FI, ThreadSource.ASR, ThreadSource.SBAF)) {
+        for (ThreadSource s : List.of(ThreadSource.REDDIT, ThreadSource.HEAD_FI, ThreadSource.ASR, ThreadSource.SBAF, ThreadSource.YOUTUBE)) {
             CheckBox cb = new CheckBox(Enums.label(s));
             cb.setSelected(true);
             sources.put(s, cb);

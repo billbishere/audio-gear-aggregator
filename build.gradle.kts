@@ -56,7 +56,8 @@ tasks.register<JavaExec>("screenshots") {
     mainClass = "audiogear.tour.ScreenshotTour"
     jvmArgs("--enable-native-access=ALL-UNNAMED")
     args(project.findProperty("data") ?: layout.buildDirectory.dir("tour-data").get().asFile.path,
-         project.findProperty("out") ?: layout.buildDirectory.dir("screenshots").get().asFile.path)
+         project.findProperty("out") ?: layout.buildDirectory.dir("screenshots").get().asFile.path,
+         project.findProperty("mode") ?: "seed")
 }
 
 // Windows app folder with a launcher .exe and its own Java runtime: build/jpackage/Audio Gear Aggregator/
@@ -70,4 +71,15 @@ tasks.register<Exec>("packageApp") {
     commandLine("jpackage", "--type", "app-image", "--name", "Audio Gear Aggregator", "--app-version", "${project.version}",
         "--input", lib.path, "--main-jar", "${project.name}-${project.version}.jar", "--main-class", "audiogear.app.Launcher",
         "--java-options", "--enable-native-access=ALL-UNNAMED", "--dest", dest.path)
+}
+
+// Loads a research bundle into the real catalog (backs up first): gradlew importResearch -Pfile=research/<file>.json
+tasks.register<JavaExec>("importResearch") {
+    group = "application"
+    dependsOn("testClasses")
+    classpath = sourceSets["test"].runtimeClasspath
+    mainClass = "audiogear.tools.ImportResearch"
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
+    System.getProperty("audiogear.home")?.let { systemProperty("audiogear.home", it) }
+    args(project.findProperty("file") ?: "research/2026-10-most-discussed.json")
 }

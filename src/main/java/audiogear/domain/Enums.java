@@ -12,6 +12,7 @@ public final class Enums {
             case "AMP_DAC" -> "Amp/DAC";
             case "DAC", "BA", "SE", "IEM", "FR", "ASR", "SBAF", "AVG", "L", "R" -> e.name();
             case "HEAD_FI" -> "Head-Fi";
+            case "YOUTUBE" -> "YouTube";
             case "DB_PER_MW" -> "dB/mW";
             case "DB_PER_V" -> "dB/V";
             case "B_STOCK" -> "B-stock";

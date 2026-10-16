@@ -13,12 +13,14 @@ import java.util.regex.Pattern;
 /**
  * Canonical thread URLs, so the same discussion found twice is stored once:
  * Reddit posts become https://www.reddit.com/r/sub/comments/id/, XenForo threads (Head-Fi, ASR, SBAF) drop
- * page numbers and post anchors, and tracking parameters and fragments are removed everywhere.
+ * page numbers and post anchors, YouTube videos become https://www.youtube.com/watch?v=id, and tracking
+ * parameters and fragments are removed everywhere.
  */
 public final class UrlNormalizer {
     private UrlNormalizer() {}
 
     private static final Pattern REDDIT_POST = Pattern.compile("^/r/([^/]+)/comments/([a-z0-9]+)(?:/.*)?$", Pattern.CASE_INSENSITIVE);
+    private static final Pattern YOUTUBE_ID = Pattern.compile("(?:^|&)v=([A-Za-z0-9_-]{6,})");
     private static final Pattern XENFORO_THREAD = Pattern.compile("threads/(?:[^/?#]*\\.)?(\\d+)(?=[/?#&]|$)");
     private static final Set<String> TRACKING = Set.of("fbclid", "gclid", "ref", "ref_src", "share_id", "context", "rdt", "si");
 
@@ -28,6 +30,7 @@ public final class UrlNormalizer {
             case HEAD_FI -> "head-fi.org";
             case ASR -> "audiosciencereview.com";
             case SBAF -> "superbestaudiofriends.org";
+            case YOUTUBE -> "youtube.com";
             case OTHER -> throw new IllegalArgumentException("OTHER has no site");
         };
     }
@@ -38,6 +41,7 @@ public final class UrlNormalizer {
         if (host.endsWith("head-fi.org")) return ThreadSource.HEAD_FI;
         if (host.endsWith("audiosciencereview.com")) return ThreadSource.ASR;
         if (host.endsWith("superbestaudiofriends.org")) return ThreadSource.SBAF;
+        if (host.equals("youtu.be") || host.endsWith("youtube.com")) return ThreadSource.YOUTUBE;
         return ThreadSource.OTHER;
     }
 
@@ -57,6 +61,13 @@ public final class UrlNormalizer {
             Matcher m = REDDIT_POST.matcher(path);
             if (m.matches()) return "https://www.reddit.com/r/" + m.group(1) + "/comments/" + m.group(2).toLowerCase(Locale.ROOT) + "/";
             host = "www.reddit.com";
+        }
+        if (host.equals("youtu.be") && path.length() > 1) return "https://www.youtube.com/watch?v=" + path.substring(1).split("/")[0];
+        if (host.endsWith("youtube.com")) {
+            Matcher v = YOUTUBE_ID.matcher(query == null ? "" : query);
+            if (path.equals("/watch") && v.find()) return "https://www.youtube.com/watch?v=" + v.group(1);
+            if (path.startsWith("/shorts/")) return "https://www.youtube.com/watch?v=" + path.substring(8).split("/")[0];
+            host = "www.youtube.com";
         }
         ThreadSource src = classify(url);
         if (src == ThreadSource.HEAD_FI || src == ThreadSource.ASR || src == ThreadSource.SBAF) {

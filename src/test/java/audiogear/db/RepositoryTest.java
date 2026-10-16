@@ -50,6 +50,34 @@ class RepositoryTest {
     }
 
     @Test
+    void upgradingFromV1KeepsThreadsLinksAndSearchAndAllowsYouTube() throws Exception {
+        Path file = dir.resolve("old.db");
+        try (var c = java.sql.DriverManager.getConnection("jdbc:sqlite:" + file)) {
+            try (var st = c.createStatement()) { st.execute("PRAGMA foreign_keys = ON"); }
+            Migrator.migrate(c, 1);
+            try (var st = c.createStatement()) {
+                st.execute("INSERT INTO gear (id, type, brand, model, created_at, updated_at) VALUES (1, 'HEADPHONE', 'Sennheiser', 'HD 600', 'x', 'x')");
+                st.execute("INSERT INTO thread (id, source, url, title, first_seen_at, last_seen_at) VALUES (7, 'HEAD_FI', 'https://www.head-fi.org/threads/a.1/', 'HD600 warm tubes', 'x', 'x')");
+                st.execute("INSERT INTO thread (id, source, url, title, first_seen_at, last_seen_at) VALUES (8, 'OTHER', 'https://www.youtube.com/watch?v=abcdefgh', 'HD600 video', 'x', 'x')");
+                st.execute("INSERT INTO thread_gear (thread_id, gear_id, link_kind) VALUES (7, 1, 'MANUAL')");
+            }
+        }
+        Database upgraded = Database.open(file, dir.resolve("upgrade-backups"));
+        ThreadRepository t = new ThreadRepository(upgraded);
+        assertEquals(1, t.forGear(1).size()); // the link to thread 7 survived the table rebuild
+        assertEquals(1, t.search("tubes", 10).size());
+        assertEquals(ThreadSource.YOUTUBE, t.byIds(List.of(8L)).getFirst().source());
+        long y = t.upsert(new ForumThread(null, ThreadSource.YOUTUBE, "https://www.youtube.com/watch?v=zzzzzzzz", "Review video",
+                null, null, null, null, null, null, null));
+        t.link(y, 1, LinkKind.MANUAL);
+        assertEquals(2, t.forGear(1).size());
+        assertEquals(1, t.search("review video", 10).size());
+        assertTrue(Files.list(dir.resolve("upgrade-backups")).findAny().isPresent());
+        new GearRepository(upgraded).delete(1); // cascades still work after the rebuild
+        assertTrue(t.forGear(1).isEmpty());
+    }
+
+    @Test
     void splitsTriggersAsSingleStatements() {
         List<String> parts = Migrator.split("CREATE TABLE a (x);\nCREATE TRIGGER t AFTER INSERT ON a BEGIN\n  SELECT 1;\n  SELECT 2;\nEND;\n-- c\nCREATE TABLE b (y);");
         assertEquals(3, parts.size());

@@ -45,7 +45,8 @@ public final class ScreenshotTour {
         AppPaths paths = new AppPaths(home);
         Database db = Database.open(paths.database(), paths.backups());
         Settings settings = Settings.load(paths.settings());
-        seed(db, paths);
+        boolean existing = args.length > 2 && args[2].equals("existing");
+        if (!existing) seed(db, paths);
 
         Platform.startup(() -> {});
         fx(() -> {
@@ -58,6 +59,10 @@ public final class ScreenshotTour {
             return null;
         });
         idle();
+        if (existing) {
+            existingTour(db, out);
+            return;
+        }
         long hd650 = id(db, "Sennheiser", "HD 650"), hd600 = id(db, "Sennheiser", "HD 600"), exs = id(db, "HIFIMAN", "Edition XS");
         long tube = id(db, "Sample", "Tube OTL"), desk = id(db, "Sample", "Desktop Amp/DAC"), hd800 = id(db, "Sennheiser", "HD 800 S");
 
@@ -77,6 +82,25 @@ public final class ScreenshotTour {
         snap(out.resolve("7-wishlist.png"));
         fx(() -> { window.showScreen("Data & Settings"); return null; });
         snap(out.resolve("8-data.png"));
+        Platform.exit();
+        System.exit(0);
+    }
+
+    /** Screens for a real catalog (the research import): no seeding, picks known items by name. */
+    private static void existingTour(Database db, Path out) throws Exception {
+        long hd600 = id(db, "Sennheiser", "HD 600"), exs = id(db, "HIFIMAN", "Edition XS"), porta = id(db, "Koss", "Porta Pro");
+        long dx1 = id(db, "Topping", "DX1 II"), do400 = id(db, "SMSL", "DO400"), magni = id(db, "Schiit", "Magni Unity");
+        long crin = id(db, "CrinEar", "Reference"), ta66 = id(db, "xDuoo", "TA-66");
+        fx(() -> { window.catalog(hd600); return null; });
+        snap(out.resolve("r1-catalog.png"));
+        fx(() -> { window.discover(crin); return null; });
+        snap(out.resolve("r2-discover.png"));
+        fx(() -> { window.compare(List.of(dx1, do400, magni)); return null; });
+        snap(out.resolve("r3-compare-amps.png"));
+        fx(() -> { window.curves(List.of(hd600, exs, porta)); return null; });
+        snap(out.resolve("r4-curves.png"));
+        fx(() -> { window.pairing(hd600, ta66); return null; });
+        snap(out.resolve("r5-pairing.png"));
         Platform.exit();
         System.exit(0);
     }

@@ -121,6 +121,7 @@
 .badge-head_fi { -fx-text-fill: #58a6ff; -fx-border-color: #58a6ff; }
 .badge-asr { -fx-text-fill: #3fb950; -fx-border-color: #3fb950; }
 .badge-sbaf { -fx-text-fill: #d2a8ff; -fx-border-color: #d2a8ff; }
+.badge-youtube { -fx-text-fill: #ff6b63; -fx-border-color: #ff6b63; }
 
 .verdict {
     -fx-padding: 4px 12px;
