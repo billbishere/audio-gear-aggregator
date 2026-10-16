@@ -88,6 +88,11 @@ public final class ResearchImporter {
     }
 
     public Result importJson(Reader reader, Progress progress) throws IOException {
+        return importJson(reader, progress, LinkKind.MANUAL);
+    }
+
+    /** linkKind marks how the file's threads attach to their gear: MANUAL for curated research, AUTO for matched feeds. */
+    public Result importJson(Reader reader, Progress progress, LinkKind linkKind) throws IOException {
         ResearchFile file = json.readValue(reader, ResearchFile.class);
         List<ResearchItem> items = file.items() == null ? List.of() : file.items();
         List<String> problems = new ArrayList<>(), notes = new ArrayList<>();
@@ -119,7 +124,7 @@ public final class ResearchImporter {
             for (ResearchThread t : item.threads() == null ? List.<ResearchThread>of() : item.threads()) {
                 try {
                     long id = threads.upsert(toThread(t));
-                    threads.link(id, gearId, LinkKind.MANUAL);
+                    threads.link(id, gearId, linkKind);
                     newThreadIds.add(id);
                     threadCount++;
                 } catch (RuntimeException e) {
