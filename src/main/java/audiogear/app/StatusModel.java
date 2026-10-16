@@ -1,5 +1,6 @@
 package audiogear.app;
 
+import audiogear.updates.Manifest;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
@@ -20,6 +21,8 @@ public final class StatusModel {
     public final DoubleProperty progress = new SimpleDoubleProperty(-1);
     /** Set while a cancellable task runs. */
     public final ObjectProperty<Runnable> cancel = new SimpleObjectProperty<>();
+    /** A newer release to announce, or null. */
+    public final ObjectProperty<Manifest.LatestApp> newVersion = new SimpleObjectProperty<>();
 
     public void info(String text) {
         message.set(text);

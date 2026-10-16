@@ -1,11 +1,15 @@
 package audiogear.settings;
 
+import audiogear.updates.UpdateFeed;
+
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.Instant;
+import java.time.format.DateTimeParseException;
 import java.util.Properties;
 
 /** API keys and preferences, kept in a properties file in the user's profile (never in the database). */
@@ -84,4 +88,25 @@ public final class Settings {
 
     public double targetSplDb() { return getDouble("pairing.targetSplDb", 110); }
     public void setTargetSplDb(double v) { put("pairing.targetSplDb", Double.toString(v)); }
+
+    public boolean updatesDaily() { String v = get("updates.daily"); return v == null || Boolean.parseBoolean(v); }
+    public void setUpdatesDaily(boolean v) { put("updates.daily", Boolean.toString(v)); }
+
+    /** When the last daily update finished, or null if it never has. */
+    public Instant updatesLastRun() {
+        String v = get("updates.lastRun");
+        try {
+            return v == null ? null : Instant.parse(v);
+        } catch (DateTimeParseException e) {
+            return null;
+        }
+    }
+    public void setUpdatesLastRun(Instant v) { put("updates.lastRun", v == null ? null : v.toString()); }
+
+    /** A release the user chose not to be reminded about. */
+    public String updatesDismissedVersion() { return get("updates.dismissedVersion"); }
+    public void setUpdatesDismissedVersion(String v) { put("updates.dismissedVersion", v); }
+
+    /** Where updates are read from; only changed for testing. */
+    public String updatesBaseUrl() { String v = get("updates.baseUrl"); return v == null ? UpdateFeed.DEFAULT_BASE : v; }
 }

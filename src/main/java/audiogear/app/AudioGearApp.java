@@ -65,6 +65,7 @@ public final class AudioGearApp extends Application {
         stage.setScene(scene);
         stage.show();
         ctx.reloadCatalog();
+        ctx.startDailyUpdates();
     }
 
     @Override

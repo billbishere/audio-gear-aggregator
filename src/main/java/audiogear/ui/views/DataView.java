@@ -220,6 +220,8 @@ public final class DataView implements View {
         ttl.setEditable(true);
         Spinner<Double> spl = new Spinner<>(70.0, 130.0, s.targetSplDb(), 1.0);
         spl.setEditable(true);
+        CheckBox daily = new CheckBox("Check for updates daily");
+        daily.setSelected(s.updatesDaily());
 
         GridPane g = new GridPane();
         g.setHgap(12);
@@ -234,8 +236,11 @@ public final class DataView implements View {
         g.addRow(r++, new Label("Currency"), currency);
         g.addRow(r++, new Label("Search cache (days)"), ttl);
         g.addRow(r++, new Label("Default target peak SPL"), spl);
+        g.addRow(r++, new Label("Updates"), daily);
         for (Node n : List.of(brave, redditId, redditSecret, redditUser, github)) ((Region) n).setPrefWidth(380);
 
+        Button updateNow = new Button("Update now");
+        updateNow.setOnAction(e -> ctx.updateNow());
         Button save = new Button("Save settings");
         save.getStyleClass().add(Styles.ACCENT);
         save.setOnAction(e -> {
@@ -248,13 +253,18 @@ public final class DataView implements View {
             s.setCurrency(currency.getText() == null || currency.getText().isBlank() ? "USD" : currency.getText().strip().toUpperCase());
             s.setCacheTtlDays(ttl.getValue());
             s.setTargetSplDb(spl.getValue());
+            s.setUpdatesDaily(daily.isSelected());
             ctx.run("Saving settings", () -> { s.save(); return null; }, x -> ctx.status.info("Settings saved"));
         });
         return Fx.section("Settings",
                 Fx.muted("Keys are stored only in " + ctx.paths.settings() + ". Brave covers Head-Fi, ASR, SBAF, Reddit and YouTube. "
                         + "A direct Reddit connection is optional: Reddit approves new API apps individually, and until then Reddit is searched through Brave. "
                         + "A GitHub token raises the AutoEq listing limit from 60 to 5,000 requests an hour."),
-                g, Fx.row(8, save));
+                g, Fx.row(8, save, updateNow),
+                Fx.muted("Daily updates add new AutoEq measurements, forum/Reddit/YouTube threads and research from "
+                        + "github.com/billbishere/audio-gear-aggregator; no keys needed. They only add to your catalog, "
+                        + "and a backup is taken first (the last 3 are kept)."),
+                Fx.muted("Measurements by their reviewers, via AutoEq (github.com/jaakkopasanen/AutoEq)."));
     }
 
     private Hyperlink link(String text, String url) {
