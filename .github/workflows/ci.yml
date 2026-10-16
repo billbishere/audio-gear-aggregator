@@ -43,7 +43,7 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: windows-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -66,6 +66,10 @@ jobs:
           $v = ((.\gradlew.bat properties -q --console=plain) | Select-String '^version: ').Line.Substring(9).Trim()
           if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -ne "v$v") { throw "Tag $env:GITHUB_REF_NAME doesn't match version $v in build.gradle.kts" }
           "version=$v" | Out-File -Append -Encoding utf8 $env:GITHUB_OUTPUT
+      - name: Build the full catalog snapshot (shipped inside the installer)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: .\gradlew.bat buildSnapshot --console=plain
       - name: Build installer and portable app
         run: .\gradlew.bat packageInstaller packageApp --console=plain
       - name: Collect files
@@ -87,7 +91,7 @@ jobs:
         run: |
           $v = '${{ steps.version.outputs.version }}'
           @"
-          **Install:** download ``AudioGearAggregator-$v.msi`` and run it. It installs for your user only (no admin rights) and adds Start menu and desktop shortcuts. A newer version replaces the old one; your catalog in ``%APPDATA%\AudioGearAggregator`` is kept.
+          **Install:** download ``AudioGearAggregator-$v.msi`` and run it. It installs for your user only (no admin rights) and adds Start menu and desktop shortcuts. It comes with the full catalog (thousands of headphones and IEMs with their measurements, plus research and threads) and updates itself daily. A newer version replaces the old one; your catalog in ``%APPDATA%\AudioGearAggregator`` is kept.
 
           The installer isn't code-signed, so Windows SmartScreen may say it "protected your PC": choose **More info → Run anyway**.
 

@@ -65,6 +65,14 @@ tasks.register<JavaExec>("screenshots") {
          project.findProperty("mode") ?: "seed")
 }
 
+// The full catalog that ships inside the installer (build/snapshot/seed/catalog.db, from gradlew buildSnapshot). The
+// packaging tasks include it when it exists, checked when they run so `gradlew buildSnapshot packageInstaller` works.
+val seedDir = layout.buildDirectory.dir("snapshot/seed")
+fun Exec.includeSeedIfBuilt() {
+    val seed = seedDir.get().asFile
+    if (seed.resolve("catalog.db").exists()) args("--app-content", seed.path)
+}
+
 // Windows app folder with a launcher .exe and its own Java runtime: build/jpackage/Audio Gear Aggregator/
 // (an .msi installer would additionally need the WiX toolset).
 tasks.register<Exec>("packageApp") {
@@ -72,7 +80,7 @@ tasks.register<Exec>("packageApp") {
     dependsOn("installDist")
     val lib = layout.buildDirectory.dir("install/${project.name}/lib").get().asFile
     val dest = layout.buildDirectory.dir("jpackage").get().asFile
-    doFirst { delete(dest) }
+    doFirst { delete(dest); includeSeedIfBuilt() }
     commandLine("jpackage", "--type", "app-image", "--name", "Audio Gear Aggregator", "--app-version", "${project.version}",
         "--input", lib.path, "--main-jar", "${project.name}-${project.version}.jar", "--main-class", "audiogear.app.Launcher",
         "--java-options", "--enable-native-access=ALL-UNNAMED", "--dest", dest.path)
@@ -86,13 +94,25 @@ tasks.register<Exec>("packageInstaller") {
     dependsOn("installDist")
     val lib = layout.buildDirectory.dir("install/${project.name}/lib").get().asFile
     val dest = layout.buildDirectory.dir("installer").get().asFile
-    doFirst { delete(dest) }
+    doFirst { delete(dest); includeSeedIfBuilt() }
     commandLine("jpackage", "--type", "msi", "--name", "Audio Gear Aggregator", "--app-version", "${project.version}",
         "--vendor", "billbishere", "--description", "Catalog, compare and analyse headphones, IEMs, amps and DACs",
         "--input", lib.path, "--main-jar", "${project.name}-${project.version}.jar", "--main-class", "audiogear.app.Launcher",
         "--java-options", "--enable-native-access=ALL-UNNAMED",
         "--win-per-user-install", "--win-dir-chooser", "--win-menu", "--win-menu-group", "Audio Gear Aggregator", "--win-shortcut",
         "--win-upgrade-uuid", "c5d8879f-d25b-4ac8-a32e-69288cfd835b", "--dest", dest.path)
+}
+
+// Builds the installer's full catalog into build/snapshot/seed/catalog.db from AutoEq and the data branch.
+// Set GITHUB_TOKEN to avoid GitHub's 60-requests-an-hour limit. gradlew buildSnapshot [-PdataBase=<url>]
+tasks.register<JavaExec>("buildSnapshot") {
+    group = "distribution"
+    dependsOn("testClasses")
+    classpath = sourceSets["test"].runtimeClasspath
+    mainClass = "audiogear.tools.BuildSnapshot"
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
+    args(seedDir.get().file("catalog.db").asFile.path,
+        (project.findProperty("dataBase") ?: "https://raw.githubusercontent.com/billbishere/audio-gear-aggregator/data/").toString())
 }
 
 // The daily GitHub Actions job: gradlew dailyFeed -Pdata=<data-branch checkout> [-Pdate=yyyy-MM-dd] [-PlatestVersion=V -PlatestUrl=U]
