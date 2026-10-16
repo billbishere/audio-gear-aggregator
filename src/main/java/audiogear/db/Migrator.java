@@ -20,7 +20,7 @@ import java.util.List;
 public final class Migrator {
 
     /** Every migration, oldest first. Add new files here. */
-    static final List<String> MIGRATIONS = List.of("V1__init.sql", "V2__youtube_source.sql");
+    static final List<String> MIGRATIONS = List.of("V1__init.sql", "V2__youtube_source.sql", "V3__updates.sql");
 
     private Migrator() {}
 

@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -43,6 +44,9 @@ public final class AutoEqImporter {
     }
 
     public ImportSummary importEntries(List<AutoEqClient.Entry> entries, Progress progress) {
+        // Files already in the catalog are left out entirely (neither imported nor skipped), so importing twice adds nothing
+        Set<String> have = curves.origins();
+        entries = entries.stream().filter(e -> !have.contains(client.rawUrl(e.path()))).toList();
         Map<String, Long> known = new HashMap<>();
         for (var ref : gear.listRefs()) {
             if (ref.variant() == null || ref.variant().isEmpty()) known.put(key(ref.brand(), ref.model()), ref.id());

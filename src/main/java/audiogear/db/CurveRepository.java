@@ -10,8 +10,10 @@ import org.jdbi.v3.core.Jdbi;
 import org.jdbi.v3.core.mapper.RowMapper;
 
 import java.time.Instant;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 public final class CurveRepository {
 
@@ -51,6 +53,12 @@ public final class CurveRepository {
     public List<CurveInfo> byKind(CurveKind kind) {
         return jdbi.withHandle(h -> h.createQuery(INFO_SQL + " WHERE c.kind = :k ORDER BY c.label")
                 .bind("k", kind).map(INFO).list());
+    }
+
+    /** Where every stored curve came from (e.g. its AutoEq file URL), for skipping files already imported. */
+    public Set<String> origins() {
+        return jdbi.withHandle(h -> new HashSet<>(h.createQuery("SELECT origin FROM curve WHERE origin IS NOT NULL")
+                .mapTo(String.class).list()));
     }
 
     public Optional<Curve> load(long id) {
