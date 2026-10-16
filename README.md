@@ -65,6 +65,10 @@ providers (local stub HTTP server, no real API calls) and the catalog/compare sc
 `./gradlew screenshots` seeds a throwaway data folder (real AutoEq downloads plus labelled sample data) and
 renders every screen to `build/screenshots/`. It never touches your real data folder.
 
+GitHub Actions ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs the tests on Windows for every push to
+`main` and every pull request. To publish a release, push a tag: `git tag v1.0.0 && git push origin v1.0.0` builds
+the app folder with `packageApp` and attaches it, zipped, to a GitHub release.
+
 Design spec: [docs/superpowers/specs/2026-10-15-audio-gear-aggregator-design.md](docs/superpowers/specs/2026-10-15-audio-gear-aggregator-design.md)
 
 Package layout: `domain` (records), `analysis` (pure maths), `db` (SQLite + JDBI, migrations), `importers`
