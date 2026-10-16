@@ -11,6 +11,7 @@ public final class UpdateSchedule {
     public static final Duration CHECK_EVERY = Duration.ofHours(1);
 
     public static boolean isDue(Instant lastRun, Instant now) {
-        return lastRun == null || Duration.between(lastRun, now).compareTo(DUE_AFTER) >= 0;
+        // A lastRun in the future was saved while the clock was wrong; waiting for it could stop updates for years
+        return lastRun == null || lastRun.isAfter(now) || Duration.between(lastRun, now).compareTo(DUE_AFTER) >= 0;
     }
 }

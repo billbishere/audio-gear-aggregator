@@ -104,7 +104,8 @@ tasks.register<Exec>("packageInstaller") {
 }
 
 // Builds the installer's full catalog into build/snapshot/seed/catalog.db from AutoEq and the data branch.
-// Set GITHUB_TOKEN to avoid GitHub's 60-requests-an-hour limit. gradlew buildSnapshot [-PdataBase=<url>]
+// Set GITHUB_TOKEN to avoid GitHub's 60-requests-an-hour limit. Fails below -PminGear (default 3000) items.
+// gradlew buildSnapshot [-PdataBase=<url>] [-PminGear=<n>]
 tasks.register<JavaExec>("buildSnapshot") {
     group = "distribution"
     dependsOn("testClasses")
@@ -112,7 +113,8 @@ tasks.register<JavaExec>("buildSnapshot") {
     mainClass = "audiogear.tools.BuildSnapshot"
     jvmArgs("--enable-native-access=ALL-UNNAMED")
     args(seedDir.get().file("catalog.db").asFile.path,
-        (project.findProperty("dataBase") ?: "https://raw.githubusercontent.com/billbishere/audio-gear-aggregator/data/").toString())
+        (project.findProperty("dataBase") ?: "https://raw.githubusercontent.com/billbishere/audio-gear-aggregator/data/").toString(),
+        (project.findProperty("minGear") ?: "3000").toString())
 }
 
 // The daily GitHub Actions job: gradlew dailyFeed -Pdata=<data-branch checkout> [-Pdate=yyyy-MM-dd] [-PlatestVersion=V -PlatestUrl=U]

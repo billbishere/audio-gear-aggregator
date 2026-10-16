@@ -4,10 +4,14 @@ import audiogear.db.AppliedUpdateRepository;
 import audiogear.db.CurveRepository;
 import audiogear.db.Database;
 import audiogear.db.GearRepository;
+import audiogear.db.ThreadRepository;
+import audiogear.domain.LinkKind;
 import audiogear.importers.AutoEqClient;
 import audiogear.importers.AutoEqImporter;
 import audiogear.importers.BrandParser;
 import audiogear.importers.Progress;
+import audiogear.importers.ResearchImporter;
+import audiogear.search.UrlNormalizer;
 import audiogear.net.Http;
 import audiogear.testing.AutoEqStub;
 import audiogear.testing.StubServer;
@@ -15,6 +19,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
+import java.io.StringReader;
 import java.nio.channels.FileChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -166,6 +171,124 @@ class UpdaterTest {
             held.release();
             assertEquals("another update is running", r.skippedReason());
         }
+    }
+
+    // --- update safety: the daily update only ever adds ---
+
+    ResearchImporter direct() {
+        return new ResearchImporter(new GearRepository(db), new ThreadRepository(db), new CurveRepository(db), null, null);
+    }
+
+    long threadId(String url) {
+        return db.jdbi().withHandle(h -> h.createQuery("SELECT id FROM thread WHERE url = :u")
+                .bind("u", UrlNormalizer.normalize(url)).mapTo(Long.class).one());
+    }
+
+    String linkKind(long threadId, long gearId) {
+        return db.jdbi().withHandle(h -> h.createQuery("SELECT link_kind FROM thread_gear WHERE thread_id = :t AND gear_id = :g")
+                .bind("t", threadId).bind("g", gearId).mapTo(String.class).one());
+    }
+
+    static final String HD600_FEED = """
+            { "title": "Daily feed 2026-10-18", "gathered": "2026-10-18", "window": { "from": "2026-10-17", "to": "2026-10-18" },
+              "items": [ { "gear": { "type": "HEADPHONE", "brand": "Sennheiser", "model": "HD 600" },
+                "threads": [ { "url": "https://www.head-fi.org/threads/hd-600.1/", "title": "Changed title" },
+                             { "url": "https://www.head-fi.org/threads/hd-600-new.2/", "title": "Sennheiser HD 600 new thread" } ] } ] }""";
+
+    @Test
+    void rejectedLinkAndThreadTitleSurviveUpdate() throws Exception {
+        direct().importJson(new StringReader(RESEARCH), Progress.NONE);
+        long gearId = new GearRepository(db).findId("Sennheiser", "HD 600", "").orElseThrow();
+        long thread = threadId("https://www.head-fi.org/threads/hd-600.1/");
+        new ThreadRepository(db).link(thread, gearId, LinkKind.REJECTED);
+        try (StubServer stub = new StubServer()) {
+            stub.on("/data/feeds/2026-10-18.json", HD600_FEED);
+            manifest(stub, "1.0.0", List.of(), file("feeds/2026-10-18.json", "feed", UpdateFeedTest.sha256(HD600_FEED)));
+
+            UpdateResult r = updater(stub, null, "1.1.0").run(Progress.NONE);
+
+            assertEquals(1, r.files());
+            assertEquals("REJECTED", linkKind(thread, gearId));
+            String title = db.jdbi().withHandle(h -> h.createQuery("SELECT title FROM thread WHERE id = :i").bind("i", thread).mapTo(String.class).one());
+            assertEquals("HD 600 thread", title);
+        }
+    }
+
+    @Test
+    void researchAlreadyInCatalogIsRecordedNotReapplied() throws Exception {
+        direct().importJson(new StringReader(RESEARCH), Progress.NONE);
+        long gearId = new GearRepository(db).findId("Sennheiser", "HD 600", "").orElseThrow();
+        long thread = threadId("https://www.head-fi.org/threads/hd-600.1/");
+        new ThreadRepository(db).link(thread, gearId, LinkKind.REJECTED);
+        try (StubServer stub = new StubServer()) {
+            stub.on("/data/research/r.json", RESEARCH);
+            manifest(stub, "1.0.0", List.of(), file("research/r.json", "research", UpdateFeedTest.sha256(RESEARCH)));
+
+            UpdateResult r = updater(stub, null, "1.1.0").run(Progress.NONE);
+
+            assertEquals(0, r.threads());
+            assertTrue(new AppliedUpdateRepository(db).names().contains("research/r.json"));
+            assertEquals("REJECTED", linkKind(thread, gearId));
+        }
+    }
+
+    @Test
+    void feedThreadsAreNotCrossLinkedByLooseNameMatching() throws Exception {
+        direct().importJson(new StringReader("""
+                { "items": [ { "gear": { "type": "HEADPHONE", "brand": "Sennheiser", "model": "HD 660S" } } ] }"""), Progress.NONE);
+        String feed = """
+                { "title": "f", "gathered": "2026-10-18", "items": [ { "gear": { "type": "HEADPHONE", "brand": "Sennheiser", "model": "HD 660S2" },
+                  "threads": [ { "url": "https://www.head-fi.org/threads/hd-660s2.7/", "title": "Sennheiser HD 660S2 review" } ] } ] }""";
+        try (StubServer stub = new StubServer()) {
+            stub.on("/data/feeds/2026-10-18.json", feed);
+            manifest(stub, "1.0.0", List.of(), file("feeds/2026-10-18.json", "feed", UpdateFeedTest.sha256(feed)));
+            updater(stub, null, "1.1.0").run(Progress.NONE);
+        }
+        long thread = threadId("https://www.head-fi.org/threads/hd-660s2.7/");
+        int links = db.jdbi().withHandle(h -> h.createQuery("SELECT count(*) FROM thread_gear WHERE thread_id = :t").bind("t", thread).mapTo(Integer.class).one());
+        assertEquals(1, links); // only the HD 660S2, not the HD 660S
+    }
+
+    @Test
+    void deletedGearStaysDeleted() throws Exception {
+        try (StubServer stub = new StubServer()) {
+            AutoEqStub.serve(stub, Map.of("A", List.of("data/over-ear/Sennheiser HD 600.csv", "data/in-ear/Moondrop Chu.csv")));
+            manifest(stub, "1.0.0", List.of());
+            AutoEqClient client = AutoEqStub.client(stub, dir.resolve("cache"));
+            updater(stub, client, "1.1.0").run(Progress.NONE);
+            GearRepository gear = new GearRepository(db);
+            gear.delete(gear.findId("Sennheiser", "HD 600", "").orElseThrow());
+
+            UpdateResult second = updater(stub, client, "1.1.0").run(Progress.NONE);
+
+            assertEquals(0, second.measurements());
+            assertTrue(gear.findId("Sennheiser", "HD 600", "").isEmpty());
+        }
+    }
+
+    @Test
+    void collidingAutoEqFilesAreStableAcrossRuns() throws Exception {
+        try (StubServer stub = new StubServer()) {
+            AutoEqStub.serve(stub, Map.of("A", List.of("data/in-ear/Kiwi Ears KE4.csv", "data/over-ear/Kiwi Ears KE4.csv")));
+            manifest(stub, "1.0.0", List.of());
+            AutoEqClient client = AutoEqStub.client(stub, dir.resolve("cache"));
+            updater(stub, client, "1.1.0").run(Progress.NONE);
+
+            UpdateResult second = updater(stub, client, "1.1.0").run(Progress.NONE);
+
+            assertEquals(0, second.measurements());
+            assertEquals("Up to date", second.summary());
+        }
+    }
+
+    @Test
+    void pruningNeverDeletesTheBackupJustTaken() throws Exception {
+        Files.createDirectories(backups);
+        for (int i = 1; i <= 3; i++) Files.writeString(backups.resolve("catalog-update-2099010" + i + "-000000.db"), "future-dated");
+        Path justTaken = Files.writeString(backups.resolve("catalog-update-20261017-060000.db"), "new");
+        Updater.pruneBackups(backups, "catalog-update-", 3, justTaken);
+        assertTrue(Files.exists(justTaken));
+        assertEquals(3, updateBackups(backups).size());
     }
 
     @Test

@@ -74,6 +74,7 @@ public final class AutoEqImporter {
                             k -> createGear(name, "over-ear".equals(e.form()) ? GearType.HEADPHONE : GearType.IEM, formOf(e.form())));
                     curves.save(new Curve(null, gearId, CurveKind.FR, e.sourceLabel(), name.label(), Channel.AVG,
                             parsed.freqHz(), parsed.value(), null, client.rawUrl(e.path()), null));
+                    curves.markAutoEqSeen(client.rawUrl(e.path()));
                     imported++;
                 } catch (ExecutionException ex) {
                     skipped++;
@@ -81,6 +82,7 @@ public final class AutoEqImporter {
                 } catch (CurveFileParser.ParseException | RuntimeException ex) {
                     skipped++;
                     problems.add(e.name() + " [" + e.sourceLabel() + "]: " + ex.getMessage());
+                    curves.markAutoEqSeen(client.rawUrl(e.path())); // unreadable file: don't retry it every day
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
                     cancelled = true;

@@ -15,5 +15,6 @@ class UpdateScheduleTest {
         assertTrue(UpdateSchedule.isDue(null, now));
         assertFalse(UpdateSchedule.isDue(now.minus(Duration.ofHours(19)), now));
         assertTrue(UpdateSchedule.isDue(now.minus(Duration.ofHours(20)), now));
+        assertTrue(UpdateSchedule.isDue(now.plus(Duration.ofDays(400)), now)); // saved while the clock was wrong
     }
 }

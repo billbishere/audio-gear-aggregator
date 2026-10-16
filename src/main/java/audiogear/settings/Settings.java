@@ -8,15 +8,20 @@ import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.time.Instant;
 import java.time.format.DateTimeParseException;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 
 /** API keys and preferences, kept in a properties file in the user's profile (never in the database). */
 public final class Settings {
 
     private final Path file;
     private final Properties props = new Properties();
+    /** Keys changed in this window since it last saved; only these are written, so another window's changes survive. */
+    private final Set<String> changed = new HashSet<>();
 
     private Settings(Path file) { this.file = file; }
 
@@ -34,10 +39,30 @@ public final class Settings {
 
     public synchronized void save() {
         try {
-            Files.createDirectories(file.toAbsolutePath().getParent());
-            try (Writer w = Files.newBufferedWriter(file, StandardCharsets.UTF_8)) {
-                props.store(w, "Audio Gear Aggregator settings");
+            Path dir = Files.createDirectories(file.toAbsolutePath().getParent());
+            Properties merged = new Properties();
+            if (Files.exists(file)) {
+                try (Reader r = Files.newBufferedReader(file, StandardCharsets.UTF_8)) {
+                    merged.load(r);
+                }
             }
+            for (String key : changed) {
+                String v = props.getProperty(key);
+                if (v == null) merged.remove(key);
+                else merged.setProperty(key, v);
+            }
+            Path tmp = Files.createTempFile(dir, "settings", ".tmp");
+            try {
+                try (Writer w = Files.newBufferedWriter(tmp, StandardCharsets.UTF_8)) {
+                    merged.store(w, "Audio Gear Aggregator settings");
+                }
+                Files.move(tmp, file, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
+            } finally {
+                Files.deleteIfExists(tmp);
+            }
+            props.clear();
+            props.putAll(merged);
+            changed.clear();
         } catch (IOException e) {
             throw new IllegalStateException("Cannot write settings " + file, e);
         }
@@ -49,6 +74,7 @@ public final class Settings {
     }
 
     private synchronized void put(String key, String value) {
+        changed.add(key);
         if (value == null || value.isBlank()) props.remove(key);
         else props.setProperty(key, value.strip());
     }

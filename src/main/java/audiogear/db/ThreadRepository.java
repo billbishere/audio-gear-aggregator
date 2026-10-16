@@ -10,10 +10,12 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 
 /** Stored discussion threads, their links to gear, the full-text index and the search cache. */
 public final class ThreadRepository {
@@ -52,6 +54,32 @@ public final class ThreadRepository {
     /** AUTO never overrides an existing MANUAL or REJECTED link; MANUAL and REJECTED always win. */
     public void link(long threadId, long gearId, LinkKind kind) {
         jdbi.useHandle(h -> link(h, threadId, gearId, kind));
+    }
+
+    /** Adds the thread unless one with its URL is stored already (whose title and details are then kept). Returns its id. */
+    public long insertIfAbsent(ForumThread t) {
+        return jdbi.inTransaction(h -> {
+            String now = Instant.now().toString();
+            h.createUpdate("""
+                    INSERT INTO thread (source, url, title, snippet, author, posted_at, score, comment_count, first_seen_at, last_seen_at)
+                    VALUES (:source, :url, :title, :snippet, :author, :postedAt, :score, :commentCount, :now, :now)
+                    ON CONFLICT (url) DO NOTHING""")
+                    .bindMethods(t).bind("now", now).execute();
+            return h.createQuery("SELECT id FROM thread WHERE url = :u").bind("u", t.url()).mapTo(Long.class).one();
+        });
+    }
+
+    /** Adds the link only if this thread and gear aren't linked at all yet, so a MANUAL or REJECTED choice always stands. */
+    public void linkIfAbsent(long threadId, long gearId, LinkKind kind) {
+        jdbi.useHandle(h -> h.execute("INSERT OR IGNORE INTO thread_gear (thread_id, gear_id, link_kind) VALUES (?, ?, ?)",
+                threadId, gearId, kind));
+    }
+
+    /** Which of these (already normalized) URLs are stored. */
+    public Set<String> existingUrls(Collection<String> urls) {
+        if (urls.isEmpty()) return Set.of();
+        return jdbi.withHandle(h -> new HashSet<>(h.createQuery("SELECT url FROM thread WHERE url IN (<urls>)")
+                .bindList("urls", List.copyOf(urls)).mapTo(String.class).list()));
     }
 
     void link(Handle h, long threadId, long gearId, LinkKind kind) {

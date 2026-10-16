@@ -11,6 +11,9 @@ import audiogear.importers.AutoEqImporter;
 import audiogear.importers.ImportSummary;
 import audiogear.importers.Progress;
 import audiogear.importers.ResearchImporter;
+import audiogear.search.UrlNormalizer;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -39,6 +42,8 @@ public final class Updater {
     private static final Logger LOG = Logger.getLogger(Updater.class.getName());
     static final String BACKUP_PREFIX = "catalog-update-";
     static final int BACKUPS_KEPT = 3;
+    /** Problem prefix when AutoEq couldn't be listed; the snapshot builder treats it as fatal. */
+    public static final String AUTOEQ_UNAVAILABLE = "AutoEq measurements unavailable: ";
 
     private final Database db;
     private final Path backupDir;
@@ -50,6 +55,7 @@ public final class Updater {
     private final ThreadRepository threads;
     private final CurveRepository curves;
     private final AppliedUpdateRepository applied;
+    private static final ObjectMapper JSON = new ObjectMapper();
 
     /** backupDir null = no backups (snapshot builds); autoEq null = no measurements. */
     public Updater(Database db, Path backupDir, UpdateFeed feed, AutoEqClient autoEq, AutoEqImporter autoEqImporter,
@@ -106,7 +112,7 @@ public final class Updater {
         if (backupDir != null && (!pendingFiles.isEmpty() || !pendingEntries.isEmpty())) {
             backup = db.backupNow(backupDir, BACKUP_PREFIX);
             try {
-                pruneBackups(backupDir, BACKUP_PREFIX, BACKUPS_KEPT);
+                pruneBackups(backupDir, BACKUP_PREFIX, BACKUPS_KEPT, backup);
             } catch (IOException e) {
                 problems.add("Could not prune old update backups: " + e.getMessage());
             }
@@ -114,13 +120,19 @@ public final class Updater {
 
         int files = 0, threadCount = 0, measurements = 0;
         boolean cancelled = false;
-        ResearchImporter importer = new ResearchImporter(gear, threads, curves, null, null); // curves come from AutoEq below
+        // Add-only: never changes stored threads or the user's link choices; curves come from AutoEq below
+        ResearchImporter importer = new ResearchImporter(gear, threads, curves, null, null).addOnly();
         for (int i = 0; i < pendingFiles.size(); i++) {
             if (progress.isCancelled()) { cancelled = true; break; }
             Manifest.FileEntry f = pendingFiles.get(i);
             progress.update(i, pendingFiles.size(), f.name());
             try {
                 String text = feed.download(f);
+                if (alreadyInCatalog(text)) {
+                    // e.g. a research file the user imported by hand before daily updates existed: nothing new to add
+                    applied.record(f.name(), f.kind());
+                    continue;
+                }
                 ResearchImporter.Result r = importer.importJson(new StringReader(text), Progress.NONE,
                         "feed".equals(f.kind()) ? LinkKind.AUTO : LinkKind.MANUAL);
                 problems.addAll(r.summary().problems());
@@ -149,7 +161,7 @@ public final class Updater {
         try {
             progress.update(0, 0, "Checking AutoEq for new measurements");
             Set<String> excluded = new HashSet<>(manifest.excludeSources());
-            Set<String> have = curves.origins();
+            Set<String> have = curves.seenAutoEq(); // not curve origins: deleted curves and gear must stay deleted
             List<AutoEqClient.Entry> out = new ArrayList<>();
             for (AutoEqClient.Source s : autoEq.sources()) {
                 if (excluded.contains(s.name())) continue;
@@ -157,18 +169,35 @@ public final class Updater {
             }
             return out;
         } catch (IOException e) {
-            problems.add("AutoEq measurements unavailable: " + e.getMessage());
+            problems.add(AUTOEQ_UNAVAILABLE + e.getMessage());
             return List.of();
         }
     }
 
-    /** Keeps the newest {@code keep} backups whose name starts with prefix (names sort by time); others untouched. */
-    static void pruneBackups(Path dir, String prefix, int keep) throws IOException {
+    /**
+     * Keeps keepAlways plus the newest other backups whose name starts with prefix, keep in total (names sort by
+     * time). keepAlways survives even if the clock jumped back and its name sorts oldest. Other backups untouched.
+     */
+    static void pruneBackups(Path dir, String prefix, int keep, Path keepAlways) throws IOException {
         List<Path> mine;
         try (Stream<Path> s = Files.list(dir)) {
             mine = s.filter(p -> p.getFileName().toString().startsWith(prefix) && p.getFileName().toString().endsWith(".db"))
+                    .filter(p -> keepAlways == null || !p.equals(keepAlways))
                     .sorted(Comparator.comparing((Path p) -> p.getFileName().toString()).reversed()).toList();
         }
-        for (Path old : mine.subList(Math.min(keep, mine.size()), mine.size())) Files.deleteIfExists(old);
+        int others = Math.max(0, keepAlways == null ? keep : keep - 1);
+        for (Path old : mine.subList(Math.min(others, mine.size()), mine.size())) Files.deleteIfExists(old);
+    }
+
+    /** True when the file names threads and every one of them is already in the catalog. */
+    private boolean alreadyInCatalog(String text) throws IOException {
+        Set<String> urls = new HashSet<>();
+        for (JsonNode item : JSON.readTree(text).path("items")) {
+            for (JsonNode t : item.path("threads")) {
+                String url = t.path("url").asText("");
+                if (!url.isBlank()) urls.add(UrlNormalizer.normalize(url));
+            }
+        }
+        return !urls.isEmpty() && threads.existingUrls(urls).size() == urls.size();
     }
 }

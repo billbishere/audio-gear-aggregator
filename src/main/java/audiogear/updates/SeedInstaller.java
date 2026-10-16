@@ -2,9 +2,12 @@ package audiogear.updates;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 
 /**
@@ -34,20 +37,37 @@ public final class SeedInstaller {
     }
 
     /**
-     * Copies seed to database when database doesn't exist yet (creating its folder). Goes through a temporary file
-     * and an atomic rename, so a failed copy never leaves a half-written catalog behind.
+     * Copies seed to database when database doesn't exist yet (creating its folder). The copy goes to a temporary
+     * file that is then renamed without replacing anything, so an existing catalog is never overwritten, not even
+     * one that appears while copying, and a failed copy leaves nothing half-written behind.
      */
     public static boolean installIfMissing(Path seed, Path database) throws IOException {
+        return installIfMissing(seed, database, () -> {});
+    }
+
+    static boolean installIfMissing(Path seed, Path database, Runnable beforeMove) throws IOException {
         if (Files.exists(database)) return false;
-        Files.createDirectories(database.toAbsolutePath().getParent());
-        Path tmp = database.resolveSibling(database.getFileName() + ".seed-tmp");
+        Path dir = Files.createDirectories(database.toAbsolutePath().getParent());
+        setAsideStaleJournals(database);
+        Path tmp = Files.createTempFile(dir, database.getFileName().toString(), ".seed-tmp");
         try {
             Files.copy(seed, tmp, StandardCopyOption.REPLACE_EXISTING);
-            Files.move(tmp, database, StandardCopyOption.ATOMIC_MOVE);
+            beforeMove.run();
+            Files.move(tmp, database); // no REPLACE_EXISTING: refuses if a catalog exists after all
             return true;
-        } catch (IOException e) {
+        } catch (FileAlreadyExistsException e) {
+            return false;
+        } finally {
             Files.deleteIfExists(tmp);
-            throw e;
+        }
+    }
+
+    /** Leftover SQLite journal files of a deleted catalog would be replayed onto the seed; keep them, renamed. */
+    private static void setAsideStaleJournals(Path database) throws IOException {
+        String stamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
+        for (String suffix : new String[] {"-wal", "-shm", "-journal"}) {
+            Path j = database.resolveSibling(database.getFileName() + suffix);
+            if (Files.exists(j)) Files.move(j, j.resolveSibling(j.getFileName() + ".stale-" + stamp));
         }
     }
 }

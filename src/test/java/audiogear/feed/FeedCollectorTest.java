@@ -110,6 +110,20 @@ class FeedCollectorTest {
     }
 
     @Test
+    void keepsOnlyWebLinks() throws Exception {
+        try (StubServer stub = new StubServer()) {
+            stub.on("/odd.rss", """
+                    <rss version="2.0"><channel>
+                    <item><title>Sennheiser HD 600 thread</title><link>javascript:alert(1)</link></item>
+                    <item><title>Sennheiser HD 650 thread</title><link>file:///c:/windows/win.ini</link></item>
+                    </channel></rss>""");
+            FeedFile f = new FeedCollector(new Http(), List.of(new FeedSource("ASR", stub.base() + "/odd.rss", ThreadSource.ASR)), GEAR)
+                    .collect(TODAY, TODAY.minusDays(1), Set.of(), new ArrayList<>());
+            assertEquals(List.of(), f.items());
+        }
+    }
+
+    @Test
     void dropsSeenUrlsAndItemsBeforeWindow() throws Exception {
         try (StubServer stub = new StubServer()) {
             Set<String> seen = Set.of(UrlNormalizer.normalize("https://forum.example.test/threads/hd-600-vs-hd-650.101/"));

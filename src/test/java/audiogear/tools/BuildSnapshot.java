@@ -1,7 +1,5 @@
 package audiogear.tools;
 
-import audiogear.db.Database;
-import audiogear.db.GearRepository;
 import audiogear.importers.AutoEqClient;
 import audiogear.importers.Progress;
 import audiogear.net.Http;
@@ -13,7 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 /**
- * Builds the installer's full catalog. Usage: BuildSnapshot &lt;out catalog.db&gt; [data base URL].
+ * Builds the installer's full catalog. Usage: BuildSnapshot &lt;out catalog.db&gt; [data base URL] [minimum gear, default 3000].
  * AutoEq calls use GITHUB_TOKEN when set (CI sets it; without one GitHub allows 60 listing requests an hour).
  */
 public final class BuildSnapshot {
@@ -22,6 +20,7 @@ public final class BuildSnapshot {
     public static void main(String[] args) throws Exception {
         Path out = Path.of(args[0]);
         String base = args.length > 1 ? args[1] : UpdateFeed.DEFAULT_BASE;
+        int minGear = args.length > 2 ? Integer.parseInt(args[2]) : 3000;
         Http http = new Http();
         String token = System.getenv("GITHUB_TOKEN");
         AutoEqClient autoEq = AutoEqClient.github(http, () -> token, Path.of("build", "autoeq-cache"));
@@ -36,10 +35,14 @@ public final class BuildSnapshot {
             }
             @Override public boolean isCancelled() { return false; }
         };
-        UpdateResult r = SnapshotBuilder.build(out, new UpdateFeed(http, base), autoEq, progress);
+        SnapshotBuilder.Result built = SnapshotBuilder.build(out, new UpdateFeed(http, base), autoEq, progress);
+        UpdateResult r = built.update();
         r.problems().forEach(p -> System.out.println("PROBLEM: " + p));
-        int gear = new GearRepository(Database.open(out, Files.createTempDirectory("snapshot-check"))).count();
-        System.out.println("Snapshot " + out + ": " + gear + " gear, " + r.measurements() + " measurements, "
+        System.out.println("Snapshot " + out + ": " + built.gear() + " gear, " + r.measurements() + " measurements, "
                 + r.files() + " update files, " + r.threads() + " threads, " + Files.size(out) / (1024 * 1024) + " MB");
+        if (built.gear() < minGear) {
+            System.out.println("ERROR: only " + built.gear() + " gear; a full catalog has at least " + minGear + ". Not shipping it.");
+            System.exit(1);
+        }
     }
 }

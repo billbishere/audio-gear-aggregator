@@ -64,6 +64,17 @@ class SnapshotBuilderTest {
     }
 
     @Test
+    void failsWhenAutoEqCannotBeListed() throws Exception {
+        try (StubServer stub = new StubServer()) {
+            stub.on("/data/manifest.json", "{ \"generated\": \"x\", \"files\": [] }"); // no AutoEq trees served: listing 404s
+            stub.on("/jaakkopasanen/AutoEq/master/targets/Harman%20over-ear%202018.csv", AutoEqStub.CSV)
+                    .on("/jaakkopasanen/AutoEq/master/targets/Harman%20in-ear%202019.csv", AutoEqStub.CSV); // targets fine
+            assertThrows(java.io.IOException.class, () -> SnapshotBuilder.build(dir.resolve("seed").resolve("catalog.db"),
+                    new UpdateFeed(new Http(), stub.base() + "/data/"), AutoEqStub.client(stub, dir.resolve("cache")), Progress.NONE));
+        }
+    }
+
+    @Test
     void failsWhenTheManifestIsUnreachable() {
         assertThrows(java.io.IOException.class, () -> SnapshotBuilder.build(dir.resolve("seed").resolve("catalog.db"),
                 new UpdateFeed(new Http(), "http://127.0.0.1:1/data/"), null, Progress.NONE));

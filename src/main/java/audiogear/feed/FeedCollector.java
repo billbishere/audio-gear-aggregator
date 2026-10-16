@@ -64,6 +64,7 @@ public final class FeedCollector {
             }
             for (FeedItem item : items) {
                 if (item.published() != null && LocalDate.parse(item.published()).isBefore(windowFrom)) continue;
+                if (!item.url().regionMatches(true, 0, "https://", 0, 8) && !item.url().regionMatches(true, 0, "http://", 0, 7)) continue; // web pages only
                 String url = UrlNormalizer.normalize(item.url());
                 if (taken.contains(url)) continue;
                 Set<Long> ids = new LinkedHashSet<>();

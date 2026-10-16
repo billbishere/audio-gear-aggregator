@@ -34,11 +34,34 @@ class SeedInstallerTest {
     }
 
     @Test
-    void leavesNoPartialFileOnFailure() {
+    void leavesNoPartialFileOnFailure() throws Exception {
         Path database = dir.resolve("catalog.db");
         assertThrows(IOException.class, () -> SeedInstaller.installIfMissing(dir.resolve("missing-seed.db"), database));
         assertFalse(Files.exists(database));
-        assertFalse(Files.exists(dir.resolve("catalog.db.seed-tmp")));
+        try (var files = Files.list(dir)) { assertTrue(files.noneMatch(f -> f.toString().endsWith(".seed-tmp"))); }
+    }
+
+    @Test
+    void neverReplacesACatalogCreatedDuringTheCopy() throws Exception {
+        Path seed = Files.writeString(dir.resolve("seed.db"), "full catalog");
+        Path database = dir.resolve("catalog.db");
+        boolean installed = SeedInstaller.installIfMissing(seed, database, () -> {
+            try { Files.writeString(database, "my catalog"); } catch (IOException e) { throw new java.io.UncheckedIOException(e); }
+        });
+        assertFalse(installed);
+        assertEquals("my catalog", Files.readString(database));
+        try (var s = Files.list(dir)) { assertEquals(2, s.count()); } // seed + catalog, no temp files left
+    }
+
+    @Test
+    void setsAsideStaleJournalFilesBeforeInstalling() throws Exception {
+        Path seed = Files.writeString(dir.resolve("seed.db"), "full catalog");
+        Path database = dir.resolve("catalog.db");
+        Files.writeString(dir.resolve("catalog.db-wal"), "stale journal");
+        assertTrue(SeedInstaller.installIfMissing(seed, database));
+        assertFalse(Files.exists(dir.resolve("catalog.db-wal")));
+        try (var s = Files.list(dir)) { assertTrue(s.anyMatch(p -> p.getFileName().toString().startsWith("catalog.db-wal.stale"))); }
+        assertEquals("full catalog", Files.readString(database));
     }
 
     @Test

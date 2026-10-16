@@ -36,4 +36,18 @@ class SettingsTest {
         assertEquals(Instant.parse("2026-10-17T06:30:00Z"), again.updatesLastRun());
         assertEquals("1.2.0", again.updatesDismissedVersion());
     }
+
+    @Test
+    void saveKeepsChangesSavedByAnotherWindow() {
+        Path file = dir.resolve("settings.properties");
+        Settings a = Settings.load(file), b = Settings.load(file);
+        a.setBraveApiKey("brave-key");
+        a.save();
+        b.setUpdatesLastRun(Instant.parse("2026-10-17T06:30:00Z"));
+        b.save();
+
+        Settings c = Settings.load(file);
+        assertEquals("brave-key", c.braveApiKey());
+        assertEquals(Instant.parse("2026-10-17T06:30:00Z"), c.updatesLastRun());
+    }
 }
