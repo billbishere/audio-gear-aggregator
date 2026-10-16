@@ -87,23 +87,32 @@ public final class Database {
 
     /** Writes a consistent copy of the database (works with WAL) and returns its path. */
     public Path backupNow(Path backupDir) {
+        return backupNow(backupDir, "catalog-");
+    }
+
+    /** Same as {@link #backupNow(Path)} with a file-name prefix, e.g. "catalog-update-" for daily-update backups. */
+    public Path backupNow(Path backupDir, String prefix) {
         try (var h = jdbi.open()) {
-            return backup(h.getConnection(), backupDir);
+            return backup(h.getConnection(), backupDir, prefix);
         } catch (SQLException e) {
             throw new IllegalStateException("Backup failed: " + e.getMessage(), e);
         }
     }
 
     private static Path backup(Connection c, Path backupDir) throws SQLException {
+        return backup(c, backupDir, "catalog-");
+    }
+
+    private static Path backup(Connection c, Path backupDir, String prefix) throws SQLException {
         try {
             Files.createDirectories(backupDir);
         } catch (IOException e) {
             throw new SQLException("Cannot create backup folder " + backupDir, e);
         }
         String stamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
-        Path target = backupDir.resolve("catalog-" + stamp + ".db");
+        Path target = backupDir.resolve(prefix + stamp + ".db");
         int n = 1;
-        while (Files.exists(target)) target = backupDir.resolve("catalog-" + stamp + "-" + n++ + ".db");
+        while (Files.exists(target)) target = backupDir.resolve(prefix + stamp + "-" + n++ + ".db");
         try (Statement st = c.createStatement()) {
             st.execute("VACUUM INTO '" + target.toAbsolutePath().toString().replace("'", "''") + "'");
         }
