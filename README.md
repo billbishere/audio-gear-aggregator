@@ -32,6 +32,10 @@ you like. (An `.msi` installer would also need the WiX toolset.)
    bundles gear with specs, the threads and videos that discuss each item, and AutoEq names for curves.
    `research/2026-10-most-discussed.json` holds the 20 most-discussed items of Oct 2025 – Oct 2026. From a
    terminal: `./gradlew importResearch -Pfile=research/<file>.json` (backs up the database first).
+   A new `research/YYYY-MM-monthly.json` arrives as a pull request each month (Claude's scheduled research
+   refresh, [.claude/skills/research-refresh](.claude/skills/research-refresh/SKILL.md)); merge it, then import it.
+   Importing again is safe: for gear already in the catalog it only fills empty fields and adds tags, so specs and
+   notes you edited are kept.
 
 ## Screens
 
@@ -59,7 +63,7 @@ AutoEq measurements belong to their original reviewers: fine for personal use, d
 ./gradlew test
 ```
 
-52 tests cover the analysis maths, parsers, SQLite repositories (real database files), importers and search
+58 tests cover the analysis maths, parsers, SQLite repositories (real database files), importers, the research files and search
 providers (local stub HTTP server, no real API calls) and the catalog/compare screen logic.
 
 `./gradlew screenshots` seeds a throwaway data folder (real AutoEq downloads plus labelled sample data) and

@@ -94,6 +94,30 @@ class ResearchImporterTest {
     }
 
     @Test
+    void reimportOnlyFillsBlanksAndMergesTags() throws Exception {
+        Database db = Database.open(dir.resolve("m.db"), dir.resolve("b"));
+        GearRepository gear = new GearRepository(db);
+        ResearchImporter importer = new ResearchImporter(gear, new ThreadRepository(db), new CurveRepository(db), null, null);
+        importer.importJson(new StringReader("""
+                { "items": [ { "gear": { "type": "HEADPHONE", "brand": "Sennheiser", "model": "HD 600", "sensitivity": "97",
+                                         "sensitivity_unit": "DB_PER_V", "tags": "most-discussed-2026, reference",
+                                         "notes": "Edited by hand" } } ] }"""), Progress.NONE);
+
+        ResearchImporter.Result r = importer.importJson(new StringReader("""
+                { "items": [ { "gear": { "type": "HEADPHONE", "brand": "Sennheiser", "model": "HD 600", "sensitivity": "104",
+                                         "weight_g": "260", "tags": "most-discussed-2026-11, reference",
+                                         "notes": "November summary" } } ] }"""), Progress.NONE);
+
+        assertEquals(1, r.summary().imported());
+        assertEquals(1, gear.count());
+        GearDetail d = gear.get(gear.findId("Sennheiser", "HD 600", "").orElseThrow()).orElseThrow();
+        assertEquals(97.0, d.transducer().sensitivity());   // existing value wins
+        assertEquals(260.0, d.transducer().weightG());      // empty field is filled
+        assertEquals("Edited by hand", d.gear().notes());
+        assertEquals(List.of("most-discussed-2026", "most-discussed-2026-11", "reference"), d.tags()); // stored sorted
+    }
+
+    @Test
     void picksPlainNamesFirstAndAtMostTwoSources() {
         var idx = List.of(
                 new AutoEqClient.Entry("Rtings", "over-ear", null, "Koss Porta Pro", "p1"),
