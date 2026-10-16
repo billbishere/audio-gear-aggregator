@@ -38,6 +38,11 @@ application {
     applicationDefaultJvmArgs = listOf("--enable-native-access=ALL-UNNAMED", "--enable-native-access=javafx.graphics")
 }
 
+// AppVersion reads this when the app runs outside the jpackage launcher
+tasks.jar {
+    manifest { attributes("Implementation-Version" to project.version) }
+}
+
 tasks.test {
     useJUnitPlatform()
     jvmArgs("--enable-native-access=ALL-UNNAMED")
