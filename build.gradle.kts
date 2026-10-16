@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "audiogear"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -71,6 +71,23 @@ tasks.register<Exec>("packageApp") {
     commandLine("jpackage", "--type", "app-image", "--name", "Audio Gear Aggregator", "--app-version", "${project.version}",
         "--input", lib.path, "--main-jar", "${project.name}-${project.version}.jar", "--main-class", "audiogear.app.Launcher",
         "--java-options", "--enable-native-access=ALL-UNNAMED", "--dest", dest.path)
+}
+
+// Windows installer: build/installer/Audio Gear Aggregator-<version>.msi. Installs per user (no admin rights) with Start
+// menu and desktop shortcuts; a newer version replaces the old one (fixed upgrade UUID) and leaves the data folder
+// alone. Needs the WiX toolset on PATH (CI installs WiX 5).
+tasks.register<Exec>("packageInstaller") {
+    group = "distribution"
+    dependsOn("installDist")
+    val lib = layout.buildDirectory.dir("install/${project.name}/lib").get().asFile
+    val dest = layout.buildDirectory.dir("installer").get().asFile
+    doFirst { delete(dest) }
+    commandLine("jpackage", "--type", "msi", "--name", "Audio Gear Aggregator", "--app-version", "${project.version}",
+        "--vendor", "billbishere", "--description", "Catalog, compare and analyse headphones, IEMs, amps and DACs",
+        "--input", lib.path, "--main-jar", "${project.name}-${project.version}.jar", "--main-class", "audiogear.app.Launcher",
+        "--java-options", "--enable-native-access=ALL-UNNAMED",
+        "--win-per-user-install", "--win-dir-chooser", "--win-menu", "--win-menu-group", "Audio Gear Aggregator", "--win-shortcut",
+        "--win-upgrade-uuid", "c5d8879f-d25b-4ac8-a32e-69288cfd835b", "--dest", dest.path)
 }
 
 // Loads a research bundle into the real catalog (backs up first): gradlew importResearch -Pfile=research/<file>.json

@@ -3,7 +3,14 @@
 A Windows desktop app (Java 25, JavaFX 27, dark theme) for cataloguing, comparing and analysing headphones,
 IEMs, amps and DACs, tracking wishlist prices, and pulling community discussion into a local, searchable index.
 
-## Run it
+## Install it
+
+Download `AudioGearAggregator-<version>.msi` from the repository's **Releases** page and run it. It installs for your
+user only (no admin rights) with Start menu and desktop shortcuts, and bundles its own Java runtime. Running a newer
+`.msi` replaces the old version; your catalog in `%APPDATA%\AudioGearAggregator\` is kept. The installer isn't
+code-signed, so SmartScreen may warn: choose *More info → Run anyway*. Each release also has a portable `.zip`.
+
+## Run it from source
 
 ```bash
 ./gradlew run
@@ -16,7 +23,8 @@ Build a standalone app folder with its own Java runtime (no Java install needed 
 ```
 
 The result is `build/jpackage/Audio Gear Aggregator/Audio Gear Aggregator.exe`. Copy the whole folder wherever
-you like. (An `.msi` installer would also need the WiX toolset.)
+you like. `./gradlew packageInstaller` builds the `.msi` into `build/installer/`, but needs the WiX toolset on PATH;
+CI builds it for every release.
 
 ## First steps
 
@@ -70,8 +78,10 @@ providers (local stub HTTP server, no real API calls) and the catalog/compare sc
 renders every screen to `build/screenshots/`. It never touches your real data folder.
 
 GitHub Actions ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs the tests on Windows for every push to
-`main` and every pull request. To publish a release, push a tag: `git tag v1.0.0 && git push origin v1.0.0` builds
-the app folder with `packageApp` and attaches it, zipped, to a GitHub release.
+`main` and every pull request. To publish a release, bump `version` in `build.gradle.kts`, then push a matching tag
+(`git tag v1.1.0 && git push origin v1.1.0`). CI builds the `.msi` and the portable zip and publishes both as a
+GitHub release. Running the workflow by hand from the Actions tab builds the same files as an artifact, without a
+release.
 
 Design spec: [docs/superpowers/specs/2026-10-15-audio-gear-aggregator-design.md](docs/superpowers/specs/2026-10-15-audio-gear-aggregator-design.md)
 
