@@ -1,5 +1,5 @@
-# Tests every push and pull request on Windows (the app's only target). Pushing a tag like v1.0.0 also builds
-# the standalone app folder with jpackage and attaches it, zipped, to a GitHub release.
+# Tests every push and pull request on Windows (the app's only target). Pushing a tag like v1.1.0 (matching the
+# version in build.gradle.kts) also builds the .msi installer and the portable zip and publishes them as a GitHub release.
 name: CI
 
 on:
@@ -37,8 +37,10 @@ jobs:
           path: build/reports/tests/test/
           retention-days: 14
 
-  release:
-    if: startsWith(github.ref, 'refs/tags/v')
+  # Builds the .msi installer and the portable zip. Runs for v* tags (and publishes a release) or by hand from the
+  # Actions tab (files are kept as a workflow artifact only, handy for checking the installer before tagging).
+  package:
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: windows-latest
     timeout-minutes: 30
@@ -51,11 +53,44 @@ jobs:
           distribution: microsoft
           java-version: '25'
       - uses: gradle/actions/setup-gradle@v6
-      - name: Package app
-        run: .\gradlew.bat packageApp --console=plain
-      - name: Zip app folder
-        run: Compress-Archive -Path "build/jpackage/Audio Gear Aggregator" -DestinationPath "AudioGearAggregator-${{ github.ref_name }}-windows.zip"
-      - name: Create release
+      - name: Install WiX 5 (used by jpackage for the .msi)
+        run: |
+          dotnet tool install --global wix --version 5.0.2
+          $tools = "$env:USERPROFILE\.dotnet\tools"
+          & "$tools\wix.exe" extension add --global WixToolset.Util.wixext/5.0.2
+          & "$tools\wix.exe" extension add --global WixToolset.UI.wixext/5.0.2
+          $tools | Out-File -Append -Encoding utf8 $env:GITHUB_PATH
+      - name: Read version
+        id: version
+        run: |
+          $v = ((.\gradlew.bat properties -q --console=plain) | Select-String '^version: ').Line.Substring(9).Trim()
+          if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -ne "v$v") { throw "Tag $env:GITHUB_REF_NAME doesn't match version $v in build.gradle.kts" }
+          "version=$v" | Out-File -Append -Encoding utf8 $env:GITHUB_OUTPUT
+      - name: Build installer and portable app
+        run: .\gradlew.bat packageInstaller packageApp --console=plain
+      - name: Collect files
+        run: |
+          $v = '${{ steps.version.outputs.version }}'
+          New-Item -ItemType Directory dist | Out-Null
+          Copy-Item "build/installer/Audio Gear Aggregator-$v.msi" "dist/AudioGearAggregator-$v.msi"
+          Compress-Archive -Path "build/jpackage/Audio Gear Aggregator" -DestinationPath "dist/AudioGearAggregator-$v-portable.zip"
+          Get-ChildItem dist | Format-Table Name, Length
+      - uses: actions/upload-artifact@v7
+        with:
+          name: AudioGearAggregator-${{ steps.version.outputs.version }}
+          path: dist/
+          retention-days: 14
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/v')
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "${{ github.ref_name }}" "AudioGearAggregator-${{ github.ref_name }}-windows.zip" --title "${{ github.ref_name }}" --generate-notes
+        run: |
+          $v = '${{ steps.version.outputs.version }}'
+          @"
+          **Install:** download ``AudioGearAggregator-$v.msi`` and run it. It installs for your user only (no admin rights) and adds Start menu and desktop shortcuts. A newer version replaces the old one; your catalog in ``%APPDATA%\AudioGearAggregator`` is kept.
+
+          The installer isn't code-signed, so Windows SmartScreen may say it "protected your PC": choose **More info → Run anyway**.
+
+          **No install:** ``AudioGearAggregator-$v-portable.zip`` is the same app as a folder; unzip it anywhere and run ``Audio Gear Aggregator.exe``.
+          "@ | Out-File -Encoding utf8 notes.md
+          gh release create "$env:GITHUB_REF_NAME" "dist/AudioGearAggregator-$v.msi" "dist/AudioGearAggregator-$v-portable.zip" --title "Audio Gear Aggregator $v" --notes-file notes.md --generate-notes
