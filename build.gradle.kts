@@ -95,6 +95,21 @@ tasks.register<Exec>("packageInstaller") {
         "--win-upgrade-uuid", "c5d8879f-d25b-4ac8-a32e-69288cfd835b", "--dest", dest.path)
 }
 
+// The daily GitHub Actions job: gradlew dailyFeed -Pdata=<data-branch checkout> [-Pdate=yyyy-MM-dd] [-PlatestVersion=V -PlatestUrl=U]
+tasks.register<JavaExec>("dailyFeed") {
+    group = "application"
+    dependsOn("testClasses")
+    classpath = sourceSets["test"].runtimeClasspath
+    mainClass = "audiogear.tools.DailyFeed"
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
+    val a = mutableListOf("--data", (project.findProperty("data") ?: "build/data").toString(), "--sources", "feeds/sources.json",
+        "--research", "research", "--exclude", "config/snapshot-exclude-sources.txt")
+    project.findProperty("date")?.let { a += listOf("--date", it.toString()) }
+    project.findProperty("latestVersion")?.let { a += listOf("--latest-version", it.toString()) }
+    project.findProperty("latestUrl")?.let { a += listOf("--latest-url", it.toString()) }
+    args(a)
+}
+
 // Loads a research bundle into the real catalog (backs up first): gradlew importResearch -Pfile=research/<file>.json
 tasks.register<JavaExec>("importResearch") {
     group = "application"

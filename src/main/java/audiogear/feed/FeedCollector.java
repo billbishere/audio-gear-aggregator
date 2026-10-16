@@ -1,6 +1,7 @@
 package audiogear.feed;
 
 import audiogear.db.GearRepository.GearRef;
+import audiogear.domain.GearNames;
 import audiogear.importers.ResearchImporter;
 import audiogear.net.Http;
 import audiogear.search.GearNameMatcher;
@@ -16,10 +17,12 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 /**
@@ -63,7 +66,8 @@ public final class FeedCollector {
                 if (item.published() != null && LocalDate.parse(item.published()).isBefore(windowFrom)) continue;
                 String url = UrlNormalizer.normalize(item.url());
                 if (taken.contains(url)) continue;
-                Set<Long> ids = matcher.match(item.title());
+                Set<Long> ids = new LinkedHashSet<>();
+                for (long id : matcher.match(item.title())) if (namesModel(item.title(), gear.get((int) id).model())) ids.add(id);
                 if (ids.isEmpty() || ids.size() > MAX_MATCHES) continue;
                 taken.add(url);
                 for (long id : ids) {
@@ -81,6 +85,24 @@ public final class FeedCollector {
         });
         return new FeedFile("Daily feed " + today, today.toString(), new FeedFile.Window(windowFrom.toString(), today.toString()),
                 "Thread and video titles from " + sources.size() + " forum, Reddit and YouTube feeds, kept when they name known gear.", items);
+    }
+
+    /**
+     * True when the title names the model as a whole word: its letters and digits in order, optionally separated by
+     * spaces or dashes ("HD600" names "HD 600"), but not inside a longer word ("Planar" doesn't name "LAN", and
+     * "WF-1000XM6" doesn't name "WF-1000X"). The shared name matcher matches substrings, which is fine for linking
+     * inside the app but too loose for an unattended feed.
+     */
+    static boolean namesModel(String title, String model) {
+        String core = GearNames.normalize(model);
+        if (core.isEmpty()) return false;
+        StringBuilder p = new StringBuilder("(?<![\\p{L}\\p{N}])");
+        for (int i = 0; i < core.length(); i++) {
+            if (i > 0) p.append("[^\\p{L}\\p{N}]*");
+            p.append(Pattern.quote(String.valueOf(core.charAt(i))));
+        }
+        p.append("(?![\\p{L}\\p{N}])");
+        return Pattern.compile(p.toString(), Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE).matcher(title).find();
     }
 
     /** Thread URLs already published in feed files dated in the 14 days before today. */

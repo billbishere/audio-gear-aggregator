@@ -90,6 +90,26 @@ class FeedCollectorTest {
     }
 
     @Test
+    void ignoresModelNamesInsideOtherWords() throws Exception {
+        try (StubServer stub = new StubServer()) {
+            stub.on("/asr2.rss", """
+                    <rss version="2.0"><channel>
+                    <item><title>Moondrop Para 2 Planar Headphone Review</title><link>https://forum.example.test/threads/para2.1/</link></item>
+                    <item><title>Sony WF-1000XM6 first impressions</title><link>https://forum.example.test/threads/xm6.2/</link></item>
+                    <item><title>Sennheiser HD600 vs HD650</title><link>https://forum.example.test/threads/hd600.3/</link></item>
+                    </channel></rss>""");
+            List<KnownGear> gear = List.of(new KnownGear(GearType.HEADPHONE, "Moondrop", "LAN"),
+                    new KnownGear(GearType.HEADPHONE, "Moondrop", "Para"),
+                    new KnownGear(GearType.IEM, "Sony", "WF-1000X"),
+                    new KnownGear(GearType.HEADPHONE, "Sennheiser", "HD 600"),
+                    new KnownGear(GearType.HEADPHONE, "Sennheiser", "HD 650"));
+            FeedFile f = new FeedCollector(new Http(), List.of(new FeedSource("ASR", stub.base() + "/asr2.rss", ThreadSource.ASR)), gear)
+                    .collect(TODAY, TODAY.minusDays(1), Set.of(), new ArrayList<>());
+            assertEquals(Set.of("Moondrop Para", "Sennheiser HD 600", "Sennheiser HD 650"), titlesByGear(f).keySet());
+        }
+    }
+
+    @Test
     void dropsSeenUrlsAndItemsBeforeWindow() throws Exception {
         try (StubServer stub = new StubServer()) {
             Set<String> seen = Set.of(UrlNormalizer.normalize("https://forum.example.test/threads/hd-600-vs-hd-650.101/"));
