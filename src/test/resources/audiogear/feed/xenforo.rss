@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Headphone &amp; IEM Reviews</title>
+    <link>https://forum.example.test/</link>
+    <item>
+      <title>Sennheiser HD 600 vs HD 650 for a first open-back</title>
+      <pubDate>Fri, 16 Oct 2026 14:05:00 +0000</pubDate>
+      <link>https://forum.example.test/threads/hd-600-vs-hd-650.101/</link>
+      <guid isPermaLink="false">101</guid>
+    </item>
+    <item>
+      <title>Best IEM under $50?</title>
+      <link>https://forum.example.test/threads/best-iem-under-50.102/</link>
+    </item>
+  </channel>
+</rss>

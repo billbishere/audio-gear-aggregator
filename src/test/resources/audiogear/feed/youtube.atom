@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Reviews</title>
+  <entry>
+    <id>yt:video:abcdefghijk</id>
+    <title>Truthear Pure review: tuning and fit</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=abcdefghijk"/>
+    <published>2026-10-14T16:00:01+00:00</published>
+    <updated>2026-10-16T01:00:00+00:00</updated>
+  </entry>
+</feed>
