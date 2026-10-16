@@ -1,0 +1,385 @@
+{
+  "title" : "Daily feed 2026-10-16",
+  "gathered" : "2026-10-16",
+  "window" : {
+    "from" : "2026-10-15",
+    "to" : "2026-10-16"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Moondrop",
+      "model" : "Para",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/moondrop-para-2-planar-headphone-review.66579/",
+      "title" : "Moondrop Para 2 Planar Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "model" : "DX1 II",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.72034/",
+      "title" : "Topping DX1 II DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Dan Clark Audio",
+      "model" : "AEON Core",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-aeon-core-the-engineering-the-measurements-the-interview.980511/",
+      "title" : "Dan Clark Audio AEON CORE: The Engineering, The Measurements, The Interview",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE6",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-v2-adorama.959021/",
+      "title" : "HifiMan HE6 V2 Adorama",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    }, {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-remastered.980436/",
+      "title" : "HiFiMan - HE6 Remastered",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE-6",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-v2-adorama.959021/",
+      "title" : "HifiMan HE6 V2 Adorama",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    }, {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-remastered.980436/",
+      "title" : "HiFiMan - HE6 Remastered",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD490 Pro",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/closed-version-of-the-hd-490-pro-unveiled-hd-480-pro.980102/",
+      "title" : "Closed version of the HD 490 PRO unveiled (HD 480 PRO)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 490 Pro",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/closed-version-of-the-hd-490-pro-unveiled-hd-480-pro.980102/",
+      "title" : "Closed version of the HD 490 PRO unveiled (HD 480 PRO)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "model" : "MDR-MV1",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-mv1.967749/",
+      "title" : "Sony MDR-MV1",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Dan Clark Audio",
+      "model" : "E3",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-e3-review-interview-measurements-impressions.970772/",
+      "title" : "Dan Clark Audio E3 Review: Interview, Measurements, Impressions",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 600",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-600-impressions-thread.538255/",
+      "title" : "Sennheiser HD 600 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    }, {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd505-the-heir-to-the-hd600.977171/",
+      "title" : "Sennheiser HD505; the heir to the HD600.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 505",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd505-the-heir-to-the-hd600.977171/",
+      "title" : "Sennheiser HD505; the heir to the HD600.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 660S2",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-660s2-thread.966685/",
+      "title" : "Sennheiser HD 660S2 thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Focal",
+      "model" : "Bathys",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/side-by-side-comparison-airpods-max-b-o-h95-dali-io-6-b-w-px8-ml-5909-m-d-mw75-focal-bathys-and-more.958727/",
+      "title" : "Side By Side Comparison - AirPods Max, B&O H95, Dali iO-6, B&W PX8, ML 5909, M&D MW75, Focal Bathys and more",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Dali",
+      "model" : "IO-6",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/side-by-side-comparison-airpods-max-b-o-h95-dali-io-6-b-w-px8-ml-5909-m-d-mw75-focal-bathys-and-more.958727/",
+      "title" : "Side By Side Comparison - AirPods Max, B&O H95, Dali iO-6, B&W PX8, ML 5909, M&D MW75, Focal Bathys and more",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HEDD",
+      "model" : "HEDDphone",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hedd-d1-heddphone-with-first-in-world-tpcd-driver-technology-discussion-thread.978402/",
+      "title" : "HEDD D1 - HEDDphone with first in world TPCD-Driver Technology - Discussion Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audeze",
+      "model" : "LCD-2",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-lcd-2-impressions-thread.509710/",
+      "title" : "Audeze LCD-2 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "FiiO",
+      "model" : "FT7",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fiio-open-back-planar-headphones-ft7.976582/",
+      "title" : "FIIO Open-Back Planar Headphones FT7",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "ZMF",
+      "model" : "Auteur",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-auteur-thread.862918/",
+      "title" : "ZMF Auteur Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "FiiO",
+      "model" : "FH3",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/retro-resonance-fiio-snowsky-1dd-2ba-hybrid-iems-fh3-lumi-is-now-officially-released.981015/",
+      "title" : "Retro resonance, FIIO SNOWSKY 1DD 2BA Hybrid IEMs FH3 LUMI is Now Officially Released!",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "KZ",
+      "model" : "Zenith",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/knowledge-zenith-kz-impressions-thread.698148/",
+      "title" : "Knowledge Zenith (KZ) impressions thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "model" : "IER-Z1R",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-ier-z1r.886120/",
+      "title" : "SONY IER-Z1R",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "T+A",
+      "model" : "Solitaire T",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/t-a-solitaire-t-pro-upcoming-successor-fcc-filing-discovery.981500/",
+      "title" : "T+A Solitaire T Pro (Upcoming Successor - FCC Filing Discovery)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Campfire Audio",
+      "model" : "Trifecta",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/campfire-audio-trifecta.965801/",
+      "title" : "Campfire Audio Trifecta",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-15"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "SWEEAR",
+      "model" : "SR11",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fiio-sr11-streaming-music-receiver.973111/",
+      "title" : "[FIIO SR11] Streaming Music Receiver",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Nura",
+      "model" : "Nuraphone",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7rvht/",
+      "title" : "Snagged the Px8 for €420, but as a basshead... am I crazy for wanting MORE bass/punch? (Coming from Nuraphone)",
+      "source" : "REDDIT",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sonos",
+      "model" : "Ace",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7i7zz/",
+      "title" : "Looking for all-day WFH over-ears with natural transparency & reliable device switching (Sonos Ace vs Bose QC Ultra)",
+      "source" : "REDDIT",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Stax",
+      "model" : "SR-X9000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1x7g9li/",
+      "title" : "My first Electrostatic: Stax SR-X9000",
+      "source" : "REDDIT",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "Momentum",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7gbyx/",
+      "title" : "Sony WH-1000XM6 vs Sennheiser Momentum 5",
+      "source" : "REDDIT",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "model" : "WH-1000XM6",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7gbyx/",
+      "title" : "Sony WH-1000XM6 vs Sennheiser Momentum 5",
+      "source" : "REDDIT",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Palma",
+      "model" : "DHS-1",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=-tga7T1gOaQ",
+      "title" : "You can change these headphones from open-back to closed-back! - Palma DHS-1 & DHS-10 Review",
+      "source" : "YOUTUBE",
+      "posted" : "2026-10-16"
+    } ]
+  } ]
+}
