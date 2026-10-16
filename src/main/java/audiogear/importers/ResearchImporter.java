@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -107,7 +108,7 @@ public final class ResearchImporter {
             try {
                 GearDetail base = gear.findId(require(row, "brand"), require(row, "model"), row.getOrDefault("variant", ""))
                         .flatMap(gear::get).orElse(null);
-                gearId = gear.save(CatalogCsv.apply(base, row));
+                gearId = gear.save(CatalogCsv.apply(base, base == null ? row : fillBlanksOnly(base, row)));
                 imported++;
             } catch (RuntimeException e) {
                 skipped++;
@@ -221,6 +222,25 @@ public final class ResearchImporter {
         } catch (DateTimeParseException e) {
             return Instant.parse(s.strip()).toString();
         }
+    }
+
+    /**
+     * Research describes gear from the outside, so for gear already in the catalog it only fills fields that are
+     * still empty and adds its tags to the existing ones. Values already there (often corrected by hand) win.
+     */
+    static Map<String, String> fillBlanksOnly(GearDetail base, Map<String, String> row) {
+        Map<String, String> existing = CatalogCsv.toRow(base);
+        Map<String, String> out = new LinkedHashMap<>();
+        row.forEach((col, value) -> {
+            if (col.equals("tags")) {
+                Set<String> tags = new LinkedHashSet<>(base.tags());
+                for (String t : value.split("\\s*,\\s*")) if (!t.isBlank()) tags.add(t);
+                out.put(col, String.join(", ", tags));
+            } else if (existing.getOrDefault(col, "").isBlank()) {
+                out.put(col, value);
+            }
+        });
+        return out;
     }
 
     private static Map<String, String> lowerKeys(Map<String, String> m) {
