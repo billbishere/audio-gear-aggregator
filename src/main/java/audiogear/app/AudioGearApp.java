@@ -5,12 +5,14 @@ import audiogear.db.Database;
 import audiogear.settings.AppPaths;
 import audiogear.settings.Settings;
 import audiogear.ui.MainWindow;
+import audiogear.updates.SeedInstaller;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -27,6 +29,13 @@ public final class AudioGearApp extends Application {
         AppPaths paths = AppPaths.standard();
         Logging.init(paths.logs());
         LOG.info("Starting; data folder " + paths.home());
+        SeedInstaller.bundledSeed().ifPresent(seed -> {
+            try {
+                if (SeedInstaller.installIfMissing(seed, paths.database())) LOG.info("Installed bundled catalog from " + seed);
+            } catch (IOException e) {
+                LOG.log(Level.SEVERE, "Could not install the bundled catalog from " + seed, e);
+            }
+        });
 
         Database db;
         try {
