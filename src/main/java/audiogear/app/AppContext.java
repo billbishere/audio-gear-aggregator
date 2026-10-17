@@ -177,10 +177,13 @@ public final class AppContext {
         if (url != null && !url.isBlank()) host.showDocument(url);
     }
 
-    /** Checks hourly and runs the daily update once it is due (and the user hasn't switched daily updates off). */
+    /** Checks hourly and runs the update when it is due or new data was published (unless daily updates are off). */
     public void startDailyUpdates() {
         scheduler.scheduleWithFixedDelay(() -> {
-            if (settings.updatesDaily() && UpdateSchedule.isDue(settings.updatesLastRun(), Instant.now())) Platform.runLater(this::updateNow);
+            if (!settings.updatesDaily()) return;
+            Instant last = settings.updatesLastRun();
+            // Daily, and also as soon as new data is published (checked hourly with one small request)
+            if (UpdateSchedule.isDue(last, Instant.now()) || updater.newDataSince(last)) Platform.runLater(this::updateNow);
         }, 10, UpdateSchedule.CHECK_EVERY.toSeconds(), TimeUnit.SECONDS);
     }
 
