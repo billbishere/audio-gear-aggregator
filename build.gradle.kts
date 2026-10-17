@@ -132,6 +132,16 @@ tasks.register<JavaExec>("dailyFeed") {
     args(a)
 }
 
+// Research file of every amp and DAC Audio Science Review has measured: gradlew asrAmpsDacs [-Pout=research/<file>.json]
+tasks.register<JavaExec>("asrAmpsDacs") {
+    group = "application"
+    dependsOn("testClasses")
+    classpath = sourceSets["test"].runtimeClasspath
+    mainClass = "audiogear.tools.AsrAmpsDacs"
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
+    args((project.findProperty("out") ?: "research/asr-amps-dacs.json").toString())
+}
+
 // Loads a research bundle into the real catalog (backs up first): gradlew importResearch -Pfile=research/<file>.json
 tasks.register<JavaExec>("importResearch") {
     group = "application"

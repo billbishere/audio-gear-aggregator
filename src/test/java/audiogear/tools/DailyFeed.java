@@ -1,5 +1,6 @@
 package audiogear.tools;
 
+import audiogear.feed.AsrIndex;
 import audiogear.feed.FeedCollector;
 import audiogear.feed.FeedFile;
 import audiogear.feed.FeedSource;
@@ -61,6 +62,14 @@ public final class DailyFeed {
         List<String> log = new ArrayList<>();
         FeedFile feed = new FeedCollector(http, FeedSource.load(Path.of(a.getOrDefault("--sources", "feeds/sources.json"))), gear)
                 .collect(today, FeedCollector.windowFrom(feeds, today), FeedCollector.seenUrls(feeds, today), log);
+        // Amps and DACs Audio Science Review measured since the last run (new gear arrives with its specs)
+        try {
+            List<AsrIndex.Device> asr = AsrIndex.reviewedSince(AsrIndex.parse(http.get(AsrIndex.URL, Map.of())), FeedCollector.windowFrom(feeds, today));
+            feed = FeedCollector.merge(feed, AsrIndex.toItems(asr), FeedCollector.seenUrls(feeds, today));
+            System.out.println("ASR reviews since the last run: " + asr.size());
+        } catch (IOException e) {
+            log.add("ASR review index: " + e.getMessage());
+        }
         log.forEach(l -> System.out.println("SOURCE FAILED: " + l));
 
         int threads = feed.items().stream().mapToInt(i -> i.threads().size()).sum();

@@ -124,6 +124,28 @@ class FeedCollectorTest {
     }
 
     @Test
+    void mergeAddsNewDevicesJoinsKnownGearAndSkipsSeenLinks() {
+        var hd600 = new ResearchImporter.ResearchItem(Map.of("type", "HEADPHONE", "brand", "Sennheiser", "model", "HD 600"), null,
+                List.of(new ResearchImporter.ResearchThread("https://forum.example.test/threads/hd600.1/", "HD 600 thread", "ASR", null, null)));
+        FeedFile feed = new FeedFile("Daily feed", "2026-10-17", new FeedFile.Window("2026-10-16", "2026-10-17"), "m", List.of(hd600));
+        var sameGear = new ResearchImporter.ResearchItem(Map.of("type", "HEADPHONE", "brand", "sennheiser", "model", "HD 600"), null,
+                List.of(new ResearchImporter.ResearchThread("https://forum.example.test/threads/hd600.1/", "dup", "ASR", null, null),
+                        new ResearchImporter.ResearchThread("https://forum.example.test/threads/hd600-asr.2/", "ASR review", "ASR", null, null)));
+        var seen = new ResearchImporter.ResearchItem(Map.of("type", "DAC", "brand", "SMSL", "model", "R100"), null,
+                List.of(new ResearchImporter.ResearchThread("https://forum.example.test/threads/r100.3/", "ASR review: SMSL R100", "ASR", null, null)));
+        var fresh = new ResearchImporter.ResearchItem(Map.of("type", "AMP", "brand", "Schiit", "model", "Magni Unity"), null,
+                List.of(new ResearchImporter.ResearchThread("https://forum.example.test/threads/magni.4/", "ASR review: Schiit Magni Unity", "ASR", null, null)));
+
+        FeedFile merged = FeedCollector.merge(feed, List.of(sameGear, seen, fresh),
+                Set.of(UrlNormalizer.normalize("https://forum.example.test/threads/r100.3/")));
+
+        Map<String, List<String>> got = titlesByGear(merged);
+        assertEquals(Set.of("Sennheiser HD 600", "Schiit Magni Unity"), got.keySet());
+        assertEquals(List.of("HD 600 thread", "ASR review"), got.get("Sennheiser HD 600"));
+        assertEquals(feed.window(), merged.window());
+    }
+
+    @Test
     void dropsSeenUrlsAndItemsBeforeWindow() throws Exception {
         try (StubServer stub = new StubServer()) {
             Set<String> seen = Set.of(UrlNormalizer.normalize("https://forum.example.test/threads/hd-600-vs-hd-650.101/"));
