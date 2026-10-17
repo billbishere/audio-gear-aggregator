@@ -44,6 +44,37 @@ class ResearchFilesTest {
         return files.stream().map(f -> DynamicTest.dynamicTest(f.getFileName().toString(), () -> check(f)));
     }
 
+    @org.junit.jupiter.api.Test
+    void specsOnlyItemsNeedASpecFieldInsteadOfThreads() {
+        var specs = new ResearchImporter.ResearchItem(java.util.Map.of("type", "AMP", "brand", "Topping", "model", "A90", "amp_power", "BALANCED:32=6000"), null, null);
+        var empty = new ResearchImporter.ResearchItem(java.util.Map.of("type", "AMP", "brand", "Topping", "model", "A90"), null, List.of());
+        var dup = new ResearchImporter.ResearchItem(java.util.Map.of("type", "AMP", "brand", "Topping", "model", "A90"), null, List.of(
+                new ResearchImporter.ResearchThread("https://x.test/1", "a", null, null, null), new ResearchImporter.ResearchThread("https://x.test/1", "b", null, null, null)));
+        assertEquals(List.of(), itemProblems(specs));
+        assertEquals(List.of("Topping A90: no threads and no specs"), itemProblems(empty));
+        assertEquals(List.of("Topping A90: duplicate thread https://x.test/1"), itemProblems(dup));
+    }
+
+    /**
+     * An item names its gear and brings threads (each at most once), or, in a specs-only file, at least one spec field.
+     * A comparison thread may be listed under each item it compares, but only once per item.
+     */
+    static List<String> itemProblems(ResearchImporter.ResearchItem item) {
+        String name = item.gear() == null ? "?" : item.gear().get("brand") + " " + item.gear().get("model");
+        List<String> problems = new ArrayList<>();
+        if (item.threads() == null || item.threads().isEmpty()) {
+            boolean hasSpecs = item.gear() != null && item.gear().keySet().stream()
+                    .anyMatch(k -> !Set.of("type", "brand", "model", "variant").contains(k));
+            if (!hasSpecs) problems.add(name + ": no threads and no specs");
+            return problems;
+        }
+        Set<String> urls = new HashSet<>();
+        for (ResearchImporter.ResearchThread t : item.threads()) {
+            if (t.url() != null && !urls.add(t.url())) problems.add(name + ": duplicate thread " + t.url());
+        }
+        return problems;
+    }
+
     private void check(Path file) throws Exception {
         ResearchImporter.ResearchFile bundle;
         try (Reader r = Files.newBufferedReader(file, StandardCharsets.UTF_8)) {
@@ -59,16 +90,8 @@ class ResearchFilesTest {
         }
         assertFalse(bundle.items() == null || bundle.items().isEmpty(), "no items");
 
-        // A comparison thread may be listed under each item it compares, but only once per item
         List<String> problems = new ArrayList<>();
-        for (ResearchImporter.ResearchItem item : bundle.items()) {
-            String name = item.gear() == null ? "?" : item.gear().get("brand") + " " + item.gear().get("model");
-            if (item.threads() == null || item.threads().isEmpty()) { problems.add(name + ": no threads"); continue; }
-            Set<String> urls = new HashSet<>();
-            for (ResearchImporter.ResearchThread t : item.threads()) {
-                if (t.url() != null && !urls.add(t.url())) problems.add(name + ": duplicate thread " + t.url());
-            }
-        }
+        for (ResearchImporter.ResearchItem item : bundle.items()) problems.addAll(itemProblems(item));
 
         Database db = Database.open(dir.resolve(file.getFileName() + ".db"), dir.resolve("backups"));
         ResearchImporter importer = new ResearchImporter(new GearRepository(db), new ThreadRepository(db), new CurveRepository(db), null, null);
