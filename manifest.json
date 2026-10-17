@@ -1,11 +1,15 @@
 {
-  "generated" : "2026-10-17T19:22:29.393130468Z",
+  "generated" : "2026-10-17T19:52:29.411882974Z",
   "latestApp" : {
-    "version" : "1.2.0",
-    "url" : "https://github.com/billbishere/audio-gear-aggregator/releases/tag/v1.2.0"
+    "version" : "1.2.1",
+    "url" : "https://github.com/billbishere/audio-gear-aggregator/releases/tag/v1.2.1"
   },
   "excludeSources" : [ ],
   "files" : [ {
+    "name" : "research/2026-10-amp-specs.json",
+    "kind" : "research",
+    "sha256" : "6e0a2117c1dc2de052c179510122531d54b0dff4cf4860981b273bbfead10560"
+  }, {
     "name" : "research/2026-10-asr-amps-dacs.json",
     "kind" : "research",
     "sha256" : "10d95b41f6fe661e2caaf6dabfbe018e03f971ccba0deab9f45ebe22990ce477"
@@ -20,6 +24,6 @@
   }, {
     "name" : "feeds/2026-10-17.json",
     "kind" : "feed",
-    "sha256" : "6950758d4bae0ea3d9d1f789cee5bd8501d84570310587a35d9123273f69c941"
+    "sha256" : "af5b584c18c22754794d3c3a0bfd2ee98c99604aa8d1f1635035d7b8b479d370"
   } ]
 }

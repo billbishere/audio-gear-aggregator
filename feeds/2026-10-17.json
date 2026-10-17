@@ -8,9 +8,9 @@
   "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
   "items" : [ {
     "gear" : {
-      "model" : "A70 Pro",
+      "brand" : "Topping",
       "type" : "AMP",
-      "brand" : "Topping"
+      "model" : "A70 Pro"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-a70-pro-hp-preamp-review.44636/",
@@ -20,9 +20,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "JM20",
+      "brand" : "JCALLY",
       "type" : "AMP_DAC",
-      "brand" : "JCALLY"
+      "model" : "JM20"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jcally-jm20-headphone-dongle-review.58749/",
@@ -37,9 +37,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Element",
+      "brand" : "JDS Labs",
       "type" : "AMP_DAC",
-      "brand" : "JDS Labs"
+      "model" : "Element"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jds-labs-element-iv-dac-hp-amp-with-eq-review.59002/",
@@ -49,9 +49,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Element IV",
+      "brand" : "JDS Labs",
       "type" : "AMP_DAC",
-      "brand" : "JDS Labs"
+      "model" : "Element IV"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jds-labs-element-iv-dac-hp-amp-with-eq-review.59002/",
@@ -61,9 +61,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "JM20 MAX",
+      "brand" : "JCALLY",
       "type" : "AMP_DAC",
-      "brand" : "JCALLY"
+      "model" : "JM20 MAX"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/unofficial-review-of-jcally-jm20-max-usb-c-headphone-dongle-with-high-unbalanced-output-power.62024/",
@@ -73,9 +73,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "DX5",
+      "brand" : "Topping",
       "type" : "AMP_DAC",
-      "brand" : "Topping"
+      "model" : "DX5"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
@@ -85,9 +85,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "DX5 II",
+      "brand" : "Topping",
       "type" : "DAC",
-      "brand" : "Topping"
+      "model" : "DX5 II"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
@@ -97,9 +97,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "HiFi DAC V1",
+      "brand" : "Neutron",
       "type" : "AMP_DAC",
-      "brand" : "Neutron"
+      "model" : "HiFi DAC V1"
     },
     "threads" : [ {
       "url" : "https://www.audiosciencereview.com/forum/index.php?threads/neutron-hifi-dac-v1-review.56647/",
@@ -109,9 +109,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "TH900",
+      "brand" : "Fostex",
       "type" : "HEADPHONE",
-      "brand" : "Fostex"
+      "model" : "TH900"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/fostex-th900-mkii.792012/",
@@ -121,9 +121,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "HD 600",
+      "brand" : "Sennheiser",
       "type" : "HEADPHONE",
-      "brand" : "Sennheiser"
+      "model" : "HD 600"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/removing-the-foam-from-hd600.23833/",
@@ -133,9 +133,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Empyrean",
+      "brand" : "Meze",
       "type" : "HEADPHONE",
-      "brand" : "Meze"
+      "model" : "Empyrean"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
@@ -145,9 +145,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Empyrean II",
+      "brand" : "Meze",
       "type" : "HEADPHONE",
-      "brand" : "Meze"
+      "model" : "Empyrean II"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
@@ -157,9 +157,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Volume",
+      "brand" : "SoftEars",
       "type" : "IEM",
-      "brand" : "SoftEars"
+      "model" : "Volume"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/softears-volume-s-%E2%80%93-alternative-or-stay-with-it.981691/",
@@ -169,9 +169,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Volume S",
+      "brand" : "SoftEars",
       "type" : "IEM",
-      "brand" : "SoftEars"
+      "model" : "Volume S"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/softears-volume-s-%E2%80%93-alternative-or-stay-with-it.981691/",
@@ -181,9 +181,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "SE846",
+      "brand" : "Shure",
       "type" : "IEM",
-      "brand" : "Shure"
+      "model" : "SE846"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/shure-se846-impressions-thread.675219/",
@@ -193,9 +193,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "DAC",
+      "brand" : "N/A",
       "type" : "DAC",
-      "brand" : "N/A"
+      "model" : "DAC"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/lta-aero-dac-linear-tube-audio%E2%80%99s-first-ever-digital-to-analog-converter-world%E2%80%99s-first-dac-using-zotl-technology-reviews-in-the-thread.972761/",
@@ -220,9 +220,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Modi",
+      "brand" : "Schiit",
       "type" : "DAC",
-      "brand" : "Schiit"
+      "model" : "Modi"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/schiit-modi-5-impressions-thread.978894/",
@@ -237,9 +237,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "R-2R DAC",
+      "brand" : "Drop & Airist Audio",
       "type" : "DAC",
-      "brand" : "Drop & Airist Audio"
+      "model" : "R-2R DAC"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/go-for-a-bolder-flavor-fiio-r2r-dac-tube-buffer-warmer-r2r.978475/",
@@ -259,9 +259,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "ADI-2 Pro",
+      "brand" : "RME",
       "type" : "DAC",
-      "brand" : "RME"
+      "model" : "ADI-2 Pro"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/adi-2-pro-ex-upgraded-adi-2-pro.980498/",
@@ -271,9 +271,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Qutest",
+      "brand" : "Chord Electronics",
       "type" : "DAC",
-      "brand" : "Chord Electronics"
+      "model" : "Qutest"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/chord-electronics-qutest-dac-official-thread.869417/",
@@ -283,33 +283,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Yggdrasil",
-      "type" : "DAC",
-      "brand" : "Schiit"
-    },
-    "threads" : [ {
-      "url" : "https://www.superbestaudiofriends.org/index.php?threads/schiit-byggy-yggdrasil-singular-early-impressions.15281/",
-      "title" : "Schiit \"Byggy\" Yggdrasil Singular Early Impressions",
-      "source" : "SBAF",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "model" : "HEDDphone",
+      "brand" : "Audeze",
       "type" : "HEADPHONE",
-      "brand" : "HEDD"
-    },
-    "threads" : [ {
-      "url" : "https://www.superbestaudiofriends.org/index.php?threads/heddphone-d1s.15692/",
-      "title" : "Heddphone D1's",
-      "source" : "SBAF",
-      "posted" : "2026-10-16"
-    } ]
-  }, {
-    "gear" : {
-      "model" : "LCD-4",
-      "type" : "HEADPHONE",
-      "brand" : "Audeze"
+      "model" : "LCD-4"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/headphones/comments/1x8av4e/",
@@ -319,9 +295,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "HD 560S",
+      "brand" : "Sennheiser",
       "type" : "HEADPHONE",
-      "brand" : "Sennheiser"
+      "model" : "HD 560S"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8h0t5/",
@@ -331,57 +307,9 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Ananda",
+      "brand" : "Bowers & Wilkins",
       "type" : "HEADPHONE",
-      "brand" : "HIFIMAN"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81oe9/",
-      "title" : "Looking to change from Sennheiser 6xx. Life sucks lately and I want fun and excitement. Thinking of Hifiman Ananda Nanos. Thoughts? Maybe something Bose would be good?",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "model" : "FT7",
-      "type" : "HEADPHONE",
-      "brand" : "FiiO"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/headphones/comments/1x807r7/",
-      "title" : "Fiio FT15 vs FT7",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "model" : "HD 660S2",
-      "type" : "HEADPHONE",
-      "brand" : "Sennheiser"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8c871/",
-      "title" : "Is the HD660s2 still the golden standard from Sennheiser?",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "model" : "BlackShark V2 X",
-      "type" : "HEADPHONE",
-      "brand" : "Razer"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8c2l8/",
-      "title" : "Should I Buy Razer Black shark V2X for ₹2900?",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "model" : "Px7 S2e",
-      "type" : "HEADPHONE",
-      "brand" : "Bowers & Wilkins"
+      "model" : "Px7 S2e"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/headphones/comments/1x8io14/",
@@ -391,9 +319,45 @@
     } ]
   }, {
     "gear" : {
-      "model" : "LCD-XC",
+      "brand" : "HIFIMAN",
       "type" : "HEADPHONE",
-      "brand" : "Audeze"
+      "model" : "Ananda"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81oe9/",
+      "title" : "Looking to change from Sennheiser 6xx. Life sucks lately and I want fun and excitement. Thinking of Hifiman Ananda Nanos. Thoughts? Maybe something Bose would be good?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "FiiO",
+      "type" : "HEADPHONE",
+      "model" : "FT7"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1x807r7/",
+      "title" : "Fiio FT15 vs FT7",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Razer",
+      "type" : "HEADPHONE",
+      "model" : "BlackShark V2 X"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8c2l8/",
+      "title" : "Should I Buy Razer Black shark V2X for ₹2900?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audeze",
+      "type" : "HEADPHONE",
+      "model" : "LCD-XC"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x89w85/",
@@ -403,13 +367,25 @@
     } ]
   }, {
     "gear" : {
-      "model" : "Bathys",
+      "brand" : "Focal",
       "type" : "HEADPHONE",
-      "brand" : "Focal"
+      "model" : "Bathys"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7yust/",
       "title" : "Clueless wife trying to figure out how to buy my husband new focal bathys..",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 660S2"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8c871/",
+      "title" : "Is the HD660s2 still the golden standard from Sennheiser?",
       "source" : "REDDIT",
       "posted" : "2026-10-17"
     } ]
