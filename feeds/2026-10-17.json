@@ -1,0 +1,147 @@
+{
+  "title" : "Daily feed 2026-10-17",
+  "gathered" : "2026-10-17",
+  "window" : {
+    "from" : "2026-10-16",
+    "to" : "2026-10-17"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "Empyrean"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
+      "title" : "Meze EMPYREAN II",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "Empyrean II"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
+      "title" : "Meze EMPYREAN II",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Shure",
+      "type" : "IEM",
+      "model" : "SE846"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/shure-se846-impressions-thread.675219/",
+      "title" : "Shure SE846 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HEDD",
+      "type" : "HEADPHONE",
+      "model" : "HEDDphone"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/heddphone-d1s.15692/",
+      "title" : "Heddphone D1's",
+      "source" : "SBAF",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "FiiO",
+      "type" : "HEADPHONE",
+      "model" : "FT7"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1x807r7/",
+      "title" : "Fiio FT15 vs FT7",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "Ananda"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81oe9/",
+      "title" : "Looking to change from Sennheiser 6xx. Life sucks lately and I want fun and excitement. Thinking of Hifiman Ananda Nanos. Thoughts? Maybe something Bose would be good?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81lx7/",
+      "title" : "Hifiman Ananda Stealth v2 vs v3",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "Ananda Stealth"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81lx7/",
+      "title" : "Hifiman Ananda Stealth v2 vs v3",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Focal",
+      "type" : "HEADPHONE",
+      "model" : "Bathys"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7yust/",
+      "title" : "Clueless wife trying to figure out how to buy my husband new focal bathys..",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "type" : "HEADPHONE",
+      "model" : "MDR-MV1"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7u281/",
+      "title" : "Are the Sony MDR-MV1 really that great?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "T+A",
+      "type" : "HEADPHONE",
+      "model" : "Solitaire T"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1x85nt0/",
+      "title" : "New T+A Solitaire T Pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "DUNU",
+      "type" : "IEM",
+      "model" : "Titan S2"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1x86atf/",
+      "title" : "Dunu Titan S2 for $50 a good buy or pass?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  } ]
+}
