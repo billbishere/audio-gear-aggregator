@@ -8,9 +8,134 @@
   "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
   "items" : [ {
     "gear" : {
-      "brand" : "Meze",
+      "model" : "A70 Pro",
+      "type" : "AMP",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-a70-pro-hp-preamp-review.44636/",
+      "title" : "Topping A70 Pro HP & Preamp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "JM20",
+      "type" : "AMP_DAC",
+      "brand" : "JCALLY"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jcally-jm20-headphone-dongle-review.58749/",
+      "title" : "JCALLY JM20 Headphone Dongle Review",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/unofficial-review-of-jcally-jm20-max-usb-c-headphone-dongle-with-high-unbalanced-output-power.62024/",
+      "title" : "(Unofficial) Review of JCALLY JM20 MAX: USB-C Headphone Dongle with High Unbalanced Output Power",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Element",
+      "type" : "AMP_DAC",
+      "brand" : "JDS Labs"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jds-labs-element-iv-dac-hp-amp-with-eq-review.59002/",
+      "title" : "JDS Labs Element IV DAC & HP Amp with EQ Review",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Element IV",
+      "type" : "AMP_DAC",
+      "brand" : "JDS Labs"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jds-labs-element-iv-dac-hp-amp-with-eq-review.59002/",
+      "title" : "JDS Labs Element IV DAC & HP Amp with EQ Review",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "JM20 MAX",
+      "type" : "AMP_DAC",
+      "brand" : "JCALLY"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/unofficial-review-of-jcally-jm20-max-usb-c-headphone-dongle-with-high-unbalanced-output-power.62024/",
+      "title" : "(Unofficial) Review of JCALLY JM20 MAX: USB-C Headphone Dongle with High Unbalanced Output Power",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "DX5",
+      "type" : "AMP_DAC",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
+      "title" : "Topping DX5 II",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "DX5 II",
+      "type" : "DAC",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
+      "title" : "Topping DX5 II",
+      "source" : "ASR",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HiFi DAC V1",
+      "type" : "AMP_DAC",
+      "brand" : "Neutron"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/neutron-hifi-dac-v1-review.56647/",
+      "title" : "Neutron HiFi DAC V1 Review",
+      "source" : "ASR",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "TH900",
       "type" : "HEADPHONE",
-      "model" : "Empyrean"
+      "brand" : "Fostex"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fostex-th900-mkii.792012/",
+      "title" : "Fostex TH900 MkII",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 600",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/removing-the-foam-from-hd600.23833/",
+      "title" : "Removing the foam from HD600",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Empyrean",
+      "type" : "HEADPHONE",
+      "brand" : "Meze"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
@@ -20,9 +145,9 @@
     } ]
   }, {
     "gear" : {
-      "brand" : "Meze",
+      "model" : "Empyrean II",
       "type" : "HEADPHONE",
-      "model" : "Empyrean II"
+      "brand" : "Meze"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
@@ -32,9 +157,33 @@
     } ]
   }, {
     "gear" : {
-      "brand" : "Shure",
+      "model" : "Volume",
       "type" : "IEM",
-      "model" : "SE846"
+      "brand" : "SoftEars"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/softears-volume-s-%E2%80%93-alternative-or-stay-with-it.981691/",
+      "title" : "Softears Volume S – alternative, or stay with it?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Volume S",
+      "type" : "IEM",
+      "brand" : "SoftEars"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/softears-volume-s-%E2%80%93-alternative-or-stay-with-it.981691/",
+      "title" : "Softears Volume S – alternative, or stay with it?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "SE846",
+      "type" : "IEM",
+      "brand" : "Shure"
     },
     "threads" : [ {
       "url" : "https://www.head-fi.org/threads/shure-se846-impressions-thread.675219/",
@@ -44,9 +193,111 @@
     } ]
   }, {
     "gear" : {
-      "brand" : "HEDD",
+      "model" : "DAC",
+      "type" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/lta-aero-dac-linear-tube-audio%E2%80%99s-first-ever-digital-to-analog-converter-world%E2%80%99s-first-dac-using-zotl-technology-reviews-in-the-thread.972761/",
+      "title" : "LTA Aero Dac. Linear Tube Audio’s first-ever digital-to-analog converter, world’s first DAC using ZOTL technology. Reviews in the Thread.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-r2r-dac-impression-and-reviews.972522/",
+      "title" : "LAiV Harmony R2R DAC Impression and Reviews",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.head-fi.org/threads/hifiman-serenade-himalaya-pro-r2r-dac-headamp-all-in-one.968690/",
+      "title" : "Hifiman Serenade - Himalaya Pro R2R DAC headamp all-in-one",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    }, {
+      "url" : "https://www.head-fi.org/threads/gustard-dac-r26-balanced-decoder-r2r-1bit-dual-native-decoding-music-bridge.963630/",
+      "title" : "GUSTARD DAC-R26 Balanced Decoder R2R+1Bit Dual Native Decoding Music Bridge",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Modi",
+      "type" : "DAC",
+      "brand" : "Schiit"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-modi-5-impressions-thread.978894/",
+      "title" : "Schiit Modi 5 - Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.head-fi.org/threads/schiit-modi-multibit-2-dac-and-now-the-modi-5.966173/",
+      "title" : "Schiit Modi Multibit 2 DAC (and now the Modi 5!)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "R-2R DAC",
+      "type" : "DAC",
+      "brand" : "Drop & Airist Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/go-for-a-bolder-flavor-fiio-r2r-dac-tube-buffer-warmer-r2r.978475/",
+      "title" : "Go for a Bolder Flavor, FIIO R2R DAC + Tube Buffer WARMER R2R",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-r2r-dac-impression-and-reviews.972522/",
+      "title" : "LAiV Harmony R2R DAC Impression and Reviews",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    }, {
+      "url" : "https://www.head-fi.org/threads/hifiman-serenade-himalaya-pro-r2r-dac-headamp-all-in-one.968690/",
+      "title" : "Hifiman Serenade - Himalaya Pro R2R DAC headamp all-in-one",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-16"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "ADI-2 Pro",
+      "type" : "DAC",
+      "brand" : "RME"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/adi-2-pro-ex-upgraded-adi-2-pro.980498/",
+      "title" : "ADI-2 Pro EX, upgraded ADI-2 Pro",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Qutest",
+      "type" : "DAC",
+      "brand" : "Chord Electronics"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/chord-electronics-qutest-dac-official-thread.869417/",
+      "title" : "Chord Electronics Qutest DAC - Official Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Yggdrasil",
+      "type" : "DAC",
+      "brand" : "Schiit"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/schiit-byggy-yggdrasil-singular-early-impressions.15281/",
+      "title" : "Schiit \"Byggy\" Yggdrasil Singular Early Impressions",
+      "source" : "SBAF",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HEDDphone",
       "type" : "HEADPHONE",
-      "model" : "HEDDphone"
+      "brand" : "HEDD"
     },
     "threads" : [ {
       "url" : "https://www.superbestaudiofriends.org/index.php?threads/heddphone-d1s.15692/",
@@ -56,9 +307,45 @@
     } ]
   }, {
     "gear" : {
-      "brand" : "FiiO",
+      "model" : "LCD-4",
       "type" : "HEADPHONE",
-      "model" : "FT7"
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1x8av4e/",
+      "title" : "Lcd 4 copper mod",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 560S",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8h0t5/",
+      "title" : "Hd560s or 6xx with shiit gunnr",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Ananda",
+      "type" : "HEADPHONE",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81oe9/",
+      "title" : "Looking to change from Sennheiser 6xx. Life sucks lately and I want fun and excitement. Thinking of Hifiman Ananda Nanos. Thoughts? Maybe something Bose would be good?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "FT7",
+      "type" : "HEADPHONE",
+      "brand" : "FiiO"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/headphones/comments/1x807r7/",
@@ -68,78 +355,61 @@
     } ]
   }, {
     "gear" : {
-      "brand" : "HIFIMAN",
+      "model" : "HD 660S2",
       "type" : "HEADPHONE",
-      "model" : "Ananda"
+      "brand" : "Sennheiser"
     },
     "threads" : [ {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81oe9/",
-      "title" : "Looking to change from Sennheiser 6xx. Life sucks lately and I want fun and excitement. Thinking of Hifiman Ananda Nanos. Thoughts? Maybe something Bose would be good?",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    }, {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81lx7/",
-      "title" : "Hifiman Ananda Stealth v2 vs v3",
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8c871/",
+      "title" : "Is the HD660s2 still the golden standard from Sennheiser?",
       "source" : "REDDIT",
       "posted" : "2026-10-17"
     } ]
   }, {
     "gear" : {
-      "brand" : "HIFIMAN",
+      "model" : "BlackShark V2 X",
       "type" : "HEADPHONE",
-      "model" : "Ananda Stealth"
+      "brand" : "Razer"
     },
     "threads" : [ {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x81lx7/",
-      "title" : "Hifiman Ananda Stealth v2 vs v3",
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x8c2l8/",
+      "title" : "Should I Buy Razer Black shark V2X for ₹2900?",
       "source" : "REDDIT",
       "posted" : "2026-10-17"
     } ]
   }, {
     "gear" : {
-      "brand" : "Focal",
+      "model" : "Px7 S2e",
       "type" : "HEADPHONE",
-      "model" : "Bathys"
+      "brand" : "Bowers & Wilkins"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1x8io14/",
+      "title" : "B&W denied my warranty claim for \"gym use,\" but their own official team says the Px7 S2e are fine for the gym. Stonewalled with 25% coupon and evidence ignored. (Receipts inside)",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "LCD-XC",
+      "type" : "HEADPHONE",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x89w85/",
+      "title" : "Just got Audeze LCD-XC's and waiting for delivery, any setup recommendations?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-17"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Bathys",
+      "type" : "HEADPHONE",
+      "brand" : "Focal"
     },
     "threads" : [ {
       "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7yust/",
       "title" : "Clueless wife trying to figure out how to buy my husband new focal bathys..",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "brand" : "Sony",
-      "type" : "HEADPHONE",
-      "model" : "MDR-MV1"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x7u281/",
-      "title" : "Are the Sony MDR-MV1 really that great?",
-      "source" : "REDDIT",
-      "posted" : "2026-10-16"
-    } ]
-  }, {
-    "gear" : {
-      "brand" : "T+A",
-      "type" : "HEADPHONE",
-      "model" : "Solitaire T"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/headphones/comments/1x85nt0/",
-      "title" : "New T+A Solitaire T Pro",
-      "source" : "REDDIT",
-      "posted" : "2026-10-17"
-    } ]
-  }, {
-    "gear" : {
-      "brand" : "DUNU",
-      "type" : "IEM",
-      "model" : "Titan S2"
-    },
-    "threads" : [ {
-      "url" : "https://www.reddit.com/r/iems/comments/1x86atf/",
-      "title" : "Dunu Titan S2 for $50 a good buy or pass?",
       "source" : "REDDIT",
       "posted" : "2026-10-17"
     } ]
