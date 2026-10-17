@@ -1,0 +1,1067 @@
+{
+ "title": "Output power and output impedance of headphone amps and DAC/amps",
+ "gathered": "2026-10-17",
+ "method": "For the headphone amps, DAC/amps, dongles and DAPs measured by Audio Science Review: power and output impedance stated in ASR's review text (measured), else in the manufacturer specs quoted by retailers (Apos Audio, HiFiGo, Linsoul, Shenzhen Audio, Headphones.com, Bloom Audio, Audio46) and the makers' own stores (Fosi Audio, HiBy, iFi). Models are matched by brand and exact model name, versions kept apart. Power is SE/BALANCED:load ohms=milliwatts. Specs only: importing fills empty fields and changes nothing else.",
+ "items": [
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Apogee Electronics",
+    "model": "Groove",
+    "output_impedance_ohm": "20"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-apogee-groove-dac-and-amp.5379/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Apple",
+    "model": "Apple Dongle",
+    "output_impedance_ohm": "0.9"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-apple-vs-google-usb-c-headphone-adapters.5541/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Arcam",
+    "model": "rHead",
+    "output_impedance_ohm": "11"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-aune-x7s-and-arcam-rhead-headphone-amps.4270/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Audio-gd",
+    "model": "NFB-27.38",
+    "output_impedance_ohm": "2.5"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-audio-gd-nfb-27-38-dac-and-headphone-amplifier.2486/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Audio-gd",
+    "model": "R2R-11",
+    "output_impedance_ohm": "2"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-audio-gd-r2r11-dac-amp.5779/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Audirect",
+    "model": "Beam",
+    "output_impedance_ohm": "10.6"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-audirect-beam-and-aq-dragonfly.5455/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Aune Audio",
+    "model": "X1s",
+    "output_impedance_ohm": "5.9"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-aune-x1s-dac-amp.6535/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Aune Audio",
+    "model": "X1s GT",
+    "output_impedance_ohm": "5"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/aune-x1s-gt-review-dac-amp.27675/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Aune Audio",
+    "model": "X7s",
+    "output_impedance_ohm": "11"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-aune-x7s-and-arcam-rhead-headphone-amps.4270"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Ayre Acoustics",
+    "model": "Codex",
+    "output_impedance_ohm": "3.2"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-ayre-codex-dac-amp.7282/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Benchmark Media Systems",
+    "model": "HPA4",
+    "amp_power": "SE:16=6000",
+    "output_impedance_ohm": "0"
+   },
+   "sources": [
+    "https://www.headphones.com/products/benchmark-hpa4-desktop-headphone-amplifier-black",
+    "https://www.headphones.com/products/benchmark-hpa4-desktop-headphone-amplifier-silver"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Burson Audio",
+    "model": "Soloist 3X",
+    "output_impedance_ohm": "25"
+   },
+   "sources": [
+    "https://bloomaudio.com/products/burson-soloist-3x-performance",
+    "https://www.headphones.com/products/burson-audio-soloist-3x-grand-tourer",
+    "https://www.headphones.com/products/burson-audio-soloist-3x-grand-tourer-open-box"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Chord Electronics",
+    "model": "Alto",
+    "amp_power": "SE:32=2100; SE:100=2250; SE:300=281"
+   },
+   "sources": [
+    "https://audio46.com/products/chord-electronics-alto-professional-headphone-amplifier",
+    "https://audio46.com/products/chord-electronics-alto-professional-headphone-amplifier-open-box",
+    "https://bloomaudio.com/products/chord-alto",
+    "https://www.headphones.com/products/chord-electronics-alto-headphone-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Chord Electronics",
+    "model": "DAVE",
+    "output_impedance_ohm": "0.055"
+   },
+   "sources": [
+    "https://audio46.com/products/chord-dave-dac-amp-and-pre-amp",
+    "https://audio46.com/products/chord-electronics-dave-dac-amp-and-pre-amp-open-box"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Chord Electronics",
+    "model": "Mojo 2",
+    "amp_power": "SE:30=600; SE:300=90",
+    "output_impedance_ohm": "0.06"
+   },
+   "sources": [
+    "https://www.headphones.com/products/chord-electronics-mojo-2-portable-dac-and-headphone-amplifier-open-box",
+    "https://www.headphones.com/products/chord-mojo-2-portable-dac-and-headphone-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Cowon Systems",
+    "model": "Plenue 2 Mk2",
+    "output_impedance_ohm": "2"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-cowon-plenue-2-dap.8714/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Drop",
+    "model": "THX AAA 789",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-massdrop-thx-aaa-789-amp.5001/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Eleven",
+    "model": "XIAudio Broadway",
+    "amp_power": "SE:300=300"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/eleven-xiaudio-broadway-headphone-amp-review.42467/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Eversolo",
+    "model": "Z8",
+    "amp_power": "SE:32=45; SE:300=26"
+   },
+   "sources": [
+    "https://apos.audio/products/eversolo-dac-z8-hifi-desktop-dac",
+    "https://audio46.com/products/eversolo-dac-z8-dac-amp",
+    "https://bloomaudio.com/products/eversolo-dac-z8",
+    "https://www.headphones.com/products/eversolo-dac-z8-desktop-dac-and-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "FiiO Electronics",
+    "model": "K5",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-fiio-k5-headphone-amp.6824/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "FiiO Electronics",
+    "model": "KA15",
+    "amp_power": "BALANCED:32=560"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/fiio-ka15-portable-dac-headphone-amp-review.62928/#post-2306448"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Fosi Audio",
+    "model": "DS2",
+    "amp_power": "BALANCED:32=510; SE:32=130"
+   },
+   "sources": [
+    "https://hifigo.com/products/fosi-audio-ds2"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Fosi Audio",
+    "model": "SK-01",
+    "amp_power": "SE:32=2400"
+   },
+   "sources": [
+    "https://bloomaudio.com/products/fosi-audio-sk01",
+    "https://fosiaudio.com/products/fosi-audio-sk01-headphone-amplifier-preamplifier",
+    "https://www.audiosciencereview.com/forum/index.php?threads/fosi-audio-sk-01-headphone-amplifier-review.49671/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Fosi Audio",
+    "model": "SK02",
+    "amp_power": "BALANCED:32=755; SE:32=1100"
+   },
+   "sources": [
+    "https://fosiaudio.com/products/fosi-audio-sk02-desktop-dac-headphone-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Gustard",
+    "model": "A20H",
+    "amp_power": "BALANCED:32=2400; BALANCED:64=1230; SE:16=1200; SE:32=2400; SE:150=530; SE:300=264; SE:600=132",
+    "output_impedance_ohm": "0.7"
+   },
+   "sources": [
+    "https://apos.audio/products/gustard-a20h-dac-amp",
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-gustard-a20h-dac-amp.5657/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Gustard",
+    "model": "H10",
+    "output_impedance_ohm": "1.9"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-gustard-h10-headphone-amp.8453/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Gustard",
+    "model": "H16",
+    "amp_power": "SE:64=3700; SE:150=2268; SE:300=1133; SE:600=566",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-specials-gustard-h16-headphone-amp",
+    "https://apos.audio/products/gustard-h16-headphone-amp",
+    "https://hifigo.com/products/gustard-h16-headphone-amplifier-pre-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "HeadAmp",
+    "model": "Gilmore Lite Mk2",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://audio46.com/products/headamp-gilmore-lite-mk2-class-a-headphone-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Hidizs",
+    "model": "AP80 Pro Max",
+    "amp_power": "BALANCED:32=190; SE:32=70"
+   },
+   "sources": [
+    "https://www.linsoul.com/products/hidizs-x-linsoul-ap80pro-max"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Hidizs",
+    "model": "DH80S",
+    "amp_power": "BALANCED:32=210; SE:32=125"
+   },
+   "sources": [
+    "https://hifigo.com/products/hidizs-dh80-dh80s-portable-balanced-dac-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Hidizs",
+    "model": "Sonata HD 2",
+    "output_impedance_ohm": "1.8"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-hidizs-dac-and-amp-dongle.8707/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "iBasso",
+    "model": "DX120",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-ibasso-dx120-dap.6943/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "iFi Audio",
+    "model": "Zen",
+    "amp_power": "BALANCED:32=1200; BALANCED:64=2000; BALANCED:600=385; SE:32=1600; SE:300=40; SE:600=98",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://bloomaudio.com/products/ifi-zen-can-3",
+    "https://bloomaudio.com/products/ifi-zen-can-signature-mz99"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "JDS Labs",
+    "model": "Atom Amp+",
+    "amp_power": "SE:300=248"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/jds-atom-amp-review-headphone-amplifier.24680/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "JDS Labs",
+    "model": "Element",
+    "output_impedance_ohm": "11"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-jds-the-element-dac-and-headphone-amp.4315/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Korg",
+    "model": "DS-DAC-100",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-korg-ds-dac-100.6134/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Korg",
+    "model": "Nu:Tekt NuTube HA-KIT",
+    "output_impedance_ohm": "10"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-korg-nutube-ha-kit-headphone-amp.6401/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "LH Labs",
+    "model": "Go2Pro",
+    "output_impedance_ohm": "0.5"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-lh-labs-go2pro-dac-and-headphone-amp.2529/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Little Dot",
+    "model": "Mk3",
+    "amp_power": "SE:32=100; SE:120=300; SE:600=300"
+   },
+   "sources": [
+    "https://apos.audio/products/little-dot-mk3",
+    "https://hifigo.com/products/little-dot-mkiii-mk3-ge-5654-x2-6h6pi-x2-headphone-tube-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Loxjie",
+    "model": "D20",
+    "output_impedance_ohm": "22"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-loxjie-d20-dac-and-headphone-amp.6011/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Luxsin",
+    "model": "X8",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://audio46.com/products/luxsin-x8-intelligent-dac-headphone-amplifier",
+    "https://audio46.com/products/luxsin-x8-intelligent-dac-headphone-amplifier-open-box"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Luxury & Precision",
+    "model": "W2",
+    "amp_power": "BALANCED:32=260; SE:32=230"
+   },
+   "sources": [
+    "https://hifigo.com/products/luxury-precision-lp-w2-131",
+    "https://hifigo.com/products/luxury-precision-w2-portable-usb-dac-amp-headphone-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Monoprice",
+    "model": "Monolith THX AAA 788 Portable Headphone Amp & DAC",
+    "output_impedance_ohm": "0.7"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-monoprice-portable-amp-and-dac-with-thx.5189/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "NuPrime Audio",
+    "model": "uDSD",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-nuprime-udsd-dac-amp.6277/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Oppo Digital",
+    "model": "HA-2 SE",
+    "output_impedance_ohm": "0.5"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-oppo-he-2-se-dac-and-headphone-amp.4597/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Parasound",
+    "model": "Zdac V2",
+    "amp_power": "SE:300=100",
+    "output_impedance_ohm": "11"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-parasound-zdac-v-2-dac-and-amp.4760/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Pioneer Electronics",
+    "model": "XPA-700",
+    "output_impedance_ohm": "12"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/pioneer-xpa-700-portable-headphone-amp-dac-review.14986/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "RME",
+    "model": "ADI-2 DAC FS V2",
+    "amp_power": "SE:300=310"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/rme-adi-2-fs-version-2-dac-and-headphone-amp-review.13379/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Sabaj",
+    "model": "Da3",
+    "output_impedance_ohm": "1.8"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-sabaj-da3-dac-compared-to-dragonfly-black.3503/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Schiit",
+    "model": "Fulla V1",
+    "output_impedance_ohm": "0.7"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-schiit-fulla-v1-dac-and-headphone-amplifier.2641/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Schiit",
+    "model": "Lyr 2",
+    "amp_power": "SE:300=488"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-schiit-lyr-2-amplifier.8256/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Schiit",
+    "model": "Midgard",
+    "amp_power": "SE:16=5500; SE:32=4800; SE:50=3200; SE:300=750; SE:600=375"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/schiit-midgard-balanced-headphone-amp-review.48653/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Shozy",
+    "model": "Alien+",
+    "output_impedance_ohm": "3"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-shozy-alien-digital-audio-player-dap.2058/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Singxer",
+    "model": "SA-1",
+    "amp_power": "SE:32=6480; SE:120=2000; SE:600=380",
+    "output_impedance_ohm": "0.25"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-singxer-sa-1-fully-balanced-amplifier",
+    "https://apos.audio/products/singxer-sa-1-fully-balanced-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "SMSL",
+    "model": "D12",
+    "amp_power": "SE:16=400; SE:32=300"
+   },
+   "sources": [
+    "https://hifigo.com/products/smsl-d12",
+    "https://hifigo.com/products/smsl-d12-1"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "SMSL",
+    "model": "DS20",
+    "amp_power": "SE:32=500; SE:64=350; SE:150=240; SE:300=120; SE:600=60"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-smsl-ds20-portable-dac",
+    "https://apos.audio/products/smsl-ds20-portable-dac-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "SMSL",
+    "model": "M500 V2",
+    "amp_power": "SE:32=570; SE:64=290; SE:150=125; SE:300=65"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-smsl-m500-v2-mqa-amp-dac",
+    "https://apos.audio/products/smsl-m500-mqa-amp-dac"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "SMSL",
+    "model": "RAW-MDA 1",
+    "amp_power": "SE:16=2500; SE:32=1700"
+   },
+   "sources": [
+    "https://apos.audio/products/smsl-raw-mda-1-dac-amp",
+    "https://apos.audio/products/smsl-raw-mda-1-dac-amp-apos-certified-refurbished"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "SMSL",
+    "model": "SH-8S",
+    "amp_power": "SE:16=6000; SE:32=3000",
+    "output_impedance_ohm": "0"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-smsl-sh-8s-headphone-amp",
+    "https://apos.audio/products/smsl-sh-8s-headphone-amp",
+    "https://shenzhenaudio.com/products/smsl-sh-8s-opa564-chip-rca-xlr-input-6-35mm-balanced-headphone-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "SMSL",
+    "model": "SH-9",
+    "amp_power": "BALANCED:32=3000; SE:16=6000; SE:32=3000; SE:300=440; SE:600=220",
+    "output_impedance_ohm": "0"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-smsl-sh-9-thx-aaa-888-balanced-headphone-amp",
+    "https://apos.audio/products/smsl-sh-9-thx-aaa-888-balanced-headphone-amp",
+    "https://shenzhenaudio.com/products/smsl-sh-9-aaa-technology-rca-xlr-input-6-35mm-balanced-headphone-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "SMSL",
+    "model": "SMSL M10",
+    "output_impedance_ohm": "24"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-smsl-m10-dac-amp.6110/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "SMSL",
+    "model": "SP200",
+    "amp_power": "SE:16=6000; SE:32=3000; SE:300=440; SE:600=220",
+    "output_impedance_ohm": "0"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-smsl-sp200-thx-headphone-amp",
+    "https://apos.audio/products/smsl-sp200-thx-headphone-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "SMSL",
+    "model": "SP400",
+    "amp_power": "BALANCED:16=12000; BALANCED:32=6000; BALANCED:300=440; SE:16=12000; SE:32=6000; SE:300=880; SE:600=440",
+    "output_impedance_ohm": "0"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-smsl-sp400-thx-aaa-888-headphone-amp",
+    "https://apos.audio/products/smsl-sp400-thx-aaa-888-headphone-amp",
+    "https://hifigo.com/products/smsl-m400-mqa-dac-sp400-headphone-amplifier-xlr-cable-stack"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "SMSL VMV",
+    "model": "P2",
+    "amp_power": "SE:16=12000; SE:32=6000; SE:300=700; SE:600=350"
+   },
+   "sources": [
+    "https://bloomaudio.com/products/smsl-vmv-p2",
+    "https://hifigo.com/products/smsl-vmv-p2",
+    "https://www.linsoul.com/products/smsl-vmv-p2",
+    "https://www.linsoul.com/products/smsl-vmv-p2-mkii"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Soncoz",
+    "model": "SGA-1",
+    "amp_power": "SE:33=420; SE:300=210; SE:600=105",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://hifigo.com/products/soncoz-sga1-fully-balanced-headphone-amp-pre-amp-hpa-pre"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "TANCHJIM",
+    "model": "Luna",
+    "amp_power": "SE:32=285"
+   },
+   "sources": [
+    "https://hifigo.com/products/tanchjim-luna"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "TANCHJIM",
+    "model": "Space",
+    "amp_power": "SE:32=230"
+   },
+   "sources": [
+    "https://hifigo.com/products/tanchjim-space"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Tom Christiansen Audio",
+    "model": "HPA-1",
+    "amp_power": "SE:300=100"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/tom-christiansen-audio-hpa-1-headphone-amp-review.10416/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "A30 Pro",
+    "amp_power": "SE:16=6000; SE:32=5500; SE:300=840; SE:600=420",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-toppping-a30-pro-desktop-headphone-amp",
+    "https://apos.audio/products/toppping-a30-pro-desktop-headphone-amp",
+    "https://hifigo.com/products/topping-a30pro-nfca-headphone-amplifier-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "A50 III",
+    "amp_power": "SE:32=3500",
+    "output_impedance_ohm": "0.2"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-a50-iii-desktop-headphone-amp",
+    "https://apos.audio/products/topping-a50-iii-desktop-headphone-amp",
+    "https://www.headphones.com/products/topping-a50-iii-headphone-amplifier",
+    "https://www.headphones.com/products/topping-a50-iii-headphone-amplifier-open-box"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "A50s",
+    "amp_power": "BALANCED:32=3500; BALANCED:300=192; SE:32=485; SE:300=760",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-a50s-headphone-amplifier",
+    "https://apos.audio/products/topping-a50s-headphone-amplifier",
+    "https://shenzhenaudio.com/products/topping-a50s-with-nfca-modules-hpa-pre-automatic-switching-desktop-headphone-amplifier-pre-amplifier-combined-with-d50s-p50"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "A70 Pro",
+    "amp_power": "BALANCED:16=17000; SE:16=17000; SE:32=12600; SE:64=6000; SE:300=1370; SE:600=670"
+   },
+   "sources": [
+    "https://apos.audio/products/topping-a70pro-headphone-amplifier",
+    "https://hifigo.com/products/topping-a70pro"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "A90",
+    "output_impedance_ohm": "1.3"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/topping-a90-headphone-amplifier-review.13592/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Topping",
+    "model": "DX 1 II",
+    "amp_power": "BALANCED:32=1000; BALANCED:64=1000; BALANCED:300=230; SE:32=1000"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-dx1-ii-gaming-headphone-dac-amp",
+    "https://apos.audio/products/topping-dx1-ii-gaming-headphone-dac-amp",
+    "https://bloomaudio.com/products/topping-dx1-ii"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Topping",
+    "model": "DX5",
+    "amp_power": "SE:32=1800; SE:64=1000; SE:300=250",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-dx5-dac-amp",
+    "https://apos.audio/products/topping-dx5-dac-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Topping",
+    "model": "DX7 Pro",
+    "amp_power": "SE:32=840",
+    "output_impedance_ohm": "4.7"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-dx7-pro-dac-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Topping",
+    "model": "G5",
+    "amp_power": "SE:16=1000",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/topping-g5-portable-dac-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "L30",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-l30-headphone-amp",
+    "https://apos.audio/products/topping-l30-headphone-amp",
+    "https://shenzhenaudio.com/products/topping-l30-nfca-modules-uhgf-technology-0-3uv-ultra-low-noise-cost-effective-headphone-amplifier"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "L50",
+    "amp_power": "SE:16=3500; SE:300=540",
+    "output_impedance_ohm": "0.1"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-topping-l50-headphone-amp",
+    "https://apos.audio/products/topping-l50-headphone-amp",
+    "https://hifigo.com/products/topping-l50-headphone-amp",
+    "https://shenzhenaudio.com/products/topping-l50-nfca-modules-0-3uv-ultra-low-noise-cost-effective-headphone-amplifier",
+    "https://www.headphones.com/products/topping-l50-desktop-headphone-amplifier",
+    "https://www.headphones.com/products/topping-l50-desktop-headphone-amplifier-1"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "NX1s",
+    "amp_power": "SE:32=150; SE:300=25"
+   },
+   "sources": [
+    "https://apos.audio/products/topping-nx1s-headphone-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "NX3s",
+    "amp_power": "SE:32=545; SE:300=100"
+   },
+   "sources": [
+    "https://apos.audio/products/topping-nx3s-headphone-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Topping",
+    "model": "NX4 DSD",
+    "output_impedance_ohm": "0.4"
+   },
+   "sources": [
+    "https://apos.audio/products/topping-nx4-dsd-dac-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "Topping",
+    "model": "Topping A30",
+    "amp_power": "SE:32=1551"
+   },
+   "sources": [
+    "https://apos.audio/products/topping-a30-headphone-amp"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "VIMVIP",
+    "model": "Dongle",
+    "amp_power": "SE:16.5=16",
+    "output_impedance_ohm": "5.9"
+   },
+   "sources": [
+    "https://www.audiosciencereview.com/forum/index.php?threads/measurements-of-pixel-3-vimvip-headphone-adapter-google-play-music.6680/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "Woo Audio",
+    "model": "WA11 Topaz",
+    "amp_power": "SE:30=1200; SE:100=350; SE:300=120",
+    "output_impedance_ohm": "1"
+   },
+   "sources": [
+    "https://audio46.com/products/woo-audio-wa11-topaz",
+    "https://www.headphones.com/products/woo-audio-wa11-topaz-portable-headphone-amplifier-dac"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP",
+    "brand": "xDuoo",
+    "model": "TA-20",
+    "amp_power": "BALANCED:32=2000",
+    "output_impedance_ohm": "4.5"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-xduoo-ta-20-tube-amp",
+    "https://apos.audio/products/xduoo-ta-20-tube-amp",
+    "https://www.audiosciencereview.com/forum/index.php?threads/xduoo-ta-20-tube-balanced-headphone-amplifier-review.10118/"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "xDuoo",
+    "model": "X 5",
+    "amp_power": "BALANCED:32=270; SE:32=200"
+   },
+   "sources": [
+    "https://apos.audio/products/xduoo-x5-portable-hi-res-lossless-music-player"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "xDuoo",
+    "model": "XA-10",
+    "amp_power": "BALANCED:32=4000; SE:32=3000"
+   },
+   "sources": [
+    "https://apos.audio/products/apos-certified-xduoo-xa-10-dac-headphone-amp",
+    "https://apos.audio/products/xduoo-xa-10-dac-headphone-amp",
+    "https://hifigo.com/products/xduoo-xa-10-balanced-dac-headphone-amp",
+    "https://www.linsoul.com/products/xduoo-xa-10"
+   ]
+  },
+  {
+   "gear": {
+    "type": "AMP_DAC",
+    "brand": "xDuoo",
+    "model": "XD-05 Plus",
+    "amp_power": "SE:32=1000"
+   },
+   "sources": [
+    "https://apos.audio/products/xduoo-xd-05-plus-dac-amp"
+   ]
+  }
+ ]
+}
