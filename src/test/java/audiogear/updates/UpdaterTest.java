@@ -292,6 +292,19 @@ class UpdaterTest {
     }
 
     @Test
+    void newDataSinceComparesTheManifestDate() throws Exception {
+        try (StubServer stub = new StubServer()) {
+            manifest(stub, "1.0.0", List.of()); // generated 2026-10-17T06:00:00Z
+            Updater u = updater(stub, null, "1.1.0");
+            assertTrue(u.newDataSince(java.time.Instant.parse("2026-10-17T00:53:00Z")));
+            assertFalse(u.newDataSince(java.time.Instant.parse("2026-10-17T07:00:00Z")));
+            assertTrue(u.newDataSince(null));
+        }
+        Updater offline = new Updater(db, backups, new UpdateFeed(new Http(), "http://127.0.0.1:1/data/"), null, null, "1.1.0");
+        assertFalse(offline.newDataSince(java.time.Instant.parse("2026-10-17T00:53:00Z")));
+    }
+
+    @Test
     void importsOnlyNewAutoEqMeasurementsAndHonoursExclusions() throws Exception {
         try (StubServer stub = new StubServer()) {
             AutoEqStub.serve(stub, Map.of(

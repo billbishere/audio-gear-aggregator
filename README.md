@@ -15,7 +15,8 @@ the research items and the community threads collected so far. An existing catal
 
 ## Daily updates
 
-Once a day (and on **Update now** in *Data & Settings*) the app adds what's new, with no API keys needed:
+Once a day, within an hour of new data being published, and on **Update now** in *Data & Settings*, the app adds
+what's new, with no API keys needed:
 
 - **New measurements** from [AutoEq](https://github.com/jaakkopasanen/AutoEq), skipping files already imported.
 - **New threads and videos** from ASR, Head-Fi, SBAF, Reddit and reviewers' YouTube channels. A GitHub Actions job

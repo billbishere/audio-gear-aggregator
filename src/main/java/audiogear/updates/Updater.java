@@ -24,6 +24,7 @@ import java.nio.channels.OverlappingFileLockException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashSet;
@@ -70,6 +71,19 @@ public final class Updater {
         this.threads = new ThreadRepository(db);
         this.curves = new CurveRepository(db);
         this.applied = new AppliedUpdateRepository(db);
+    }
+
+    /**
+     * True when the data branch was published after lastRun (or there never was a run), so new data shows up within
+     * the hour instead of waiting for the daily slot. One small request; false when offline or unreadable.
+     */
+    public boolean newDataSince(Instant lastRun) {
+        try {
+            Instant generated = Instant.parse(feed.manifest().generated());
+            return lastRun == null || generated.isAfter(lastRun);
+        } catch (IOException | RuntimeException e) {
+            return false;
+        }
     }
 
     /** Never throws for network problems: they come back as skippedReason or problems, to retry next run. */
