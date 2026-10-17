@@ -89,6 +89,37 @@ public final class FeedCollector {
     }
 
     /**
+     * Adds extra items (e.g. today's new ASR reviews) to a feed. Threads already published (seenUrls) or already in
+     * the feed are dropped; a thread for gear the feed already has joins that item; items left without threads go.
+     */
+    public static FeedFile merge(FeedFile feed, List<ResearchImporter.ResearchItem> extra, Set<String> seenUrls) {
+        Map<String, ResearchImporter.ResearchItem> byGear = new LinkedHashMap<>();
+        Set<String> taken = new HashSet<>(seenUrls);
+        for (ResearchImporter.ResearchItem i : feed.items()) {
+            byGear.put(gearKey(i), i);
+            for (ResearchImporter.ResearchThread t : i.threads()) taken.add(UrlNormalizer.normalize(t.url()));
+        }
+        for (ResearchImporter.ResearchItem i : extra) {
+            List<ResearchImporter.ResearchThread> fresh = new ArrayList<>();
+            for (ResearchImporter.ResearchThread t : i.threads()) if (taken.add(UrlNormalizer.normalize(t.url()))) fresh.add(t);
+            if (fresh.isEmpty()) continue;
+            ResearchImporter.ResearchItem known = byGear.get(gearKey(i));
+            if (known == null) {
+                byGear.put(gearKey(i), new ResearchImporter.ResearchItem(i.gear(), i.autoeq(), fresh));
+            } else {
+                List<ResearchImporter.ResearchThread> all = new ArrayList<>(known.threads());
+                all.addAll(fresh);
+                byGear.put(gearKey(i), new ResearchImporter.ResearchItem(known.gear(), known.autoeq(), all));
+            }
+        }
+        return new FeedFile(feed.title(), feed.gathered(), feed.window(), feed.method(), List.copyOf(byGear.values()));
+    }
+
+    private static String gearKey(ResearchImporter.ResearchItem i) {
+        return (i.gear().get("brand") + "\u0000" + i.gear().get("model")).toLowerCase(java.util.Locale.ROOT);
+    }
+
+    /**
      * True when the title names the model as a whole word: its letters and digits in order, optionally separated by
      * spaces or dashes ("HD600" names "HD 600"), but not inside a longer word ("Planar" doesn't name "LAN", and
      * "WF-1000XM6" doesn't name "WF-1000X"). The shared name matcher matches substrings, which is fine for linking

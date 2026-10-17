@@ -22,6 +22,9 @@ Once a day (and on **Update now** in *Data & Settings*) the app adds what's new,
   ([.github/workflows/daily-feed.yml](.github/workflows/daily-feed.yml)) reads their RSS feeds every day at 06:00
   UTC, keeps titles that name known gear, and publishes them to this repository's `data` branch
   ([feeds/sources.json](feeds/sources.json) lists the feeds).
+- **New amps and DACs** as soon as [Audio Science Review](https://www.audiosciencereview.com/forum/index.php?pages/Reviews)
+  measures them, with SINAD, price and the review link. `research/2026-10-asr-amps-dacs.json` holds the ~900 amps,
+  DACs, DAC/amps, dongles, DAPs and audio interfaces measured so far (rebuild it with `./gradlew asrAmpsDacs`).
 - **New research files** (the monthly most-discussed lists) from the same branch.
 - **A notice when a new version** is released, with a Download button.
 
