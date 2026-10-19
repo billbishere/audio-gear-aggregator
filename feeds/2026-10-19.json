@@ -1,0 +1,135 @@
+{
+  "title" : "Daily feed 2026-10-19",
+  "gathered" : "2026-10-19",
+  "window" : {
+    "from" : "2026-10-18",
+    "to" : "2026-10-19"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Donner",
+      "type" : "AMP",
+      "model" : "EM1"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/donner-em1-portable-iem-amp-review.65658/",
+      "title" : "Donner EM1 Portable IEM Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Neumann",
+      "type" : "HEADPHONE",
+      "model" : "NDH30"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/neumann-ndh-30.963439/",
+      "title" : "Neumann NDH 30",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD490 Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-490-pro-plus-coming.971458/",
+      "title" : "Sennheiser HD 490 Pro Plus coming?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 490 Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-490-pro-plus-coming.971458/",
+      "title" : "Sennheiser HD 490 Pro Plus coming?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "KEFINE",
+      "type" : "IEM",
+      "model" : "Klean"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/kefine-klean-sv-review-punch-clarity-and-three-flavours.981706/",
+      "title" : "Kefine Klean SV Review: Punch, Clarity and Three Flavours",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "N/A",
+      "type" : "DAC",
+      "model" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/denafrips-ares-r2r-discrete-ladder-dac-close-up-view.833690/",
+      "title" : "DENAFRIPS 'ARES' R2R discrete ladder DAC - close up view",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-19"
+    }, {
+      "url" : "https://www.head-fi.org/threads/from-analog-to-digital-%E2%80%94-a-hunt-for-a-fatigue-free-dac.981518/",
+      "title" : "From Analog to Digital — A Hunt for a Fatigue-Free DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 595"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x9uyfu/",
+      "title" : "Looking to replace Sennheiser HD 595 (~€200–250, EU) | Gaming (CS2), Rock, all-day coding and procrastinating:) | Open-back",
+      "source" : "REDDIT",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "105 Aer"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1x9uw4p/",
+      "title" : "Keep Meze 105 AER or switch to HIFIMAN Edition XV for music + gaming?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HyperX",
+      "type" : "HEADPHONE",
+      "model" : "Cloud"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=1u3AmE6ZDyU",
+      "title" : "A new open back headset contender — HyperX Cloud Alpha Air Review",
+      "source" : "YOUTUBE",
+      "posted" : "2026-10-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HyperX",
+      "type" : "HEADPHONE",
+      "model" : "Cloud Alpha"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=1u3AmE6ZDyU",
+      "title" : "A new open back headset contender — HyperX Cloud Alpha Air Review",
+      "source" : "YOUTUBE",
+      "posted" : "2026-10-18"
+    } ]
+  } ]
+}
