@@ -1,0 +1,200 @@
+{
+  "title" : "Daily feed 2026-10-20",
+  "gathered" : "2026-10-20",
+  "window" : {
+    "from" : "2026-10-19",
+    "to" : "2026-10-20"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 6XX",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/comparison-of-sennheiser-hd6xx-and-hongshu-halo-eh-1.73999/",
+      "title" : "Comparison of Sennheiser HD6xx and Hongshu Halo EH-1",
+      "source" : "ASR",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HE6se",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/hifiman-he6se-review-headphone.23576/",
+      "title" : "Hifiman HE6se Review (Headphone)",
+      "source" : "ASR",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "Mojo 2",
+      "brand" : "Chord Electronics"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/chord-mojo-2-review-portable-dac-hp-amp.34160/",
+      "title" : "CHORD Mojo 2 Review (Portable DAC & HP Amp)",
+      "source" : "ASR",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "FT1",
+      "brand" : "FiiO"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fiio-ft1.974052/",
+      "title" : "FiiO FT1",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xaij5v/",
+      "title" : "Looking to buy the FIIO FT1 PRO open back planar headphones",
+      "source" : "REDDIT",
+      "posted" : "2026-10-20"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xa7f6y/",
+      "title" : "How's the durability of the FIIO FT1's?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "DT 880",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/help-identifying-older-dt-880-pro-variant.981714/",
+      "title" : "Help identifying older DT 880 Pro variant",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "ATH-R70xa",
+      "brand" : "Audio-Technica"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audio-technica-ath-r70xa.975616/",
+      "title" : "Audio-Technica ATH-R70xa",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Px8",
+      "brand" : "Bowers & Wilkins"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/bowers-wilkins-px8-s2-headphones.978534/",
+      "title" : "Bowers & Wilkins Px8 S2 Headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "R2R-11",
+      "brand" : "Audio-gd"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audio-gd-r2r-11.859278/",
+      "title" : "Audio-gd R2R 11",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "ULI",
+      "brand" : "ETA"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/eta-uli-anime-mecha-pilot-open-backed-dynamic-headphone-a-new-reference-new-standard.15347/",
+      "title" : "ETA ULI \"Anime Mecha Pilot\" Open-Backed Dynamic Headphone - A NEW REFERENCE, NEW STANDARD!",
+      "source" : "SBAF",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Reference",
+      "brand" : "CrinEar"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/loaner-crinear-reference-iem.15668/",
+      "title" : "Loaner: CrinEar Reference IEM",
+      "source" : "SBAF",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HEDDphone",
+      "brand" : "HEDD"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/heddphone-d1s.15692/",
+      "title" : "Heddphone D1's",
+      "source" : "SBAF",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX5",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xan3yk/",
+      "title" : "Topping DX5 ii vs Fiio K13 R2R?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DX5 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xan3yk/",
+      "title" : "Topping DX5 ii vs Fiio K13 R2R?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "SHP9500",
+      "brand" : "Philips"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xa5ivq/",
+      "title" : "Thank you to everyone who recommended the SHP9500",
+      "source" : "REDDIT",
+      "posted" : "2026-10-19"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "FT1 Pro",
+      "brand" : "FiiO"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xaij5v/",
+      "title" : "Looking to buy the FIIO FT1 PRO open back planar headphones",
+      "source" : "REDDIT",
+      "posted" : "2026-10-20"
+    } ]
+  } ]
+}
