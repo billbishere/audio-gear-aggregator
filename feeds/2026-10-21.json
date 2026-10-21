@@ -1,0 +1,226 @@
+{
+  "title" : "Daily feed 2026-10-21",
+  "gathered" : "2026-10-21",
+  "window" : {
+    "from" : "2026-10-20",
+    "to" : "2026-10-21"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "DT 990",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/the-dt990-600-impressed-me.470661/",
+      "title" : "The DT990/600 impressed me",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Ananda",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-ananda-unveiled.977493/",
+      "title" : "Hifiman Ananda Unveiled",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "YH-5000SE",
+      "brand" : "Yamaha"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/yamaha-yh-5000se-%E2%80%94-a-flagship-from-an-orthodynamic-headphones-veteran.964970/",
+      "title" : "Yamaha YH-5000SE — a flagship from an orthodynamic headphones veteran!",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Rhyme SR7",
+      "brand" : "Sound"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sound-rhyme-sr7.968533/",
+      "title" : "Sound Rhyme SR7",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "iSINE 10",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-isine-10-isine-20-audeze-releases-two-new-iem-planar-magnetic-earphones.818870/",
+      "title" : "Audeze iSINE 10 & iSINE 20: Audeze releases two new IEM planar magnetic earphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "iSINE 20",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-isine-10-isine-20-audeze-releases-two-new-iem-planar-magnetic-earphones.818870/",
+      "title" : "Audeze iSINE 10 & iSINE 20: Audeze releases two new IEM planar magnetic earphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Sharona",
+      "brand" : "JH Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/jh-audio-sharona-discussion-and-impressions-thread.963201/",
+      "title" : "JH Audio - Sharona - Discussion and Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "Bifrost",
+      "brand" : "Schiit"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-bifrost-3.981255/",
+      "title" : "Schiit Bifrost 3",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "R-2R DAC",
+      "brand" : "Drop & Airist Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/holo-audio-spring-r2r-dac.810065/",
+      "title" : "Holo Audio Spring R2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/holo-audio-spring-3-dac-vs-element-iv-internal-dac-%E2%80%93-worth-the-upgrade-for-lcd-4.977981/",
+      "title" : "Holo Audio Spring 3 DAC vs Element IV internal DAC – Worth the upgrade for LCD-4?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "LCD-4",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/holo-audio-spring-3-dac-vs-element-iv-internal-dac-%E2%80%93-worth-the-upgrade-for-lcd-4.977981/",
+      "title" : "Holo Audio Spring 3 DAC vs Element IV internal DAC – Worth the upgrade for LCD-4?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Phantom",
+      "brand" : "BGVP"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/fs-bgvp-phantom-se-iems.15783/",
+      "title" : "FS - BGVP Phantom SE IEMs",
+      "source" : "SBAF",
+      "posted" : "2026-10-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX5",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xbepah/",
+      "title" : "UPDATE 2: TOPPING DX5 II. Two faulty units, a promised refund, and now a dispute over who takes the financial risk.",
+      "source" : "REDDIT",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DX5 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xbepah/",
+      "title" : "UPDATE 2: TOPPING DX5 II. Two faulty units, a promised refund, and now a dispute over who takes the financial risk.",
+      "source" : "REDDIT",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Reference",
+      "brand" : "CrinEar"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xbea74/",
+      "title" : "How close does the CrinEar Reference sound to the Sonarworks Reference EQ?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "ULT WEAR",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xbb2nm/",
+      "title" : "Sony ult wear or Soundcore space 2.",
+      "source" : "REDDIT",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "E1000",
+      "brand" : "Final Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xbhkwl/",
+      "title" : "Keep the Faith - E1000",
+      "source" : "REDDIT",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "ATH-M40x",
+      "brand" : "Audio-Technica"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xbhv2b/",
+      "title" : "ATH-M40X is able to use outside?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-21"
+    } ]
+  } ]
+}
