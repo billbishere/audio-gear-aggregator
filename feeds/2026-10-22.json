@@ -1,0 +1,178 @@
+{
+  "title" : "Daily feed 2026-10-22",
+  "gathered" : "2026-10-22",
+  "window" : {
+    "from" : "2026-10-21",
+    "to" : "2026-10-22"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "IEM",
+      "brand" : "Truthear",
+      "model" : "Gate"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/truthear-gate-17-iem-review.61784/",
+      "title" : "Truthear GATE $17 IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "ZMF",
+      "model" : "Bokeh"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-bokeh-open-back-headphones.974425/",
+      "title" : "ZMF Bokeh - Open Back Headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Fostex",
+      "model" : "TH616"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fostex-th616-a-50th-anniversary-wood-masterpiece.969925/",
+      "title" : "Fostex TH616 - A 50th Anniversary Wood Masterpiece",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "brand" : "FlipEars",
+      "model" : "Aether"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/flipears-iems-line-up-aether-artha-aurora-impressions-and-discussions.971948/",
+      "title" : "FlipEars IEMs Line-up - Aether/Artha/Aurora - Impressions and Discussions",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "brand" : "Campfire Audio",
+      "model" : "Andromeda"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/andromeda-10-campfire-audio.977912/",
+      "title" : "Andromeda 10 - Campfire Audio",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Beyerdynamic",
+      "model" : "DT 900 Pro X"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xce6tx/",
+      "title" : "Looking for upgrade from Beyerdynamic DT 900 PRO X",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Philips",
+      "model" : "SHP9500"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xcfe4f/",
+      "title" : "SHP9500 vs. HD 599",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser",
+      "model" : "HD 599"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xcfe4f/",
+      "title" : "SHP9500 vs. HD 599",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Razer",
+      "model" : "BlackShark V2"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xce7kh/",
+      "title" : "Audeze Maxwell 2 vs Razer BlackShark V2 – Comfort Comparison",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Audeze",
+      "model" : "Maxwell"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xce7kh/",
+      "title" : "Audeze Maxwell 2 vs Razer BlackShark V2 – Comfort Comparison",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "brand" : "Topping",
+      "model" : "DX5"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xc4r56/",
+      "title" : "Topping DX5-II - A year later",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "Topping",
+      "model" : "DX5 II"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xc4r56/",
+      "title" : "Topping DX5-II - A year later",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "HyperX",
+      "model" : "Cloud"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xccjli/",
+      "title" : "HyperX Cloud III or HyperX Flight 2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "HyperX",
+      "model" : "Cloud III"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xccjli/",
+      "title" : "HyperX Cloud III or HyperX Flight 2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  } ]
+}
