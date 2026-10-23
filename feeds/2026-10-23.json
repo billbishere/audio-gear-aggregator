@@ -1,0 +1,118 @@
+{
+  "title" : "Daily feed 2026-10-23",
+  "gathered" : "2026-10-23",
+  "window" : {
+    "from" : "2026-10-22",
+    "to" : "2026-10-23"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "model" : "HEDDphone",
+      "type" : "HEADPHONE",
+      "brand" : "HEDD"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/hedd-audio-heddphone-d1.67165/",
+      "title" : "HEDD Audio HEDDphone D1",
+      "source" : "ASR",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "RAW-MDA 1",
+      "type" : "AMP_DAC",
+      "brand" : "SMSL"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/smsl-raw-mda-1-dac-headphone-amp-review.56430/",
+      "title" : "SMSL RAW-MDA 1 DAC & Headphone Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "ATH-ADX3000",
+      "type" : "HEADPHONE",
+      "brand" : "Audio-Technica"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audio-technica-ath-adx3000-coming-in-late-2024.973804/",
+      "title" : "Audio-Technica ATH-ADX3000 - Coming in late 2024",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "MDR-Z7M2",
+      "type" : "HEADPHONE",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-z7m2-headphone-thread.886123/",
+      "title" : "Sony MDR-Z7M2 Headphone Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "MDR-MA900",
+      "type" : "HEADPHONE",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-ma900-impressions-thread.663121/",
+      "title" : "Sony MDR MA900 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Annihilator",
+      "type" : "IEM",
+      "brand" : "Elysian"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/elysian-annihilator-2023.967761/",
+      "title" : "Elysian Annihilator 2023",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "MM-100",
+      "type" : "HEADPHONE",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xcoyq7/",
+      "title" : "Open back ~$500, bass music, with EQ, long listening. Sennheiser 490, Audeze MM-100, others?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-22"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "DAC",
+      "type" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xdaant/",
+      "title" : "Finally got the sound I wanted 😁 ifi zen DAC 3, fiio sr11 (Roon) and meze 99 classic v2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "SR11",
+      "type" : "IEM",
+      "brand" : "SWEEAR"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xdaant/",
+      "title" : "Finally got the sound I wanted 😁 ifi zen DAC 3, fiio sr11 (Roon) and meze 99 classic v2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-23"
+    } ]
+  } ]
+}
