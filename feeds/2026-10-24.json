@@ -1,0 +1,172 @@
+{
+  "title" : "Daily feed 2026-10-24",
+  "gathered" : "2026-10-24",
+  "window" : {
+    "from" : "2026-10-23",
+    "to" : "2026-10-24"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD490 Pro",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/sennheiser-hd-490-pro-headphone-review.53935/",
+      "title" : "Sennheiser HD 490 Pro Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 490 Pro",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/sennheiser-hd-490-pro-headphone-review.53935/",
+      "title" : "Sennheiser HD 490 Pro Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audeze",
+      "model" : "Maxwell",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-maxwell-2-xb-and-ps-shipping-now-anc-version-in-spring-26.979074/",
+      "title" : "Audeze Maxwell 2 XB and PS - Shipping Now - ANC Version In Spring '26",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 650",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/pioneer-se-a1000-sennheiser-hd-650-for-45.670454/",
+      "title" : "Pioneer SE-A1000 (Sennheiser HD 650 for $45?)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Pioneer",
+      "model" : "SE-A1000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/pioneer-se-a1000-sennheiser-hd-650-for-45.670454/",
+      "title" : "Pioneer SE-A1000 (Sennheiser HD 650 for $45?)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Fatfreq",
+      "model" : "Grand Maestro",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fatfreq-grand-maestro.968113/",
+      "title" : "FatFreq Grand Maestro",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "PC38X",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xe577q/",
+      "title" : "PC38X vs Sony Inzone H6 Air vs ASUS ROG Kithara – which would you choose for single-player gaming?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE1000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xe564m/",
+      "title" : "Hifiman HE1000 v2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE1000 V2",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xe564m/",
+      "title" : "Hifiman HE1000 v2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Meze",
+      "model" : "109 Pro",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xdrn3t/",
+      "title" : "Arya organic vs Meze 109 Pro vs Sony MDR MV1",
+      "source" : "REDDIT",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "model" : "MDR-MV1",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xdrn3t/",
+      "title" : "Arya organic vs Meze 109 Pro vs Sony MDR MV1",
+      "source" : "REDDIT",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Final Audio",
+      "model" : "A8000",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xdn6hd/",
+      "title" : "Final is releasing an updated model or V2 version to their older flagship A8000 iem",
+      "source" : "REDDIT",
+      "posted" : "2026-10-23"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "brand" : "Topping",
+      "model" : "KB 22 Keyboard",
+      "sinad_db" : "117",
+      "msrp" : "269",
+      "msrp_currency" : "USD",
+      "tags" : "asr-reviewed, asr-recommended, dac-amp",
+      "notes" : "Measured by Audio Science Review: SINAD 117 dB (amirm, 2026-10-23), recommended."
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-kb22-audio-interface-and-keyboard-review.74066/?",
+      "title" : "ASR review: Topping KB 22 Keyboard",
+      "source" : "ASR",
+      "posted" : "2026-10-23",
+      "snippet" : "Measured by amirm: SINAD 117 dB, recommended."
+    } ]
+  } ]
+}
