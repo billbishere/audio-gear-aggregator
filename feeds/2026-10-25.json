@@ -1,0 +1,190 @@
+{
+  "title" : "Daily feed 2026-10-25",
+  "gathered" : "2026-10-25",
+  "window" : {
+    "from" : "2026-10-24",
+    "to" : "2026-10-25"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DX5 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5ii-balanced-dac-and-headphone-amp-review.64264/",
+      "title" : "Topping DX5II Balanced DAC and Headphone Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "NightHawk",
+      "brand" : "AudioQuest"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audioquest-nightowl-a-closed-back-nighthawk.817227/",
+      "title" : "AudioQuest NightOwl  -  A closed-back NightHawk",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "NightOwl",
+      "brand" : "AudioQuest"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audioquest-nightowl-a-closed-back-nighthawk.817227/",
+      "title" : "AudioQuest NightOwl  -  A closed-back NightHawk",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Arya",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-arya-arya-stealth-arya-organic-impressions-thread.890421/",
+      "title" : "HIFIMAN Arya - Arya Stealth - Arya Organic :: Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Arya Organic",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-arya-arya-stealth-arya-organic-impressions-thread.890421/",
+      "title" : "HIFIMAN Arya - Arya Stealth - Arya Organic :: Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Edition XS",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-edition-xs-fit.977373/",
+      "title" : "Hifiman Edition XS Fit",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "AirPods Pro",
+      "brand" : "Apple"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-pro-3-2025.977980/",
+      "title" : "New Apple AirPods Pro 3 (2025)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "AirPods",
+      "brand" : "Apple"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-pro-3-2025.977980/",
+      "title" : "New Apple AirPods Pro 3 (2025)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Stellia",
+      "brand" : "Focal"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/fs-ft-eu-nl-focal-stellia-complete-with-original-accessories.15789/",
+      "title" : "FS/FT (EU/NL): Focal Stellia complete with original accessories",
+      "source" : "SBAF",
+      "posted" : "2026-10-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 650",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xey6kl/",
+      "title" : "CrinEar Nightfall: ₹10,000 ($99) very well spent, coming from an HD 650",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "SR60x",
+      "brand" : "Grado"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xeroq1/",
+      "title" : "Would you make this trade? HD 599 like new condition in original box and accessories for a Hifiman R9 or Grado SR60X",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 599",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xeroq1/",
+      "title" : "Would you make this trade? HD 599 like new condition in original box and accessories for a Hifiman R9 or Grado SR60X",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "DT 990 Pro",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xexle2/",
+      "title" : "Recommended jack (And other mods) for a pair of DT990 Pro LE",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "DT 990",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xexle2/",
+      "title" : "Recommended jack (And other mods) for a pair of DT990 Pro LE",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 560S",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xeakn0/",
+      "title" : "Couldn't resist - good upgrade from HD560S?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-24"
+    } ]
+  } ]
+}
