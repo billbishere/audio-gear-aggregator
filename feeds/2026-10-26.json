@@ -1,0 +1,166 @@
+{
+  "title" : "Daily feed 2026-10-26",
+  "gathered" : "2026-10-26",
+  "window" : {
+    "from" : "2026-10-25",
+    "to" : "2026-10-26"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "model" : "K340",
+      "type" : "HEADPHONE",
+      "brand" : "AKG"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/akg-k340-electrostatic-phones.412126/",
+      "title" : "AKG K340 Electrostatic Phones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HE1000",
+      "type" : "HEADPHONE",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he1000-stealth-impressions-sharing.969860/",
+      "title" : "HIFIMAN HE1000 STEALTH Impressions sharing",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HE1000 Stealth",
+      "type" : "HEADPHONE",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he1000-stealth-impressions-sharing.969860/",
+      "title" : "HIFIMAN HE1000 STEALTH Impressions sharing",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Singularity",
+      "type" : "IEM",
+      "brand" : "Nightjar"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/nightjar-singularity.969251/",
+      "title" : "Nightjar Singularity",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 650",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xft7hy/",
+      "title" : "My HD 650 smells as good as it sounds",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Space Travel",
+      "type" : "IEM",
+      "brand" : "Moondrop"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xfv9tt/",
+      "title" : "Looking for earbuds for listening to modern synthpop. I've narrowed my choices down to status pro x goldensound or moondrop space travel 2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Space Travel 2",
+      "type" : "IEM",
+      "brand" : "Moondrop"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xfv9tt/",
+      "title" : "Looking for earbuds for listening to modern synthpop. I've narrowed my choices down to status pro x goldensound or moondrop space travel 2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Cloud",
+      "type" : "HEADPHONE",
+      "brand" : "HyperX"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xfgz4m/",
+      "title" : "Hyperx cloud alpha 2 vs beyerdynamic mmx 230 pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Cloud Alpha",
+      "type" : "HEADPHONE",
+      "brand" : "HyperX"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xfgz4m/",
+      "title" : "Hyperx cloud alpha 2 vs beyerdynamic mmx 230 pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Aria",
+      "type" : "IEM",
+      "brand" : "Moondrop"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xfm84a/",
+      "title" : "My Custom painted Moondrop Aria",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "FT1",
+      "type" : "HEADPHONE",
+      "brand" : "FiiO"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xftzu8/",
+      "title" : "I got the Fiio FT1 Pros.. and they're kind of trash?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "MDR-MV1",
+      "type" : "HEADPHONE",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xf1edj/",
+      "title" : "Sony MDR-MV1 or Arya Organic or Sennheiser 480 PRO (closed vs open)",
+      "source" : "REDDIT",
+      "posted" : "2026-10-25"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 560S",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xfi3u9/",
+      "title" : "A 3d printer \"modmic\" for the Sennheiser HD 560S?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  } ]
+}
