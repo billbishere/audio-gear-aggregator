@@ -1,0 +1,166 @@
+{
+  "title" : "Daily feed 2026-10-27",
+  "gathered" : "2026-10-27",
+  "window" : {
+    "from" : "2026-10-26",
+    "to" : "2026-10-27"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "model" : "G5",
+      "type" : "AMP_DAC",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-g5-review-portable-dac-hp-amp.36542/",
+      "title" : "Topping G5 Review (Portable DAC & HP Amp)",
+      "source" : "ASR",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "FT7",
+      "type" : "HEADPHONE",
+      "brand" : "FiiO"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fiio-ft7-flagship-planar-magnetic-headphone.976440/",
+      "title" : "FiiO FT7 - Flagship Planar Magnetic Headphone",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Clear",
+      "type" : "HEADPHONE",
+      "brand" : "Focal"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/focal-clear-headphones.861727/",
+      "title" : "Focal Clear headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "R-2R DAC",
+      "type" : "DAC",
+      "brand" : "Drop & Airist Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-%C2%B5dac-discrete-balanced-r-2r-dac.976290/",
+      "title" : "Laiv Harmony µDAC, Discrete Balanced R-2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "QuietComfort II",
+      "type" : "IEM",
+      "brand" : "Bose"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xgpot6/",
+      "title" : "Bose QuietComfort II ear buds review - Need recs on new ANCC",
+      "source" : "REDDIT",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "QuietComfort",
+      "type" : "HEADPHONE",
+      "brand" : "Bose"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xgpot6/",
+      "title" : "Bose QuietComfort II ear buds review - Need recs on new ANCC",
+      "source" : "REDDIT",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "99 Classics",
+      "type" : "HEADPHONE",
+      "brand" : "Meze"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xgnv27/",
+      "title" : "Meze discontinued the 3 meter cable for the 99 Classics (original). Anyone have a good recommendation for a 3.5mm 3 meter/10ft cable? Not opposed to some jewelry.",
+      "source" : "REDDIT",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Pure",
+      "type" : "IEM",
+      "brand" : "Truthear"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xgmhfp/",
+      "title" : "Truthear Pure white edition incoming",
+      "source" : "REDDIT",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "EarPods",
+      "type" : "IEM",
+      "brand" : "Apple"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xgl1u7/",
+      "title" : "USB-C IEMs under €40 with better bass than Apple EarPods?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 560S",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xg6c9y/",
+      "title" : "HD560s vs 550 for single player games",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD490 Pro",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xg3qlb/",
+      "title" : "HD 490 pro vs hifiman xs edition",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 490 Pro",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xg3qlb/",
+      "title" : "HD 490 pro vs hifiman xs edition",
+      "source" : "REDDIT",
+      "posted" : "2026-10-26"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 6XX",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=0dtmWgRgIVA",
+      "title" : "The HD 6XX Replacement — Aune AR3000 Review",
+      "source" : "YOUTUBE",
+      "posted" : "2026-10-26"
+    } ]
+  } ]
+}
