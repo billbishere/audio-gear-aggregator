@@ -1,0 +1,106 @@
+{
+  "title" : "Daily feed 2026-10-28",
+  "gathered" : "2026-10-28",
+  "window" : {
+    "from" : "2026-10-27",
+    "to" : "2026-10-28"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "7Hz x Crinacle",
+      "model" : "Zero 2",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/7hz-x-crinacle-zero-2-iem-review.50534/",
+      "title" : "7Hz x Crinacle Zero:2 IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "TRN",
+      "model" : "Black Pearl",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/review-of-trn-black-pearl-portable-usb-dac-headphone-amp-with-10-band-peq.64331/",
+      "title" : "Review of TRN Black Pearl: Portable USB DAC & Headphone Amp with 10-band PEQ",
+      "source" : "ASR",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Takstar",
+      "model" : "Pro 82",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/takstar-pro-82-gm200-review-impressions-and-discussion-thread.849965/",
+      "title" : "Takstar Pro 82/GM200 Review, impressions and discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-28"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Apple",
+      "model" : "Airpods Pro 2",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/thoughts-on-airpods-pro-2.967121/",
+      "title" : "Thoughts on AirPods Pro 2",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Apple",
+      "model" : "AirPods Pro2",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/thoughts-on-airpods-pro-2.967121/",
+      "title" : "Thoughts on AirPods Pro 2",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Drop & Airist Audio",
+      "model" : "R-2R DAC",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/musician-taurus-r2r-dac.971955/",
+      "title" : "Musician Taurus R2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 600",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xhjqyi/",
+      "title" : "HD600 vs Aune AR5000 mk2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-28"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AUNE",
+      "model" : "AR5000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xhjqyi/",
+      "title" : "HD600 vs Aune AR5000 mk2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-28"
+    } ]
+  } ]
+}
