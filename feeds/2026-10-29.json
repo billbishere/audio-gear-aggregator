@@ -1,0 +1,111 @@
+{
+  "title" : "Daily feed 2026-10-29",
+  "gathered" : "2026-10-29",
+  "window" : {
+    "from" : "2026-10-28",
+    "to" : "2026-10-29"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 560S",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/sennheiser-hd560s-owners-thread.27208/",
+      "title" : "Sennheiser HD560s Owner's Thread.",
+      "source" : "ASR",
+      "posted" : "2026-10-29"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xice8a/",
+      "title" : "Did not get along with hd 560 s after all",
+      "source" : "REDDIT",
+      "posted" : "2026-10-29"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Dan Clark Audio",
+      "model" : "Aeon 2 Noire",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/dan-clark-audio-aeon-2-noire-review.46055/",
+      "title" : "Dan Clark Audio AEON 2 Noire Review",
+      "source" : "ASR",
+      "posted" : "2026-10-28"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "ZMF",
+      "model" : "Atticus",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/atticus-and-eikon-the-new-dynamic-driver-headphones-from-zmf.821782/",
+      "title" : "ATTICUS and EIKON, the new dynamic driver headphones from ZMF",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-29"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "ZMF",
+      "model" : "Eikon",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/atticus-and-eikon-the-new-dynamic-driver-headphones-from-zmf.821782/",
+      "title" : "ATTICUS and EIKON, the new dynamic driver headphones from ZMF",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-29"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Palma",
+      "model" : "DHS-1",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/palma-dhs-1-discussion-thread.973517/",
+      "title" : "Palma DHS-1 / Discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-28"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HEDD",
+      "model" : "HEDDphone",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hedd-announces-heddphone-with-amt-technology.906270/",
+      "title" : "HEDD Announces HEDDphone With AMT Technology",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-28"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AUNE",
+      "model" : "AR5000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xhp8wd/",
+      "title" : "Back into head-fi after 13 years. Couldn't resist. ( 5min audition purchase 😓) - Fiio K13 R2R & Aune AR5000 MkII",
+      "source" : "REDDIT",
+      "posted" : "2026-10-28"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "Momentum",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=ALt6eJ8A8yI",
+      "title" : "Simple, Done Well! - Sennheiser Momentum 5",
+      "source" : "YOUTUBE",
+      "posted" : "2026-10-28"
+    } ]
+  } ]
+}
