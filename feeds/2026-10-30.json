@@ -1,0 +1,145 @@
+{
+  "title" : "Daily feed 2026-10-30",
+  "gathered" : "2026-10-30",
+  "window" : {
+    "from" : "2026-10-29",
+    "to" : "2026-10-30"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "model" : "MM-100",
+      "type" : "HEADPHONE",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-mm-100.967558/",
+      "title" : "Audeze MM-100",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "PX7",
+      "type" : "HEADPHONE",
+      "brand" : "Bowers & Wilkins"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/bowers-wilkins-px7-noise-cancelling-over-ear-headphones.915539/",
+      "title" : "Bowers & Wilkins PX7 noise-cancelling over ear headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-29"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Px8",
+      "type" : "HEADPHONE",
+      "brand" : "Bowers & Wilkins"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/bowers-wilkins-px8-s2-discussion.978693/",
+      "title" : "Bowers & Wilkins PX8 S2 discussion",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 600",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xiytyj/",
+      "title" : "The HD600 changed the way I hear my other headphones",
+      "source" : "REDDIT",
+      "posted" : "2026-10-29"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xj9i9n/",
+      "title" : "Alternatives to HD 600 with BASS boost nowadays 2026?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD490 Pro",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xj1up1/",
+      "title" : "HD 490 Pro or Arya Stealth?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xiysjb/",
+      "title" : "Aftermarket ear pads for the Sennheiser HD 490 Pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-29"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 490 Pro",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xj1up1/",
+      "title" : "HD 490 Pro or Arya Stealth?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xiysjb/",
+      "title" : "Aftermarket ear pads for the Sennheiser HD 490 Pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-29"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "ear",
+      "type" : "IEM",
+      "brand" : "Nothing"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xjde2r/",
+      "title" : "Upgrading from my Nothing ear",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Arya",
+      "type" : "HEADPHONE",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xj203e/",
+      "title" : "beyerdynamic 1990 pro mk2 or the hifiman arya organic?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Arya Organic",
+      "type" : "HEADPHONE",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xj203e/",
+      "title" : "beyerdynamic 1990 pro mk2 or the hifiman arya organic?",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Clear",
+      "type" : "HEADPHONE",
+      "brand" : "Focal"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xj5eak/",
+      "title" : "\"Lost\" After Trying Focal Clear MGs",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    } ]
+  } ]
+}
