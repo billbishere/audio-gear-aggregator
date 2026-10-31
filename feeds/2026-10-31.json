@@ -1,0 +1,236 @@
+{
+  "title" : "Daily feed 2026-10-31",
+  "gathered" : "2026-10-31",
+  "window" : {
+    "from" : "2026-10-30",
+    "to" : "2026-10-31"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX 1 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.72034/",
+      "title" : "Topping DX1 II DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX1 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.72034/",
+      "title" : "Topping DX1 II DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "JM20",
+      "brand" : "JCALLY"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jcally-jm20-max-headphone-dongle-review.62260/",
+      "title" : "JCALLY JM20 MAX Headphone Dongle Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "JM20 MAX",
+      "brand" : "JCALLY"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jcally-jm20-max-headphone-dongle-review.62260/",
+      "title" : "JCALLY JM20 MAX Headphone Dongle Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD490 Pro",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/closed-version-of-the-hd-490-pro-unveiled-hd-480-pro.980102/",
+      "title" : "Closed version of the HD 490 PRO unveiled (HD 480 PRO)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 490 Pro",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/closed-version-of-the-hd-490-pro-unveiled-hd-480-pro.980102/",
+      "title" : "Closed version of the HD 490 PRO unveiled (HD 480 PRO)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "SR-X1",
+      "brand" : "Stax"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/stax-sr-x1-new-entry-model.971680/",
+      "title" : "Stax SR-X1 (new entry model)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Bokeh",
+      "brand" : "ZMF"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-bokeh-closed-back-semi-portable.969961/",
+      "title" : "ZMF BOKEH - Closed Back (Semi-Portable)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Bokeh Closed",
+      "brand" : "ZMF"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-bokeh-closed-back-semi-portable.969961/",
+      "title" : "ZMF BOKEH - Closed Back (Semi-Portable)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HEDDphone",
+      "brand" : "HEDD"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hedd-d1-heddphone-with-first-in-world-tpcd-driver-technology-discussion-thread.978402/",
+      "title" : "HEDD D1 - HEDDphone with first in world TPCD-Driver Technology - Discussion Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "E3",
+      "brand" : "Dan Clark Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-e3-review-interview-measurements-impressions.970772/",
+      "title" : "Dan Clark Audio E3 Review: Interview, Measurements, Impressions",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Zenith",
+      "brand" : "KZ"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/knowledge-zenith-kz-impressions-thread.698148/",
+      "title" : "Knowledge Zenith (KZ) impressions thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "FT1",
+      "brand" : "FiiO"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xju4hp/",
+      "title" : "Would the Audeze LCD-2C (post 2021) be worth a try if I like the Fiio FT1",
+      "source" : "REDDIT",
+      "posted" : "2026-10-30"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "QuietComfort",
+      "brand" : "Bose"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xk1bq2/",
+      "title" : "Bose Quiet Comfort SC Gen 1 or 2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xk1blv/",
+      "title" : "Bose Quiet Comfort SC Gen 1 or 2",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Bunny",
+      "brand" : "Tanchjim"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xk68ru/",
+      "title" : "The Tanchjim Bunny Gaming: Tanchjim's new game plus is promising",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Volume",
+      "brand" : "SoftEars"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xk6kzf/",
+      "title" : "Softears Volume S - The set that just gets tonality right!",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Volume S",
+      "brand" : "SoftEars"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xk6kzf/",
+      "title" : "Softears Volume S - The set that just gets tonality right!",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP",
+      "brand" : "SMSL",
+      "model" : "H400 MK2",
+      "msrp" : "539",
+      "msrp_currency" : "USD",
+      "tags" : "asr-reviewed, asr-recommended, multifunction",
+      "notes" : "Measured by Audio Science Review: SINAD 125 dB (NTTY, 2026-10-30), recommended."
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/smsl-h400-mk2-preamplifier-hp-amp-review-ntty.74177/",
+      "title" : "ASR review: SMSL H400 MK2",
+      "source" : "ASR",
+      "posted" : "2026-10-30",
+      "snippet" : "Measured by NTTY: SINAD 125 dB, recommended."
+    } ]
+  } ]
+}
