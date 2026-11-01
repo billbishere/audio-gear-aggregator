@@ -1,0 +1,373 @@
+{
+  "title" : "Daily feed 2026-11-01",
+  "gathered" : "2026-11-01",
+  "window" : {
+    "from" : "2026-10-31",
+    "to" : "2026-11-01"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "1MORE",
+      "model" : "SonoFlow",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/1more-sonoflow-nc-headphone-review.42849/",
+      "title" : "1More Sonoflow NC Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Takstar",
+      "model" : "Pro 82",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/takstar-pro-82-review-headphone.24878/",
+      "title" : "Takstar Pro 82 Review (Headphone)",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "model" : "A70 Pro",
+      "type" : "AMP"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-a70-pro-hp-preamp-review.44636/",
+      "title" : "Topping A70 Pro HP & Preamp Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "model" : "DX5",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
+      "title" : "Topping DX5 II",
+      "source" : "ASR",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "model" : "DX5 II",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
+      "title" : "Topping DX5 II",
+      "source" : "ASR",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "SMSL",
+      "model" : "SU-2",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/smsl-su-2-dac-review-ntty.72921/",
+      "title" : "SMSL SU-2 DAC Review (NTTY)",
+      "source" : "ASR",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Schiit",
+      "model" : "Magni Mesh",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/schiit-magni-mesh-dac-review.69776/",
+      "title" : "Schiit Magni Mesh DAC Review",
+      "source" : "ASR",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "Edition XS",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-edition-xs-launched.960155/",
+      "title" : "Hifiman Edition XS Launched",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AKG",
+      "model" : "N9 Hybrid",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/akg-n9-hybrid.974456/",
+      "title" : "AKG N9 Hybrid",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AKG",
+      "model" : "K812",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/akg-k812-pro-underrated.850415/",
+      "title" : "AKG K812 Pro, underrated?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "Isvarna",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-isvarna-closed-back-hybrid.974667/",
+      "title" : "HiFiMan ISVARNA Closed Back Hybrid",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AUNE",
+      "model" : "AR5000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/impressions-aune-ar5000-full-size-open-headphones-with-mld-driver.971107/",
+      "title" : "Impressions | aune AR5000 Full-Size Open Headphones with MLD Driver",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Dan Clark Audio",
+      "model" : "AEON Core",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-aeon-core-the-engineering-the-measurements-the-interview.980511/",
+      "title" : "Dan Clark Audio AEON CORE: The Engineering, The Measurements, The Interview",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "HD 660S2",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-660s2-thread.966685/",
+      "title" : "Sennheiser HD 660S2 thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AKG",
+      "model" : "K501",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/official-akg-k501-version-count.227052/",
+      "title" : "Official AKG K501 Version Count",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Grado",
+      "model" : "Hemp",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/grado-hemp-revised-edition-mini-review.956668/",
+      "title" : "Grado Hemp - Revised edition - Mini Review",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "T+A",
+      "model" : "Solitaire T",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/t-a-solitaire-t-wireless-headphone.964925/",
+      "title" : "T+A Solitaire T Wireless Headphone",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Campfire Audio",
+      "model" : "Trifecta",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/campfire-audio-trifecta.965801/",
+      "title" : "Campfire Audio Trifecta",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "model" : "Momentum",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-momentum-5.980419/",
+      "title" : "Sennheiser Momentum 5",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkw70p/",
+      "title" : "Bose QuietComfort 2 vs. Sennheiser Momentum 4",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Drop & Airist Audio",
+      "model" : "R-2R DAC",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/go-for-a-bolder-flavor-fiio-r2r-dac-tube-buffer-warmer-r2r.978475/",
+      "title" : "Go for a Bolder Flavor, FIIO R2R DAC + Tube Buffer WARMER R2R",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    }, {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-r2r-dac-impression-and-reviews.972522/",
+      "title" : "LAiV Harmony R2R DAC Impression and Reviews",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "N/A",
+      "model" : "DAC",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-r2r-dac-impression-and-reviews.972522/",
+      "title" : "LAiV Harmony R2R DAC Impression and Reviews",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-01"
+    }, {
+      "url" : "https://www.head-fi.org/threads/lta-aero-dac-linear-tube-audio%E2%80%99s-first-ever-digital-to-analog-converter-world%E2%80%99s-first-dac-using-zotl-technology-reviews-in-the-thread.972761/",
+      "title" : "LTA Aero Dac. Linear Tube Audio’s first-ever digital-to-analog converter, world’s first DAC using ZOTL technology. Reviews in the Thread.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Schiit",
+      "model" : "Bifrost",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/best-schiit-bifrost-1-multibit-modification-practice.14976/",
+      "title" : "Best Schiit Bifrost 1 Multibit modification practice",
+      "source" : "SBAF",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "TRN",
+      "model" : "Black Pearl",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkwntg/",
+      "title" : "Is the Trn black pearl still worth it?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Bose",
+      "model" : "QuietComfort",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkw70p/",
+      "title" : "Bose QuietComfort 2 vs. Sennheiser Momentum 4",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE1000 V2",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkvkga/",
+      "title" : "For HE1000v2 (Non-Stealth) which Dekoni pads do you recommend?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "model" : "WH-XB910N",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkvgyx/",
+      "title" : "Worth upgrading from Sony WH-XB910N?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "model" : "DT 990 Pro",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkonh7/",
+      "title" : "Looking to replace/upgrade from DT990 pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "model" : "DT 990",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkonh7/",
+      "title" : "Looking to replace/upgrade from DT990 pro",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "FiiO",
+      "model" : "FT7",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xkhbdp/",
+      "title" : "Looking for a direct upgrade from the Fiio FT7",
+      "source" : "REDDIT",
+      "posted" : "2026-10-31"
+    } ]
+  } ]
+}
