@@ -1,0 +1,289 @@
+{
+  "title" : "Daily feed 2026-11-02",
+  "gathered" : "2026-11-02",
+  "window" : {
+    "from" : "2026-11-01",
+    "to" : "2026-11-02"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "ER2SE",
+      "brand" : "Etymotic"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/is-there-a-way-to-calibrate-a-clone-coupler-other-than-the-csglinux-er2se-tour.72439/",
+      "title" : "Is there a way to calibrate a clone coupler other than the csglinux ER2SE Tour?",
+      "source" : "ASR",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Poet",
+      "brand" : "Meze"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/dan-clark-e3-or-meze-audio-poet-or-what-for-premium-planars-as-endgame-purchase.74217/",
+      "title" : "Dan Clark E3 or Meze Audio Poet, or what for \"premium\" planars as endgame purchase?",
+      "source" : "ASR",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX 1 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review-ntty.71973/",
+      "title" : "Topping DX1 II DAC & HP Amp Review (NTTY)",
+      "source" : "ASR",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX1 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review-ntty.71973/",
+      "title" : "Topping DX1 II DAC & HP Amp Review (NTTY)",
+      "source" : "ASR",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "ULT WEAR",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-ult-wear-wh-ult900n.972433/",
+      "title" : "Sony ULT Wear (WH-ULT900N)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HE6",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-wifi.981839/",
+      "title" : "HiFiMan HE6 WiFi",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    }, {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xlcd4o/",
+      "title" : "Hifiman HE6 WiFi launched in China",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HE-6",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-wifi.981839/",
+      "title" : "HiFiMan HE6 WiFi",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    }, {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xlcd4o/",
+      "title" : "Hifiman HE6 WiFi launched in China",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Auteur",
+      "brand" : "ZMF"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-auteur-thread.862918/",
+      "title" : "ZMF Auteur Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Svanar",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-new-single-dd-flagship-hifiman-svanar.966286/",
+      "title" : "Hifiman new Single DD flagship: Hifiman Svanar",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Aria 2",
+      "brand" : "Moondrop"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/easy-to-listen-to-iem-upgrade-for-aria-2.981838/",
+      "title" : "Easy-to-listen-to-IEM - Upgrade for Aria 2",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Solitaire T",
+      "brand" : "T+A"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/t-a-solitaire-t-pro-upcoming-successor-fcc-filing-discovery.981500/",
+      "title" : "T+A Solitaire T Pro (Upcoming Successor - FCC Filing Discovery)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "ADI-2 Pro",
+      "brand" : "RME"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/adi-2-pro-ex-upgraded-adi-2-pro.980498/",
+      "title" : "ADI-2 Pro EX, upgraded ADI-2 Pro",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Reference",
+      "brand" : "CrinEar"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/crinear-reference-a-true-reference-iem.15652/",
+      "title" : "CrinEar Reference - A True Reference IEM?",
+      "source" : "SBAF",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "Bifrost",
+      "brand" : "Schiit"
+    },
+    "threads" : [ {
+      "url" : "https://www.superbestaudiofriends.org/index.php?threads/fs-ymos-schiit-og-bifrost-2-dac-in-black.15802/",
+      "title" : "FS:  YMO's Schiit OG Bifrost 2 DAC in Black",
+      "source" : "SBAF",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 800 S",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlv8vw/",
+      "title" : "Choice paralysis on DAC/AMP/EQ(?) for HD800S",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "VR3000",
+      "brand" : "Final Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlzs85/",
+      "title" : "Sony Inzone buds vs Final VR3000 IEMs",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "INZONE Buds",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlzs85/",
+      "title" : "Sony Inzone buds vs Final VR3000 IEMs",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX5",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlznif/",
+      "title" : "Topping DX5 II replacement",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DX5 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlznif/",
+      "title" : "Topping DX5 II replacement",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "KSC75",
+      "brand" : "Koss"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlykso/",
+      "title" : "Koss ksc75 vs Snow sky wind pro",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Edition XS",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlyaen/",
+      "title" : "Hifiman edition xs or sundara?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    }, {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xl7gz1/",
+      "title" : "Hifiman Edition XS down to $87 ($93 after tax) for certified refurbished units for AliExpress 11/11 sale",
+      "source" : "REDDIT",
+      "posted" : "2026-11-01"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Sundara",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xlyaen/",
+      "title" : "Hifiman edition xs or sundara?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-02"
+    } ]
+  } ]
+}
