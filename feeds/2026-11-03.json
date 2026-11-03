@@ -1,0 +1,214 @@
+{
+  "title" : "Daily feed 2026-11-03",
+  "gathered" : "2026-11-03",
+  "window" : {
+    "from" : "2026-11-02",
+    "to" : "2026-11-03"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "model" : "ATH-R70x",
+      "type" : "HEADPHONE",
+      "brand" : "Audio-Technica"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/audio-technica-ath-r70x-review-headphone.32498/",
+      "title" : "Audio-Technica ATH-R70x Review (Headphone)",
+      "source" : "ASR",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "X8",
+      "type" : "AMP_DAC",
+      "brand" : "Luxsin"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/luxsin-x8-dac-hp-amp-review.71920/",
+      "title" : "Luxsin X8 DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Bathys",
+      "type" : "HEADPHONE",
+      "brand" : "Focal"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/side-by-side-comparison-airpods-max-b-o-h95-dali-io-6-b-w-px8-ml-5909-m-d-mw75-focal-bathys-and-more.958727/",
+      "title" : "Side By Side Comparison - AirPods Max, B&O H95, Dali iO-6, B&W PX8, ML 5909, M&D MW75, Focal Bathys and more",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "IO-6",
+      "type" : "HEADPHONE",
+      "brand" : "Dali"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/side-by-side-comparison-airpods-max-b-o-h95-dali-io-6-b-w-px8-ml-5909-m-d-mw75-focal-bathys-and-more.958727/",
+      "title" : "Side By Side Comparison - AirPods Max, B&O H95, Dali iO-6, B&W PX8, ML 5909, M&D MW75, Focal Bathys and more",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "T1",
+      "type" : "HEADPHONE",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-beyerdynamic-t1-2nd-generation.776332/",
+      "title" : "New Beyerdynamic T1  (2nd Generation)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 650",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd650-massdrop-hd6xx-impressions-thread.197776/",
+      "title" : "Sennheiser HD650 & Massdrop HD6XX Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 6XX",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd650-massdrop-hd6xx-impressions-thread.197776/",
+      "title" : "Sennheiser HD650 & Massdrop HD6XX Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "NDH20",
+      "type" : "HEADPHONE",
+      "brand" : "Neumann"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/neumann-ndh-20.898630/",
+      "title" : "Neumann NDH 20",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD490 Pro",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-490-pro-plus-coming.971458/",
+      "title" : "Sennheiser HD 490 Pro Plus coming?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 490 Pro",
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-490-pro-plus-coming.971458/",
+      "title" : "Sennheiser HD 490 Pro Plus coming?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-02"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Isabellae",
+      "type" : "IEM",
+      "brand" : "Oriolus"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/oriolus-isabellae-dd-iem-discussion-thread.958122/",
+      "title" : "Oriolus Isabellae DD IEM discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "May",
+      "type" : "DAC",
+      "brand" : "Holo Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/holo-audio-may-dac-speculation.865892/",
+      "title" : "Holo Audio May DAC Speculation",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Edition XS",
+      "type" : "HEADPHONE",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xmg91x/",
+      "title" : "Hifiman QC strikes again (Edition XS): Looking to upgrade",
+      "source" : "REDDIT",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Live 770NC",
+      "type" : "HEADPHONE",
+      "brand" : "JBL"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xmtbew/",
+      "title" : "Archeer AH07/JBL Live 770NC substitution - heaphones with grip under 100€",
+      "source" : "REDDIT",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Cloud",
+      "type" : "HEADPHONE",
+      "brand" : "HyperX"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xmp7ij/",
+      "title" : "Hyperx cloud 2 or the atk shark L50?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "QuietComfort",
+      "type" : "HEADPHONE",
+      "brand" : "Bose"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xmod89/",
+      "title" : "Bose Quiet Comfort Over Ear",
+      "source" : "REDDIT",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "FT1",
+      "type" : "HEADPHONE",
+      "brand" : "FiiO"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xmn733/",
+      "title" : "Question to fiio ft1 users...",
+      "source" : "REDDIT",
+      "posted" : "2026-11-03"
+    } ]
+  } ]
+}
