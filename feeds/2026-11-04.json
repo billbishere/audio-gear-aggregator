@@ -1,0 +1,106 @@
+{
+  "title" : "Daily feed 2026-11-04",
+  "gathered" : "2026-11-04",
+  "window" : {
+    "from" : "2026-11-03",
+    "to" : "2026-11-04"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "FiiO",
+      "model" : "FT7",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/fiio-ft7-is-out.62341/",
+      "title" : "FiiO FT7 is out",
+      "source" : "ASR",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "model" : "A50 III",
+      "type" : "AMP"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-a50-iii-headphone-amp-review.66483/",
+      "title" : "Topping A50 III Headphone Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Bowers & Wilkins",
+      "model" : "Px8",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/bowers-wilkins-px8-s2-headphones.978534/",
+      "title" : "Bowers & Wilkins Px8 S2 Headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Oriolus",
+      "model" : "Szalayi",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/oriolus-szalayi-iem-discussion-thread.964150/",
+      "title" : "Oriolus Szalayi IEM discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Schiit",
+      "model" : "Modi",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-modi-5-impressions-thread.978894/",
+      "title" : "Schiit Modi 5 - Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-03"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "model" : "MDR-MV1",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xnle2z/",
+      "title" : "Sony MDR-MV1 or pay extra to Arya Organics",
+      "source" : "REDDIT",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sonos",
+      "model" : "Ace",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xncud8/",
+      "title" : "My SONOS Ace Ultra (Beige) Review",
+      "source" : "REDDIT",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "TANGZU",
+      "model" : "Wan'er S.G",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xn7x1o/",
+      "title" : "Completed trio. Tangzu Waner SG 2",
+      "source" : "REDDIT",
+      "posted" : "2026-11-03"
+    } ]
+  } ]
+}
