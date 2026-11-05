@@ -1,0 +1,75 @@
+{
+  "title" : "Daily feed 2026-11-05",
+  "gathered" : "2026-11-05",
+  "window" : {
+    "from" : "2026-11-04",
+    "to" : "2026-11-05"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Audeze",
+      "type" : "HEADPHONE",
+      "model" : "LCD-XC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/audeze-lcd-xc-closed-back.74287/",
+      "title" : "Audeze LCD-XC Closed Back?",
+      "source" : "ASR",
+      "posted" : "2026-11-05"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Qudelix",
+      "type" : "AMP_DAC",
+      "model" : "5K"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/qudelix-5k-plus-discussion-user-impressions.74285/",
+      "title" : "Qudelix-5K Plus discussion & user impressions",
+      "source" : "ASR",
+      "posted" : "2026-11-05"
+    }, {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/qudelix-5k-bluetooth-dac-headphone-amp.17386/",
+      "title" : "Qudelix-5K Bluetooth DAC & Headphone Amp",
+      "source" : "ASR",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audio-Technica",
+      "type" : "HEADPHONE",
+      "model" : "ATH-R50x"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audio-technica-ath-r50x-and-ath-r30x-impressions-thread.976108/",
+      "title" : "Audio-Technica ATH-R50x and ATH-R30x Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-04"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Schiit",
+      "type" : "DAC",
+      "model" : "Bifrost"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-bifrost-3.981255/",
+      "title" : "Schiit Bifrost 3",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-05"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audeze",
+      "type" : "HEADPHONE",
+      "model" : "LCD-X"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xocela/",
+      "title" : "Audeze Lcd-X or Arya Organic",
+      "source" : "REDDIT",
+      "posted" : "2026-11-05"
+    } ]
+  } ]
+}
