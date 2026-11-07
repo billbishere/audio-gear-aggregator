@@ -1,0 +1,171 @@
+{
+  "title" : "Daily feed 2026-11-07",
+  "gathered" : "2026-11-07",
+  "window" : {
+    "from" : "2026-11-06",
+    "to" : "2026-11-07"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "brand" : "E1DA",
+      "model" : "#9039S"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/e1da-9039s-balanced-portable-dac-amp-review.72593/",
+      "title" : "E1DA #9039S Balanced Portable DAC/Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "ZMF",
+      "model" : "Aeolus"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-aeolus-impressions-thread.890441/",
+      "title" : "ZMF Aeolus Impressions thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Focal",
+      "model" : "Azurys"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/focal-hadenys-azurys-review-measurements.972755/",
+      "title" : "Focal Hadenys & Azurys Review & Measurements",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Focal",
+      "model" : "Hadenys"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/focal-hadenys-azurys-review-measurements.972755/",
+      "title" : "Focal Hadenys & Azurys Review & Measurements",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "brand" : "Shure",
+      "model" : "SE846"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/shure-se846-impressions-thread.675219/",
+      "title" : "Shure SE846 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "brand" : "CrinEar",
+      "model" : "Reference"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/crinear-reference-impressions-thread.980173/",
+      "title" : "CrinEar Reference Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-06"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "N/A",
+      "model" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/looking-for-a-dac-that-combines-akm-dynamics-with-r2r-naturalness.981891/",
+      "title" : "Looking for a DAC that combines AKM dynamics with R2R naturalness",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "Schiit",
+      "model" : "Modi"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-modi-multibit-2-dac-and-now-the-modi-5.966173/",
+      "title" : "Schiit Modi Multibit 2 DAC (and now the Modi 5!)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser",
+      "model" : "HD 6XX"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xpys26/",
+      "title" : "Sennheiser HD6XX for $50",
+      "source" : "REDDIT",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser",
+      "model" : "HD 600"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xq4uo3/",
+      "title" : "I found the Sennheiser HD 600 NEW for 190 USD…! Any better options for this budget? (Open-back)",
+      "source" : "REDDIT",
+      "posted" : "2026-11-07"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xprm5x/",
+      "title" : "Choosing between Sennheiser HD600 and Meze 105 AERs",
+      "source" : "REDDIT",
+      "posted" : "2026-11-06"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "brand" : "Sennheiser",
+      "model" : "IE 600"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xprvn0/",
+      "title" : "I just found a manufacturing defect in the Sennheiser IE 600 earphones—let’s take a look at it.",
+      "source" : "REDDIT",
+      "posted" : "2026-11-06"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sennheiser",
+      "model" : "HD 560S"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xq1a8b/",
+      "title" : "Upgrade from HD560s",
+      "source" : "REDDIT",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sony",
+      "model" : "WH-CH720N"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xq15e2/",
+      "title" : "Song WH-CH720N or CMF by Nothing Headphone Pro, please read body",
+      "source" : "REDDIT",
+      "posted" : "2026-11-07"
+    } ]
+  } ]
+}
