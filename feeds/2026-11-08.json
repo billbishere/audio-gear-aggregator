@@ -1,0 +1,87 @@
+{
+  "title" : "Daily feed 2026-11-08",
+  "gathered" : "2026-11-08",
+  "window" : {
+    "from" : "2026-11-07",
+    "to" : "2026-11-08"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 600"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-600-impressions-thread.538255/",
+      "title" : "Sennheiser HD 600 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-08"
+    }, {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xqpopu/",
+      "title" : "HD600 paired with IFI Go Max Link DAC",
+      "source" : "REDDIT",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "N/A",
+      "type" : "DAC",
+      "model" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/from-analog-to-digital-%E2%80%94-a-hunt-for-a-fatigue-free-dac.981518/",
+      "title" : "From Analog to Digital — A Hunt for a Fatigue-Free DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "type" : "HEADPHONE",
+      "model" : "MDR-Z1R"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xqfu7p/",
+      "title" : "Sony MDR-Z1R",
+      "source" : "REDDIT",
+      "posted" : "2026-11-07"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sivga",
+      "type" : "IEM",
+      "model" : "Que"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xqw54a/",
+      "title" : "The Sivga Que UTG: A Que of missed opportunities",
+      "source" : "REDDIT",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sivga",
+      "type" : "IEM",
+      "model" : "Que UTG"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xqw54a/",
+      "title" : "The Sivga Que UTG: A Que of missed opportunities",
+      "source" : "REDDIT",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "CrinEar",
+      "type" : "IEM",
+      "model" : "Daybreak"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xqxqp4/",
+      "title" : "Best ~$100 IEM for the 11.11 sale (Or stretch budget for CrinEar Daybreak?)",
+      "source" : "REDDIT",
+      "posted" : "2026-11-08"
+    } ]
+  } ]
+}
