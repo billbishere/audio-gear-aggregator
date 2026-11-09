@@ -1,0 +1,207 @@
+{
+  "title" : "Daily feed 2026-11-09",
+  "gathered" : "2026-11-09",
+  "window" : {
+    "from" : "2026-11-08",
+    "to" : "2026-11-09"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "DT 770 Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/beyerdynamics-dt-770-pro-sounds-absolutely-terrible.74353/",
+      "title" : "Beyerdynamics DT 770 pro sounds absolutely terrible?",
+      "source" : "ASR",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "DT 770"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/beyerdynamics-dt-770-pro-sounds-absolutely-terrible.74353/",
+      "title" : "Beyerdynamics DT 770 pro sounds absolutely terrible?",
+      "source" : "ASR",
+      "posted" : "2026-11-09"
+    }, {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xrph5v/",
+      "title" : "Is there a more technical DT 770?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "DT 990"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/the-dt990-600-impressed-me.470661/",
+      "title" : "The DT990/600 impressed me",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Shure",
+      "type" : "IEM",
+      "model" : "SE425"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/upgrading-used-iem-with-shure-iems-se535-or-se425.981902/",
+      "title" : "Upgrading used iem with Shure IEMs (SE535 or SE425)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Shure",
+      "type" : "IEM",
+      "model" : "SE535"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/upgrading-used-iem-with-shure-iems-se535-or-se425.981902/",
+      "title" : "Upgrading used iem with Shure IEMs (SE535 or SE425)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Apple",
+      "type" : "IEM",
+      "model" : "AirPods Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-pro-3-2025.977980/",
+      "title" : "New Apple AirPods Pro 3 (2025)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Apple",
+      "type" : "IEM",
+      "model" : "AirPods"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-pro-3-2025.977980/",
+      "title" : "New Apple AirPods Pro 3 (2025)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-08"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audio-Technica",
+      "type" : "HEADPHONE",
+      "model" : "ATH-M50xBT"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xrv1v4/",
+      "title" : "th buying aux cable with remote controls for ATH-M50xBT? Will the sound be the same?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Chord Electronics",
+      "type" : "AMP_DAC",
+      "model" : "Mojo 2"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xrp1a0/",
+      "title" : "Chord Mojo 2 (2025, 4.4mm) review: a few months of travelling with it",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "type" : "AMP_DAC",
+      "model" : "DX 1 II"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xrrzut/",
+      "title" : "Topping DX1 II review: hardware PEQ and a 4.4mm output from a small USB-powered box",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "type" : "AMP_DAC",
+      "model" : "DX1 II"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xrrzut/",
+      "title" : "Topping DX1 II review: hardware PEQ and a 4.4mm output from a small USB-powered box",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 560S"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xrou6f/",
+      "title" : "Arctis nova pro vs hd560s for pc gaming?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "HE1000"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xrf73g/",
+      "title" : "At what price point can IEMs match HE1000 Unveiled-level of performance?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "HE1000 Unveiled"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xrf73g/",
+      "title" : "At what price point can IEMs match HE1000 Unveiled-level of performance?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Philips",
+      "type" : "HEADPHONE",
+      "model" : "L2"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xrjuo0/",
+      "title" : "Replacement Earpads for Philips Fidelio L2",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Philips",
+      "type" : "HEADPHONE",
+      "model" : "Fidelio L2"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xrjuo0/",
+      "title" : "Replacement Earpads for Philips Fidelio L2",
+      "source" : "REDDIT",
+      "posted" : "2026-11-09"
+    } ]
+  } ]
+}
