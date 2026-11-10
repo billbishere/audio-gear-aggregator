@@ -1,0 +1,166 @@
+{
+  "title" : "Daily feed 2026-11-10",
+  "gathered" : "2026-11-10",
+  "window" : {
+    "from" : "2026-11-09",
+    "to" : "2026-11-10"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Sony",
+      "type" : "HEADPHONE",
+      "model" : "MDR-Z7M2"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-z7m2-headphone-thread.886123/",
+      "title" : "Sony MDR-Z7M2 Headphone Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "type" : "HEADPHONE",
+      "model" : "MDR-MV1"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-mv1.967749/",
+      "title" : "Sony MDR-MV1",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sony",
+      "type" : "HEADPHONE",
+      "model" : "MDR-M1"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-m1-studio-headphones.974075/",
+      "title" : "Sony MDR-M1 | studio headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "HE6"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-v2-adorama.959021/",
+      "title" : "HifiMan HE6 V2 Adorama",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "HE-6"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-v2-adorama.959021/",
+      "title" : "HifiMan HE6 V2 Adorama",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AudioQuest",
+      "type" : "HEADPHONE",
+      "model" : "NightHawk"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audioquest-nighthawk-impressions-and-discussion-thread.749762/",
+      "title" : "AudioQuest NightHawk Impressions and Discussion Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-09"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "Empyrean"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xsmtaf/",
+      "title" : "Headphone to Compliment Meze Empyrean",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Focal",
+      "type" : "HEADPHONE",
+      "model" : "Elegia"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xsnnvj/",
+      "title" : "Sennheiser HD 480 Pro vs Focal Elegia / Celestee – Help me choose my Christmas treat! 🎄",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Focal",
+      "type" : "HEADPHONE",
+      "model" : "Celestee"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xsnnvj/",
+      "title" : "Sennheiser HD 480 Pro vs Focal Elegia / Celestee – Help me choose my Christmas treat! 🎄",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 6XX"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xsgwb0/",
+      "title" : "AR3000 & HEDD D1 from an HD6XX User",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AFUL",
+      "type" : "IEM",
+      "model" : "Performer 5"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xsewlg/",
+      "title" : "Picked up Aful Performer 5+2 for $76",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "PC38X"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xseoct/",
+      "title" : "Looking for a replacement for my PC38x",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "KZ",
+      "type" : "IEM",
+      "model" : "EDC Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xsjo1e/",
+      "title" : "Left ear piece of my KZ EDC Pro just died. Looking for a budget replacement recommendation!",
+      "source" : "REDDIT",
+      "posted" : "2026-11-10"
+    } ]
+  } ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-11-09T15:53:38.935722460Z",
+  "generated" : "2026-11-10T14:42:42.456861796Z",
   "latestApp" : {
     "version" : "1.2.1",
     "url" : "https://github.com/billbishere/audio-gear-aggregator/releases/tag/v1.2.1"
@@ -117,5 +117,9 @@
     "name" : "feeds/2026-11-09.json",
     "kind" : "feed",
     "sha256" : "5db27cac46dabffc7fea54ee5cf5fa88ffea463aa9e758166dfe1d7998609c0d"
+  }, {
+    "name" : "feeds/2026-11-10.json",
+    "kind" : "feed",
+    "sha256" : "df2ae23f986eb88e6789a17479b3839f3e2b75a3f60df16206357834c174e308"
   } ]
 }
