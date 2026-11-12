@@ -1,0 +1,207 @@
+{
+  "title" : "Daily feed 2026-11-12",
+  "gathered" : "2026-11-12",
+  "window" : {
+    "from" : "2026-11-11",
+    "to" : "2026-11-12"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "DT 900 Pro X"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/beyerdynamic-dt-900-pro-x-repair-or-move-on.74419/",
+      "title" : "Beyerdynamic DT 900 Pro X -- repair or move on?",
+      "source" : "ASR",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "SMSL",
+      "type" : "DAC",
+      "model" : "DL200"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/smsl-dl200-the-best-ever-value-dac-amp.46694/",
+      "title" : "SMSL DL200 the best ever value DAC/AMP?",
+      "source" : "ASR",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "Arya"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-arya-arya-stealth-arya-organic-impressions-thread.890421/",
+      "title" : "HIFIMAN Arya - Arya Stealth - Arya Organic :: Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "Arya Organic"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-arya-arya-stealth-arya-organic-impressions-thread.890421/",
+      "title" : "HIFIMAN Arya - Arya Stealth - Arya Organic :: Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Apple",
+      "type" : "IEM",
+      "model" : "AirPods"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-5-september-2026.981377/",
+      "title" : "New Apple AirPods 5 (September 2026)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Drop & Airist Audio",
+      "type" : "DAC",
+      "model" : "R-2R DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-serenade-himalaya-pro-r2r-dac-headamp-all-in-one.968690/",
+      "title" : "Hifiman Serenade - Himalaya Pro R2R DAC headamp all-in-one",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-12"
+    }, {
+      "url" : "https://www.head-fi.org/threads/eversolo-dac-r8-r2r-dac.981934/",
+      "title" : "Eversolo DAC-R8 R2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-11"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "N/A",
+      "type" : "DAC",
+      "model" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-serenade-himalaya-pro-r2r-dac-headamp-all-in-one.968690/",
+      "title" : "Hifiman Serenade - Himalaya Pro R2R DAC headamp all-in-one",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Koss",
+      "type" : "HEADPHONE",
+      "model" : "KPH30i"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xubrci/",
+      "title" : "Koss KPH30i – What is this sorcery?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "Momentum"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xubyr9/",
+      "title" : "Sonos ace ultra or Sennheiser momentum 5?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sonos",
+      "type" : "HEADPHONE",
+      "model" : "Ace"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xubyr9/",
+      "title" : "Sonos ace ultra or Sennheiser momentum 5?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 560S"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xu47nw/",
+      "title" : "Sennheiser HD 560S good for entry level Audiophile?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "DT 880"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xuecke/",
+      "title" : "Beyerdynamic DT 880 pro or Meze Audio 105 AER what's better for 300ish",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "105 Aer"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xuecke/",
+      "title" : "Beyerdynamic DT 880 pro or Meze Audio 105 AER what's better for 300ish",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "SteelSeries",
+      "type" : "HEADPHONE",
+      "model" : "Arctis Nova 5"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xudlyr/",
+      "title" : "SteelSeries Arctis Nova 5 Wireless",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "Susvara"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xu0q1n/",
+      "title" : "Endgame Desktop System Achieved for Hifiman Susvara and HEKU",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE",
+      "model" : "HD 600"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xuazrd/",
+      "title" : "Sennheiser HD 600 help—amp or new interface?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-12"
+    } ]
+  } ]
+}
