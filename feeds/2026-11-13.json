@@ -1,0 +1,142 @@
+{
+  "title" : "Daily feed 2026-11-13",
+  "gathered" : "2026-11-13",
+  "window" : {
+    "from" : "2026-11-12",
+    "to" : "2026-11-13"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Ananda",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/hifiman-ananda-stealth-v2-headphone-review.50892/",
+      "title" : "Hifiman Ananda Stealth V2 Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Ananda Stealth",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/hifiman-ananda-stealth-v2-headphone-review.50892/",
+      "title" : "Hifiman Ananda Stealth V2 Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Para",
+      "brand" : "Moondrop"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/moondrop-para-2-planar-headphone-review.66579/",
+      "title" : "Moondrop Para 2 Planar Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Zero 2",
+      "brand" : "7Hz x Crinacle"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/7hz-x-crinacle-zero-2-iem-review.50534/",
+      "title" : "7Hz x Crinacle Zero:2 IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP",
+      "model" : "Atom Amp 2",
+      "brand" : "JDS Labs"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jds-atom-amp-2-headphone-amplifier-review.49795/",
+      "title" : "JDS Atom Amp 2 Headphone Amplifier Review",
+      "source" : "ASR",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/adi-2-commander-for-rme-adi-2-dac-pro-%E2%80%93-an-alternative-to-the-adi-2-remote-programme.74428/",
+      "title" : "ADI-2 Commander for RME ADI-2 DAC / PRO – an alternative to the ADI-2 Remote programme",
+      "source" : "ASR",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "LCD-2",
+      "brand" : "Audeze"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-lcd-2-impressions-thread.509710/",
+      "title" : "Audeze LCD-2 Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Stellia",
+      "brand" : "Focal"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/focal-stellia-review-measurements-interview-head-fi-tv.899912/",
+      "title" : "Focal Stellia Review, Measurements, Interview - Head-Fi TV",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-12"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "KE4",
+      "brand" : "Kiwi Ears"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xv5yep/",
+      "title" : "Kiwi Ears KE4 II - They Finally Fixed the Bass",
+      "source" : "REDDIT",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Klean",
+      "brand" : "KEFINE"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xv3x6j/",
+      "title" : "Paint chipping in kefine klean sv after only 5 months of use",
+      "source" : "REDDIT",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Monarch",
+      "brand" : "ThieAudio"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xv7n8h/",
+      "title" : "Para los dueños de Thieaudio Monarch Mk iv (Impuestos)",
+      "source" : "REDDIT",
+      "posted" : "2026-11-13"
+    } ]
+  } ]
+}
