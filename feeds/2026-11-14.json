@@ -1,0 +1,160 @@
+{
+  "title" : "Daily feed 2026-11-14",
+  "gathered" : "2026-11-14",
+  "window" : {
+    "from" : "2026-11-13",
+    "to" : "2026-11-14"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "JM20",
+      "brand" : "JCALLY"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/jcally-jm20-headphone-dongle-review.58749/",
+      "title" : "JCALLY JM20 Headphone Dongle Review",
+      "source" : "ASR",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HE400se",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he400se.981959/",
+      "title" : "Hifiman HE400SE",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "109 Pro",
+      "brand" : "Meze"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/meze-audio-109-pro.963482/",
+      "title" : "Meze Audio 109 Pro",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "XBA-Z5",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sonys-new-2014-flagship-iem-xba-z5.733404/",
+      "title" : "Sony's New 2014 flagship IEM   -   XBA Z5",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 800 S",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xw08e5/",
+      "title" : "I completed my dream. Scored an HD800S for US$420",
+      "source" : "REDDIT",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 600",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xvkgbd/",
+      "title" : "Returning the HD560s for the HD600. Good idea?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 560S",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xvkgbd/",
+      "title" : "Returning the HD560s for the HD600. Good idea?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-13"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Reference",
+      "brand" : "CrinEar"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xvzgn9/",
+      "title" : "Crinear Reference with a layer of Transparent Nail Polish",
+      "source" : "REDDIT",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Deuce",
+      "brand" : "Fatfreq x HBB"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xvx4xg/",
+      "title" : "FATfreq X HBB Deuce Review: Sub bass cannon!",
+      "source" : "REDDIT",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Frost",
+      "brand" : "BQEYZ"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xvwf6r/",
+      "title" : "11.11 First Wave Haul (ARSYN Huo Shu & BQEYZ Frost)",
+      "source" : "REDDIT",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Azurys",
+      "brand" : "Focal"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xvp9lx/",
+      "title" : "Finally pulled the trigger on the Focal Azurys. What are your experiences with them?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "SMSL",
+      "model" : "SU 3",
+      "sinad_db" : "118",
+      "msrp" : "190",
+      "msrp_currency" : "USD",
+      "tags" : "asr-reviewed, asr-recommended",
+      "notes" : "Measured by Audio Science Review: SINAD 118 dB (amirm, 2026-11-13), recommended."
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/smsl-su-3-dac-review-ntty.74434/",
+      "title" : "ASR review: SMSL SU 3",
+      "source" : "ASR",
+      "posted" : "2026-11-13",
+      "snippet" : "Measured by amirm: SINAD 118 dB, recommended."
+    } ]
+  } ]
+}
