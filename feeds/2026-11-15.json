@@ -1,0 +1,147 @@
+{
+  "title" : "Daily feed 2026-11-15",
+  "gathered" : "2026-11-15",
+  "window" : {
+    "from" : "2026-11-14",
+    "to" : "2026-11-15"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "DT 700 Pro X",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/closed-back-for-extreme-metal-tech-death-black-doom-rock-blues-%E2%80%94-ft1-vs-dt-700-pro-x-vs-hd-480-pro-vs-dt-1770-mk2-and-dac-amp-advice-beyond-ka17.72697/",
+      "title" : "Closed-back for Extreme Metal (Tech-Death/Black/Doom) + Rock/Blues — FT1 vs DT 700 Pro X vs HD 480 PRO vs DT 1770 MK2? (And DAC/Amp advice beyond KA17",
+      "source" : "ASR",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "DT 1770",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/closed-back-for-extreme-metal-tech-death-black-doom-rock-blues-%E2%80%94-ft1-vs-dt-700-pro-x-vs-hd-480-pro-vs-dt-1770-mk2-and-dac-amp-advice-beyond-ka17.72697/",
+      "title" : "Closed-back for Extreme Metal (Tech-Death/Black/Doom) + Rock/Blues — FT1 vs DT 700 Pro X vs HD 480 PRO vs DT 1770 MK2? (And DAC/Amp advice beyond KA17",
+      "source" : "ASR",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX 1 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.72034/",
+      "title" : "Topping DX1 II DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX1 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx1-ii-dac-hp-amp-review.72034/",
+      "title" : "Topping DX1 II DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Atticus",
+      "brand" : "ZMF"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/atticus-and-eikon-the-new-dynamic-driver-headphones-from-zmf.821782/",
+      "title" : "ATTICUS and EIKON, the new dynamic driver headphones from ZMF",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "Eikon",
+      "brand" : "ZMF"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/atticus-and-eikon-the-new-dynamic-driver-headphones-from-zmf.821782/",
+      "title" : "ATTICUS and EIKON, the new dynamic driver headphones from ZMF",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Zenith",
+      "brand" : "KZ"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/knowledge-zenith-kz-impressions-thread.698148/",
+      "title" : "Knowledge Zenith (KZ) impressions thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "A100",
+      "brand" : "SMSL"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xwaff4/",
+      "title" : "7Hz x Crinacle Zero 3 Review — A $100 CrinEar flagship driver inside a $25 budget IEM?! (With proof)",
+      "source" : "REDDIT",
+      "posted" : "2026-11-14"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xws0n3/",
+      "title" : "Fiio K17 R2R Review - final DAC/AMP I need?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-15"
+    }, {
+      "url" : "https://www.reddit.com/r/iems/comments/1xws1yg/",
+      "title" : "Fiio K17 R2R Review - final DAC/AMP I need?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 505",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xwurr7/",
+      "title" : "HD505 over the HD599s?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "MDR-MV1",
+      "brand" : "Sony"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xwhrbw/",
+      "title" : "I Went to E-earphone in Akihabara and I Left with Sony MDR-MV1",
+      "source" : "REDDIT",
+      "posted" : "2026-11-15"
+    } ]
+  } ]
+}
