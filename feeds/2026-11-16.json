@@ -1,0 +1,195 @@
+{
+  "title" : "Daily feed 2026-11-16",
+  "gathered" : "2026-11-16",
+  "window" : {
+    "from" : "2026-11-15",
+    "to" : "2026-11-16"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "AMP",
+      "model" : "A70 Pro",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-a70-pro-hp-preamp-review.44636/",
+      "title" : "Topping A70 Pro HP & Preamp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "D40",
+      "brand" : "Loxjie"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/loxjie-d40-pro-dac-hp-amp-review-ntty.72361/",
+      "title" : "Loxjie D40 Pro DAC & HP Amp Review (NTTY)",
+      "source" : "ASR",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "D40 Pro",
+      "brand" : "Loxjie"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/loxjie-d40-pro-dac-hp-amp-review-ntty.72361/",
+      "title" : "Loxjie D40 Pro DAC & HP Amp Review (NTTY)",
+      "source" : "ASR",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "E3",
+      "brand" : "Dan Clark Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-e3-review-interview-measurements-impressions.970772/",
+      "title" : "Dan Clark Audio E3 Review: Interview, Measurements, Impressions",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 660S2",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-660s2-thread.966685/",
+      "title" : "Sennheiser HD 660S2 thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Pi8",
+      "brand" : "Bowers & Wilkins"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/bowers-wilkins-pi8-and-pi6-true-wireless-earbuds.973926/",
+      "title" : "Bowers & Wilkins Pi8 and Pi6 True Wireless Earbuds",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Traillii",
+      "brand" : "Oriolus"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/oriolus-traillii-ultra-discussion-and-impressions-thread.979493/",
+      "title" : "Oriolus Traillii Ultra- Discussion and Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Xelento",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/beyerdynamic-xelento.827372/",
+      "title" : "Beyerdynamic Xelento!",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "R-2R DAC",
+      "brand" : "Drop & Airist Audio"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-r2r-dac-impression-and-reviews.972522/",
+      "title" : "LAiV Harmony R2R DAC Impression and Reviews",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-16"
+    }, {
+      "url" : "https://www.head-fi.org/threads/go-for-a-bolder-flavor-fiio-r2r-dac-tube-buffer-warmer-r2r.978475/",
+      "title" : "Go for a Bolder Flavor, FIIO R2R DAC + Tube Buffer WARMER R2R",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-15"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-r2r-dac-impression-and-reviews.972522/",
+      "title" : "LAiV Harmony R2R DAC Impression and Reviews",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 600",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xxqgu6/",
+      "title" : "HD600 or Ananda Unveiled",
+      "source" : "REDDIT",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Castor",
+      "brand" : "KZ"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/iems/comments/1xxjyhv/",
+      "title" : "KZ Castor Pro (Improved Bass) has no warmth.",
+      "source" : "REDDIT",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "Black Pearl",
+      "brand" : "TRN"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/headphones/comments/1xxge8v/",
+      "title" : "TRN Black Pearl - Big sound, small package, even smaller price. How though?",
+      "source" : "REDDIT",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 400 Pro",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xxnshp/",
+      "title" : "Upgrade/Complementary Headphones to HD 400 Pro",
+      "source" : "REDDIT",
+      "posted" : "2026-11-16"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "ACCENTUM",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.reddit.com/r/HeadphoneAdvice/comments/1xxj1k2/",
+      "title" : "Sennheiser ACCENTUM vs JBL Tune 780NC - replacing Soundcore Q20i",
+      "source" : "REDDIT",
+      "posted" : "2026-11-16"
+    } ]
+  } ]
+}
