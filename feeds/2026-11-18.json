@@ -1,0 +1,178 @@
+{
+  "title" : "Daily feed 2026-11-18",
+  "gathered" : "2026-11-18",
+  "window" : {
+    "from" : "2026-11-17",
+    "to" : "2026-11-18"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Truthear x Crinacle",
+      "type" : "IEM",
+      "model" : "Zero RED"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/truthear-x-crinacle-zero-red-iem-review.44865/",
+      "title" : "Truthear x Crinacle Zero:RED IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Truthear x Crinacle",
+      "type" : "IEM",
+      "model" : "Zero"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/truthear-x-crinacle-zero-red-iem-review.44865/",
+      "title" : "Truthear x Crinacle Zero:RED IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Topping",
+      "type" : "AMP",
+      "model" : "A70 Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/ease-of-use-of-switching-between-outputs-on-the-a70-pro-and-or-a90-pro-discrete.74507/",
+      "title" : "Ease of use of switching between outputs on the A70 Pro and/or A90 Pro Discrete",
+      "source" : "ASR",
+      "posted" : "2026-11-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Denon",
+      "type" : "HEADPHONE",
+      "model" : "AH-D9200"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/denon-ah-d9200-2018-flagship-impressions-thread.882028/",
+      "title" : "Denon AH-D9200 - 2018 Flagship - Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audeze",
+      "type" : "HEADPHONE",
+      "model" : "LCD-2"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/beyerdynamics-t1-vs-lcd-2-which-one-is-a-better-all-rounders.596582/",
+      "title" : "Beyerdynamics T1 vs LCD-2, which one is a better all-rounders?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "T1"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/beyerdynamics-t1-vs-lcd-2-which-one-is-a-better-all-rounders.596582/",
+      "title" : "Beyerdynamics T1 vs LCD-2, which one is a better all-rounders?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Denon",
+      "type" : "HEADPHONE",
+      "model" : "AH-D5200"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/denon-ah-d5200-little-brother-of-the-ah-d7200.875053/",
+      "title" : "Denon AH-D5200 (little brother of the AH-D7200)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Denon",
+      "type" : "HEADPHONE",
+      "model" : "AH-D7200"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/denon-ah-d5200-little-brother-of-the-ah-d7200.875053/",
+      "title" : "Denon AH-D5200 (little brother of the AH-D7200)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "type" : "HEADPHONE",
+      "model" : "Audivina"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-audivina-le.977566/",
+      "title" : "HiFiMAN Audivina LE",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Dan Clark Audio",
+      "type" : "HEADPHONE",
+      "model" : "AEON Core"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-aeon-core-the-engineering-the-measurements-the-interview.980511/",
+      "title" : "Dan Clark Audio AEON CORE: The Engineering, The Measurements, The Interview",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Elysian",
+      "type" : "IEM",
+      "model" : "Annihilator"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/elysian-annihilator-2023.967761/",
+      "title" : "Elysian Annihilator 2023",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Unique Melody",
+      "type" : "IEM",
+      "model" : "MEST"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/unique-melody-iem-discussion-thread-mest-mext-mentor-mason-etc.969539/",
+      "title" : "Unique Melody IEM discussion thread(MEST, MEXT, Mentor, Mason, etc.)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Shozy",
+      "type" : "IEM",
+      "model" : "Cygnus"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/what-is-wrong-with-the-shozy-cygnus-earbud-the-shells-keep-cracking-with-minimal-use.981997/",
+      "title" : "What is wrong with the Shozy Cygnus earbud? The shells keep cracking with minimal use.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-17"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Oriolus",
+      "type" : "IEM",
+      "model" : "Traillii"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/oriolus-traillii-electrostatic-hybrid-iem-discussion-thread.956460/",
+      "title" : "Oriolus Traillii Electrostatic Hybrid IEM discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-17"
+    } ]
+  } ]
+}
