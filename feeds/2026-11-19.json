@@ -1,0 +1,145 @@
+{
+  "title" : "Daily feed 2026-11-19",
+  "gathered" : "2026-11-19",
+  "window" : {
+    "from" : "2026-11-18",
+    "to" : "2026-11-19"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "model" : "Bathys",
+      "brand" : "Focal",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/side-by-side-comparison-airpods-max-b-o-h95-dali-io-6-b-w-px8-ml-5909-m-d-mw75-focal-bathys-and-more.958727/",
+      "title" : "Side By Side Comparison - AirPods Max, B&O H95, Dali iO-6, B&W PX8, ML 5909, M&D MW75, Focal Bathys and more",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-19"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "IO-6",
+      "brand" : "Dali",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/side-by-side-comparison-airpods-max-b-o-h95-dali-io-6-b-w-px8-ml-5909-m-d-mw75-focal-bathys-and-more.958727/",
+      "title" : "Side By Side Comparison - AirPods Max, B&O H95, Dali iO-6, B&W PX8, ML 5909, M&D MW75, Focal Bathys and more",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-19"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "N9 Hybrid",
+      "brand" : "AKG",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/akg-n9-hybrid.974456/",
+      "title" : "AKG N9 Hybrid",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-19"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Bokeh",
+      "brand" : "ZMF",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-bokeh-open-back-headphones.974425/",
+      "title" : "ZMF Bokeh - Open Back Headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-19"
+    }, {
+      "url" : "https://www.head-fi.org/threads/zmf-bokeh-closed-back-semi-portable.969961/",
+      "title" : "ZMF BOKEH - Closed Back (Semi-Portable)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD490 Pro",
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/closed-version-of-the-hd-490-pro-unveiled-hd-480-pro.980102/",
+      "title" : "Closed version of the HD 490 PRO unveiled (HD 480 PRO)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    }, {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-490-pro-plus-coming.971458/",
+      "title" : "Sennheiser HD 490 Pro Plus coming?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "HD 490 Pro",
+      "brand" : "Sennheiser",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/closed-version-of-the-hd-490-pro-unveiled-hd-480-pro.980102/",
+      "title" : "Closed version of the HD 490 PRO unveiled (HD 480 PRO)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    }, {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd-490-pro-plus-coming.971458/",
+      "title" : "Sennheiser HD 490 Pro Plus coming?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Bokeh Closed",
+      "brand" : "ZMF",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-bokeh-closed-back-semi-portable.969961/",
+      "title" : "ZMF BOKEH - Closed Back (Semi-Portable)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Szalayi",
+      "brand" : "Oriolus",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/oriolus-szalayi-iem-discussion-thread.964150/",
+      "title" : "Oriolus Szalayi IEM discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-19"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Supermoon",
+      "brand" : "Campfire Audio",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/campfire-audio-supermoon.963024/",
+      "title" : "Campfire Audio - SuperMoon",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  }, {
+    "gear" : {
+      "model" : "Modi",
+      "brand" : "Schiit",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-modi-5-impressions-thread.978894/",
+      "title" : "Schiit Modi 5 - Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-18"
+    } ]
+  } ]
+}
