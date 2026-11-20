@@ -1,0 +1,123 @@
+{
+  "title" : "Daily feed 2026-11-20",
+  "gathered" : "2026-11-20",
+  "window" : {
+    "from" : "2026-11-19",
+    "to" : "2026-11-20"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Qudelix",
+      "model" : "5K",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/qudelix-5k-plus-discussion-user-impressions.74285/",
+      "title" : "Qudelix-5K Plus discussion & user impressions",
+      "source" : "ASR",
+      "posted" : "2026-11-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Fosi Audio",
+      "model" : "DS2",
+      "type" : "AMP_DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/fosi-audio-ds2-portable-dac-amp-review.57063/",
+      "title" : "Fosi Audio DS2 Portable DAC & Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-19"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Fostex",
+      "model" : "TH-X00",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fostex-x-massdrop-th-x00-review.788776/",
+      "title" : "Fostex x Massdrop TH-X00 Review",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE6",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-remastered.980436/",
+      "title" : "HiFiMan - HE6 Remastered",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "HE-6",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-he6-remastered.980436/",
+      "title" : "HiFiMan - HE6 Remastered",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "KZ",
+      "model" : "PR2",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/cable-for-linsoul-kz-hbb-pr2.982019/",
+      "title" : "Cable for Linsoul kz hbb pr2",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "T+A",
+      "model" : "Solitaire T",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/t-a-solitaire-t-wireless-headphone.964925/",
+      "title" : "T+A Solitaire T Wireless Headphone",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Schiit",
+      "model" : "Bifrost",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-bifrost-3.981255/",
+      "title" : "Schiit Bifrost 3",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-20"
+    }, {
+      "url" : "https://www.youtube.com/watch?v=JIVwBLsMF2A",
+      "title" : "Lily Audio Genesis PURE & Schiit Stack - Bifrost 3 & Freya 2: First Impressions Live",
+      "source" : "YOUTUBE",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AUNE",
+      "model" : "AR5000",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=RXgOVW6W_GM",
+      "title" : "Aune AR5000 mk2 vs AR3000 #shorts",
+      "source" : "YOUTUBE",
+      "posted" : "2026-11-19"
+    } ]
+  } ]
+}
