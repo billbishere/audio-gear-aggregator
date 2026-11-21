@@ -1,0 +1,82 @@
+{
+  "title" : "Daily feed 2026-11-21",
+  "gathered" : "2026-11-21",
+  "window" : {
+    "from" : "2026-11-20",
+    "to" : "2026-11-21"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 800 S",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/sennheiser-hd800s-review-headphone.18424/",
+      "title" : "Sennheiser HD800S Review (Headphone)",
+      "source" : "ASR",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "X8",
+      "brand" : "Luxsin"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/luxsin-x8-dac-hp-amp-review.71920/",
+      "title" : "Luxsin X8 DAC & HP Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-20"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "EAH-AZ100",
+      "brand" : "Technics"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/technics-eah-az100-reviews-impressions.975497/",
+      "title" : "Technics EAH-AZ100 - Reviews & Impressions",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "VK1",
+      "brand" : "Aedle"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/aedle-vk-1-limited-edition-headphones.642894/",
+      "title" : "AEDLE VK-1 Limited Edition Headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "ADI-2 Pro",
+      "brand" : "RME"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/rme-adi-2-pro-dac-headamp-and-a-lot-of-more-stunning-features-adi-2-remote-app.837026/",
+      "title" : "RME ADI-2 Pro - DAC, Headamp, and a lot of more stunning features + Adi-2 Remote App",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Clairvoyance",
+      "brand" : "ThieAudio"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=mJFn4wYfsAg",
+      "title" : "We waited 6 years for this! Thieaudio Clairvoyance 2 First Impressions #audiophile #inearmonitors",
+      "source" : "YOUTUBE",
+      "posted" : "2026-11-20"
+    } ]
+  } ]
+}
