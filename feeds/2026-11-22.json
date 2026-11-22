@@ -1,0 +1,130 @@
+{
+  "title" : "Daily feed 2026-11-22",
+  "gathered" : "2026-11-22",
+  "window" : {
+    "from" : "2026-11-21",
+    "to" : "2026-11-22"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "DX5",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
+      "title" : "Topping DX5 II",
+      "source" : "ASR",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DX5 II",
+      "brand" : "Topping"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/topping-dx5-ii.60996/",
+      "title" : "Topping DX5 II",
+      "source" : "ASR",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "SR-X9000",
+      "brand" : "Stax"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/stax-sr-x9000-%E2%80%93-when-less-sound-becomes-more-music-a-musicians-perspective.982042/",
+      "title" : "STAX SR-X9000 – When Less Sound Becomes More Music: A Musician's Perspective",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 600",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd505-the-heir-to-the-hd600.977171/",
+      "title" : "Sennheiser HD505; the heir to the HD600.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 505",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sennheiser-hd505-the-heir-to-the-hd600.977171/",
+      "title" : "Sennheiser HD505; the heir to the HD600.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "T5",
+      "brand" : "Beyerdynamic"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/beyerdynamic-t5-3rd-generation.940660/",
+      "title" : "Beyerdynamic T5 (3rd Generation)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "NDH30",
+      "brand" : "Neumann"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/neumann-ndh-30.963439/",
+      "title" : "Neumann NDH 30",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "K240 Monitor",
+      "brand" : "AKG"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/k-240-monitor-to-df-modification.416858/",
+      "title" : "K 240 Monitor to DF modification",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-21"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "model" : "DAC",
+      "brand" : "N/A"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/denafrips-pontus-r2r-ladder-dac-close-up-view.853050/",
+      "title" : "Denafrips 'Pontus' R2R ladder DAC - close up view",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "SR11",
+      "brand" : "SWEEAR"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fiio-sr11-streaming-music-receiver.973111/",
+      "title" : "[FIIO SR11] Streaming Music Receiver",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  } ]
+}
