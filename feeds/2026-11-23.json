@@ -1,0 +1,106 @@
+{
+  "title" : "Daily feed 2026-11-23",
+  "gathered" : "2026-11-23",
+  "window" : {
+    "from" : "2026-11-22",
+    "to" : "2026-11-23"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "brand" : "TANCHJIM",
+      "model" : "Space"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/tanchjim-space-portable-headphone-adapter-review.46231/",
+      "title" : "TANCHJIM Space Portable Headphone Adapter Review",
+      "source" : "ASR",
+      "posted" : "2026-11-23"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "ZMF",
+      "model" : "Aeolus"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/zmf-aeolus-impressions-thread.890441/",
+      "title" : "ZMF Aeolus Impressions thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-23"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Fostex",
+      "model" : "T50RP Mk4"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/fostex-t50rpmk4-rp.972600/",
+      "title" : "FOSTEX T50RPmk4 RP",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-23"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "AKG",
+      "model" : "K550"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/the-akg-k550-impressions-and-discussion-thread.613707/",
+      "title" : "The AKG K550 Impressions and Discussion Thread!",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-23"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Dan Clark Audio",
+      "model" : "Aeon 2 Noire"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/dan-clark-audio-aeon-2-noire-discussion-impressions-thread.956878/",
+      "title" : "Dan Clark Audio Aeon 2 Noire Discussion/Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sivga",
+      "model" : "P2 Pro"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sigva-p2-pro-shared-experiences.973970/",
+      "title" : "Sigva P2 Pro (Shared Experiences.)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Focal",
+      "model" : "Bathys"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/focal-bathys-hi-fi-bluetooth-anc-headphones-early-impressions.965153/",
+      "title" : "Focal Bathys Hi-Fi Bluetooth & ANC Headphones: Early Impressions",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-22"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "Schiit",
+      "model" : "Bifrost"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/schiit-audio-bifrost-2.914084/",
+      "title" : "Schiit Audio Bifrost 2",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-23"
+    } ]
+  } ]
+}
