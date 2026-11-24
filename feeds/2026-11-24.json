@@ -1,0 +1,126 @@
+{
+  "title" : "Daily feed 2026-11-24",
+  "gathered" : "2026-11-24",
+  "window" : {
+    "from" : "2026-11-23",
+    "to" : "2026-11-24"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "Gate",
+      "brand" : "Truthear"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/truthear-gate-17-iem-review.61784/",
+      "title" : "Truthear GATE $17 IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP_DAC",
+      "model" : "#9039S",
+      "brand" : "E1DA"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/e1da-9039s-balanced-portable-dac-amp-review.72593/",
+      "title" : "E1DA #9039S Balanced Portable DAC/Amp Review",
+      "source" : "ASR",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HE1000",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/unhappy-with-he1000-stealth-where-to-go-from-here.975511/",
+      "title" : "Unhappy with HE1000 Stealth. Where to go from here?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-24"
+    }, {
+      "url" : "https://www.head-fi.org/threads/am-i-asking-too-much-bass-energy-from-he1000-lcd-x-hd800s-still-not-enough.977670/",
+      "title" : "Am I asking too much? Bass energy from HE1000, LCD-X, HD800s still not enough",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HE1000 Stealth",
+      "brand" : "HIFIMAN"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/unhappy-with-he1000-stealth-where-to-go-from-here.975511/",
+      "title" : "Unhappy with HE1000 Stealth. Where to go from here?",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HD 800 S",
+      "brand" : "Sennheiser"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/am-i-asking-too-much-bass-energy-from-he1000-lcd-x-hd800s-still-not-enough.977670/",
+      "title" : "Am I asking too much? Bass energy from HE1000, LCD-X, HD800s still not enough",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "AirPods Pro",
+      "brand" : "Apple"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-pro-3-2025.977980/",
+      "title" : "New Apple AirPods Pro 3 (2025)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "IEM",
+      "model" : "AirPods",
+      "brand" : "Apple"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-apple-airpods-pro-3-2025.977980/",
+      "title" : "New Apple AirPods Pro 3 (2025)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "model" : "HEDDphone",
+      "brand" : "HEDD"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=UvI9aKxj2VY",
+      "title" : "HEDDphone DX Review - A better D1?",
+      "source" : "YOUTUBE",
+      "posted" : "2026-11-24"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "AMP",
+      "brand" : "Rotel",
+      "model" : "RA-970BX",
+      "tags" : "asr-reviewed, asr-recommended, speaker-amp",
+      "notes" : "Measured by Audio Science Review: SINAD 89 dB (ObjectAudio, 2026-11-23), recommended."
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/rotel-ra-970bx-vintage-amplifier-review-objectaudio.74625/",
+      "title" : "ASR review: Rotel RA-970BX",
+      "source" : "ASR",
+      "posted" : "2026-11-23",
+      "snippet" : "Measured by ObjectAudio: SINAD 89 dB, recommended."
+    } ]
+  } ]
+}
