@@ -1,0 +1,87 @@
+{
+  "title" : "Daily feed 2026-11-25",
+  "gathered" : "2026-11-25",
+  "window" : {
+    "from" : "2026-11-24",
+    "to" : "2026-11-25"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "HEDD",
+      "type" : "HEADPHONE",
+      "model" : "HEDDphone"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/heddphone-dx-headphone-review.74650/",
+      "title" : "HEDDphone DX Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "1MORE",
+      "type" : "HEADPHONE",
+      "model" : "SonoFlow"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/1more-sonoflow-nc-headphone-review.42849/",
+      "title" : "1More Sonoflow NC Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Qudelix",
+      "type" : "AMP_DAC",
+      "model" : "T71"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/qudelix-t71-active-iem-review.74309/",
+      "title" : "Qudelix T71 Active IEM Review",
+      "source" : "ASR",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AME",
+      "type" : "IEM",
+      "model" : "Gaia"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/ame-custom-flagships-gaia-raven-mousa-igris-impressions-thread.972806/",
+      "title" : "AME Custom: Flagships Gaia, Raven, Mousa, Igris Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "AME",
+      "type" : "IEM",
+      "model" : "Mousa"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/ame-custom-flagships-gaia-raven-mousa-igris-impressions-thread.972806/",
+      "title" : "AME Custom: Flagships Gaia, Raven, Mousa, Igris Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "N/A",
+      "type" : "DAC",
+      "model" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/looking-for-a-dac-that-combines-akm-dynamics-with-r2r-naturalness.981891/",
+      "title" : "Looking for a DAC that combines AKM dynamics with R2R naturalness",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    }, {
+      "url" : "https://www.head-fi.org/threads/gustard-dac-r26-balanced-decoder-r2r-1bit-dual-native-decoding-music-bridge.963630/",
+      "title" : "GUSTARD DAC-R26 Balanced Decoder R2R+1Bit Dual Native Decoding Music Bridge",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    } ]
+  } ]
+}
