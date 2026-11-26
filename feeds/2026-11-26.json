@@ -1,0 +1,82 @@
+{
+  "title" : "Daily feed 2026-11-26",
+  "gathered" : "2026-11-26",
+  "window" : {
+    "from" : "2026-11-25",
+    "to" : "2026-11-26"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "Empyrean"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
+      "title" : "Meze EMPYREAN II",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-26"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Meze",
+      "type" : "HEADPHONE",
+      "model" : "Empyrean II"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/meze-empyrean-ii.970441/",
+      "title" : "Meze EMPYREAN II",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-26"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Beyerdynamic",
+      "type" : "HEADPHONE",
+      "model" : "T1"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-beyerdynamic-t1-2nd-generation.776332/",
+      "title" : "New Beyerdynamic T1  (2nd Generation)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-26"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Audeze",
+      "type" : "HEADPHONE",
+      "model" : "Maxwell"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/audeze-maxwell-2-xb-and-ps-shipping-now-anc-version-in-spring-26.979074/",
+      "title" : "Audeze Maxwell 2 XB and PS - Shipping Now - ANC Version In Spring '26",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Takstar",
+      "type" : "HEADPHONE",
+      "model" : "Pro 82"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/takstar-pro-82-gm200-review-impressions-and-discussion-thread.849965/",
+      "title" : "Takstar Pro 82/GM200 Review, impressions and discussion thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Shuoer",
+      "type" : "IEM",
+      "model" : "S12"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/letshuoer-s12-next-big-planar-impressions-discussion.961404/",
+      "title" : "LETSHUOER S12 - Next big planar? (Impressions & Discussion)",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-25"
+    } ]
+  } ]
+}
