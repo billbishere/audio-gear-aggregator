@@ -1,0 +1,111 @@
+{
+  "title" : "Daily feed 2026-11-27",
+  "gathered" : "2026-11-27",
+  "window" : {
+    "from" : "2026-11-26",
+    "to" : "2026-11-27"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "brand" : "Kiwi Ears",
+      "model" : "KE4",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/i-found-my-dream-iem-kiwi-ears-ke4-ii.74680/",
+      "title" : "I found my dream iem: Kiwi Ears Ke4 II",
+      "source" : "ASR",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "Arya",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-arya-arya-stealth-arya-organic-impressions-thread.890421/",
+      "title" : "HIFIMAN Arya - Arya Stealth - Arya Organic :: Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "HIFIMAN",
+      "model" : "Arya Organic",
+      "type" : "HEADPHONE"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-arya-arya-stealth-arya-organic-impressions-thread.890421/",
+      "title" : "HIFIMAN Arya - Arya Stealth - Arya Organic :: Impressions Thread",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Kiwi Ears",
+      "model" : "Aether",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/new-kiwi-ears-aether-15-3mm-planar-universal-iem.975978/",
+      "title" : "New Kiwi ears Aether 15.3mm Planar Universal IEM",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Hisenior",
+      "model" : "Mega 5 EST",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hisenior-mega5est-7th-anniversary-limited-edition-deep-bass-and-an-easy-balance.982088/",
+      "title" : "HiSenior Mega5EST 7th Anniversary Limited Edition: Deep bass and an easy balance",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "Drop & Airist Audio",
+      "model" : "R-2R DAC",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-serenade-himalaya-pro-r2r-dac-headamp-all-in-one.968690/",
+      "title" : "Hifiman Serenade - Himalaya Pro R2R DAC headamp all-in-one",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "N/A",
+      "model" : "DAC",
+      "type" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/hifiman-serenade-himalaya-pro-r2r-dac-headamp-all-in-one.968690/",
+      "title" : "Hifiman Serenade - Himalaya Pro R2R DAC headamp all-in-one",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    }, {
+      "url" : "https://www.head-fi.org/threads/denafrips-erato-dac.981191/",
+      "title" : "Denafrips Erato DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  }, {
+    "gear" : {
+      "brand" : "VSonic",
+      "model" : "VSD1",
+      "type" : "IEM"
+    },
+    "threads" : [ {
+      "url" : "https://www.youtube.com/watch?v=K8kvQF-fMsw",
+      "title" : "Hands on with the new HEDD Audio DX! With comparisons vs. D1! #headphones #audiophile",
+      "source" : "YOUTUBE",
+      "posted" : "2026-11-26"
+    } ]
+  } ]
+}
