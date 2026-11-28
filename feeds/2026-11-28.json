@@ -1,0 +1,85 @@
+{
+  "title" : "Daily feed 2026-11-28",
+  "gathered" : "2026-11-28",
+  "window" : {
+    "from" : "2026-11-27",
+    "to" : "2026-11-28"
+  },
+  "method" : "Thread and video titles from 13 forum, Reddit and YouTube feeds, kept when they name known gear.",
+  "items" : [ {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Moondrop",
+      "model" : "Para"
+    },
+    "threads" : [ {
+      "url" : "https://www.audiosciencereview.com/forum/index.php?threads/moondrop-para-2-planar-headphone-review.66579/",
+      "title" : "Moondrop Para 2 Planar Headphone Review",
+      "source" : "ASR",
+      "posted" : "2026-11-28"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Sony",
+      "model" : "MDR-MV1"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/sony-mdr-mv1.967749/",
+      "title" : "Sony MDR-MV1",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-28"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "HEADPHONE",
+      "brand" : "Focal",
+      "model" : "Radiance"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/focal-for-bentley-radiance-headphones.942341/",
+      "title" : "Focal For Bentley Radiance Headphones",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-28"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "N/A",
+      "model" : "DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/lta-aero-dac-linear-tube-audio%E2%80%99s-first-ever-digital-to-analog-converter-world%E2%80%99s-first-dac-using-zotl-technology-reviews-in-the-thread.972761/",
+      "title" : "LTA Aero Dac. Linear Tube Audio’s first-ever digital-to-analog converter, world’s first DAC using ZOTL technology. Reviews in the Thread.",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-28"
+    } ]
+  }, {
+    "gear" : {
+      "type" : "DAC",
+      "brand" : "Drop & Airist Audio",
+      "model" : "R-2R DAC"
+    },
+    "threads" : [ {
+      "url" : "https://www.head-fi.org/threads/eversolo-dac-r8-r2r-dac.980633/",
+      "title" : "Eversolo DAC-R8 R2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-28"
+    }, {
+      "url" : "https://www.head-fi.org/threads/holo-audio-spring-r2r-dac.810065/",
+      "title" : "Holo Audio Spring R2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    }, {
+      "url" : "https://www.head-fi.org/threads/laiv-harmony-%C2%B5dac-discrete-balanced-r-2r-dac.976290/",
+      "title" : "Laiv Harmony µDAC, Discrete Balanced R-2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    }, {
+      "url" : "https://www.head-fi.org/threads/eversolo-dac-r8-r2r-dac.981934/",
+      "title" : "Eversolo DAC-R8 R2R DAC",
+      "source" : "HEAD_FI",
+      "posted" : "2026-11-27"
+    } ]
+  } ]
+}
